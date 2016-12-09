@@ -1,0 +1,966 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=Generator content="Microsoft Word 12 (filtered)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:0cm;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.MsoNoSpacing, li.MsoNoSpacing, div.MsoNoSpacing
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.PROCESSTEC, li.PROCESSTEC, div.PROCESSTEC
+	{mso-style-name:PROCESSTEC;
+	mso-style-link:"PROCESSTEC Char";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:14.15pt;
+	margin-bottom:.0001pt;
+	text-indent:-14.15pt;
+	font-size:10.0pt;
+	font-family:"Tahoma","sans-serif";}
+span.PROCESSTECChar
+	{mso-style-name:"PROCESSTEC Char";
+	mso-style-link:PROCESSTEC;
+	font-family:"Tahoma","sans-serif";}
+.MsoPapDefault
+	{margin-bottom:10.0pt;
+	line-height:115%;}
+@page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:70.85pt 3.0cm 70.85pt 3.0cm;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</style>
+
+</head>
+
+<body lang=PT-BR>
+
+<div class=WordSection1>
+
+<table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0 width="100%"
+ style='width:100.0%;border-collapse:collapse'>
+ <tr style='height:13.2pt'>
+  <td width="37%" style='width:37.56%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  background:#DBE5F1;padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><b><span style='font-size:10.0pt;font-family:
+  "Tahoma","sans-serif"'>Funcionalidades de gestão</span></b></p>
+  </td>
+  <td width="62%" style='width:62.44%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  background:#DBE5F1;padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><b><span style='font-size:10.0pt;font-family:
+  "Tahoma","sans-serif"'>&nbsp;</span></b></p>
+  </td>
+ </tr>
+ <tr style='height:13.2pt'>
+  <td width="37%" style='width:37.56%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>Camada
+  de switches</span></p>
+  </td>
+  <td width="62%" style='width:62.44%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>L2</span></p>
+  </td>
+ </tr>
+ <tr style='height:13.2pt'>
+  <td width="37%" style='width:37.56%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>Tipo
+  de chave</span></p>
+  </td>
+  <td width="62%" style='width:62.44%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>Gerido</span></p>
+  </td>
+ </tr>
+ <tr style='height:13.2pt'>
+  <td width="37%" style='width:37.56%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>Apoio
+  MIB</span></p>
+  </td>
+  <td width="62%" style='width:62.44%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>MIB
+  II, Ponte MIB, SNMPv2 MIB, MIB Convenção Traps, Interface Grupo MIB, MIB
+  Privada</span></p>
+  </td>
+ </tr>
+ <tr style='height:13.2pt'>
+  <td width="37%" style='width:37.56%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><span lang=EN-US style='font-size:10.0pt;
+  font-family:"Tahoma","sans-serif"'>Apoio Quality of Service (QoS)</span></p>
+  </td>
+  <td width="62%" style='width:62.44%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>Sim</span></p>
+  </td>
+ </tr>
+ <tr style='height:13.2pt'>
+  <td width="37%" style='width:37.56%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>Apoio
+  Multicast</span></p>
+  </td>
+  <td width="62%" style='width:62.44%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>Sim</span></p>
+  </td>
+ </tr>
+ <tr style='height:13.2pt'>
+  <td width="37%" style='width:37.56%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>Gestão
+  baseada na web</span></p>
+  </td>
+  <td width="62%" style='width:62.44%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>Sim</span></p>
+  </td>
+ </tr>
+ <tr style='height:13.2pt'>
+  <td width="37%" style='width:37.56%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  background:#DBE5F1;padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><b><span style='font-size:10.0pt;font-family:
+  "Tahoma","sans-serif"'>Conectividade</span></b></p>
+  </td>
+  <td width="62%" style='width:62.44%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  background:#DBE5F1;padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><b><span style='font-size:10.0pt;font-family:
+  "Tahoma","sans-serif"'>&nbsp;</span></b></p>
+  </td>
+ </tr>
+ <tr style='height:13.2pt'>
+  <td width="37%" style='width:37.56%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>Quantidade
+  de base comutação RJ-45 portas Ethernet</span></p>
+  </td>
+  <td width="62%" style='width:62.44%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>28,
+  24, 28</span></p>
+  </td>
+ </tr>
+ <tr style='height:13.2pt'>
+  <td width="37%" style='width:37.56%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>SFP
+  / SFP + Quantidade de portas</span></p>
+  </td>
+  <td width="62%" style='width:62.44%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>2</span></p>
+  </td>
+ </tr>
+ <tr style='height:13.2pt'>
+  <td width="37%" style='width:37.56%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>Tecnologia
+  Ethernet de cobre cabeamento</span></p>
+  </td>
+  <td width="62%" style='width:62.44%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>1000BASE-T,
+  100BASE-TX, 10BASE-T</span></p>
+  </td>
+ </tr>
+ <tr style='height:13.2pt'>
+  <td width="37%" style='width:37.56%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>Quantidade
+  de portas Gigabit Ethernet (copper)</span></p>
+  </td>
+  <td width="62%" style='width:62.44%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>2</span></p>
+  </td>
+ </tr>
+ <tr style='height:13.2pt'>
+  <td width="37%" style='width:37.56%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  background:#DBE5F1;padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><b><span style='font-size:10.0pt;font-family:
+  "Tahoma","sans-serif"'>Rede</span></b></p>
+  </td>
+  <td width="62%" style='width:62.44%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  background:#DBE5F1;padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><b><span style='font-size:10.0pt;font-family:
+  "Tahoma","sans-serif"'>&nbsp;</span></b></p>
+  </td>
+ </tr>
+ <tr style='height:13.2pt'>
+  <td width="37%" style='width:37.56%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>Normas
+  de Comunicações</span></p>
+  </td>
+  <td width="62%" style='width:62.44%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><span lang=EN-US style='font-size:10.0pt;
+  font-family:"Tahoma","sans-serif"'>IEEE 802.3, IEEE 802.3ab, IEEE 802.3u,
+  IEEE 802.3x, IEEE 802.3z</span></p>
+  </td>
+ </tr>
+ <tr style='height:13.2pt'>
+  <td width="37%" style='width:37.56%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>Full
+  duplex</span></p>
+  </td>
+  <td width="62%" style='width:62.44%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>Sim</span></p>
+  </td>
+ </tr>
+ <tr style='height:13.2pt'>
+  <td width="37%" style='width:37.56%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>Suporte
+  controle de fluxo</span></p>
+  </td>
+  <td width="62%" style='width:62.44%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>Sim</span></p>
+  </td>
+ </tr>
+ <tr style='height:13.2pt'>
+  <td width="37%" style='width:37.56%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>Mirroring
+  de portas</span></p>
+  </td>
+  <td width="62%" style='width:62.44%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>Sim</span></p>
+  </td>
+ </tr>
+ <tr style='height:13.2pt'>
+  <td width="37%" style='width:37.56%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>Agregação
+  de links</span></p>
+  </td>
+  <td width="62%" style='width:62.44%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>Sim</span></p>
+  </td>
+ </tr>
+ <tr style='height:13.2pt'>
+  <td width="37%" style='width:37.56%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>Controlo
+  de tempestade de difusão</span></p>
+  </td>
+  <td width="62%" style='width:62.44%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>Sim</span></p>
+  </td>
+ </tr>
+ <tr style='height:13.2pt'>
+  <td width="37%" style='width:37.56%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>Cliente
+  DHCP</span></p>
+  </td>
+  <td width="62%" style='width:62.44%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>Sim</span></p>
+  </td>
+ </tr>
+ <tr style='height:13.2pt'>
+  <td width="37%" style='width:37.56%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>IGMP
+  snooping</span></p>
+  </td>
+  <td width="62%" style='width:62.44%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>Sim</span></p>
+  </td>
+ </tr>
+ <tr style='height:13.2pt'>
+  <td width="37%" style='width:37.56%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>Auto
+  MDI / MDI-X</span></p>
+  </td>
+  <td width="62%" style='width:62.44%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>Sim</span></p>
+  </td>
+ </tr>
+ <tr style='height:13.2pt'>
+  <td width="37%" style='width:37.56%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>Protocolo
+  de árvore estendida</span></p>
+  </td>
+  <td width="62%" style='width:62.44%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>Sim</span></p>
+  </td>
+ </tr>
+ <tr style='height:13.2pt'>
+  <td width="37%" style='width:37.56%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>Apoio
+  10G</span></p>
+  </td>
+  <td width="62%" style='width:62.44%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>Não</span></p>
+  </td>
+ </tr>
+ <tr style='height:13.2pt'>
+  <td width="37%" style='width:37.56%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  background:#DBE5F1;padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><b><span style='font-size:10.0pt;font-family:
+  "Tahoma","sans-serif"'>Transmissão de dados</span></b></p>
+  </td>
+  <td width="62%" style='width:62.44%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  background:#DBE5F1;padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><b><span style='font-size:10.0pt;font-family:
+  "Tahoma","sans-serif"'>&nbsp;</span></b></p>
+  </td>
+ </tr>
+ <tr style='height:13.2pt'>
+  <td width="37%" style='width:37.56%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>Tamanho
+  da tabela de endereços MAC</span></p>
+  </td>
+  <td width="62%" style='width:62.44%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>8000
+  entradas</span></p>
+  </td>
+ </tr>
+ <tr style='height:13.2pt'>
+  <td width="37%" style='width:37.56%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>Velocidade
+  de transmissão de dados</span></p>
+  </td>
+  <td width="62%" style='width:62.44%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>10/100/1000
+  Mbps</span></p>
+  </td>
+ </tr>
+ <tr style='height:13.2pt'>
+  <td width="37%" style='width:37.56%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>Capacidade
+  de routing/switching</span></p>
+  </td>
+  <td width="62%" style='width:62.44%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>12,8
+  Gbit / s</span></p>
+  </td>
+ </tr>
+ <tr style='height:13.2pt'>
+  <td width="37%" style='width:37.56%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>Store-and-forward</span></p>
+  </td>
+  <td width="62%" style='width:62.44%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>Sim</span></p>
+  </td>
+ </tr>
+ <tr style='height:13.2pt'>
+  <td width="37%" style='width:37.56%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>Número
+  de VLANs</span></p>
+  </td>
+  <td width="62%" style='width:62.44%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>256</span></p>
+  </td>
+ </tr>
+ <tr style='height:13.2pt'>
+  <td width="37%" style='width:37.56%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>Velocidade
+  máxima de transferência de dados</span></p>
+  </td>
+  <td width="62%" style='width:62.44%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>1
+  Gbit / s</span></p>
+  </td>
+ </tr>
+ <tr style='height:13.2pt'>
+  <td width="37%" style='width:37.56%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  background:#DBE5F1;padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><b><span style='font-size:10.0pt;font-family:
+  "Tahoma","sans-serif"'>Segurança</span></b></p>
+  </td>
+  <td width="62%" style='width:62.44%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  background:#DBE5F1;padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><b><span style='font-size:10.0pt;font-family:
+  "Tahoma","sans-serif"'>&nbsp;</span></b></p>
+  </td>
+ </tr>
+ <tr style='height:13.2pt'>
+  <td width="37%" style='width:37.56%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>Segurança
+  de porta estática</span></p>
+  </td>
+  <td width="62%" style='width:62.44%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>Sim</span></p>
+  </td>
+ </tr>
+ <tr style='height:13.2pt'>
+  <td width="37%" style='width:37.56%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>Lista
+  de controlo de acesso</span></p>
+  </td>
+  <td width="62%" style='width:62.44%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>Sim</span></p>
+  </td>
+ </tr>
+ <tr style='height:13.2pt'>
+  <td width="37%" style='width:37.56%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  background:#DBE5F1;padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><b><span style='font-size:10.0pt;font-family:
+  "Tahoma","sans-serif"'>Projeto</span></b></p>
+  </td>
+  <td width="62%" style='width:62.44%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  background:#DBE5F1;padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><b><span style='font-size:10.0pt;font-family:
+  "Tahoma","sans-serif"'>&nbsp;</span></b></p>
+  </td>
+ </tr>
+ <tr style='height:13.2pt'>
+  <td width="37%" style='width:37.56%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>Montagem
+  em prateleira</span></p>
+  </td>
+  <td width="62%" style='width:62.44%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>Sim</span></p>
+  </td>
+ </tr>
+ <tr style='height:13.2pt'>
+  <td width="37%" style='width:37.56%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>Cor
+  da caixa</span></p>
+  </td>
+  <td width="62%" style='width:62.44%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>Preto</span></p>
+  </td>
+ </tr>
+ <tr style='height:13.2pt'>
+  <td width="37%" style='width:37.56%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>Estrutura</span></p>
+  </td>
+  <td width="62%" style='width:62.44%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>1U</span></p>
+  </td>
+ </tr>
+ <tr style='height:13.2pt'>
+  <td width="37%" style='width:37.56%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>Segurança</span></p>
+  </td>
+  <td width="62%" style='width:62.44%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>cUL,
+  LVD</span></p>
+  </td>
+ </tr>
+ <tr style='height:13.2pt'>
+  <td width="37%" style='width:37.56%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  background:#DBE5F1;padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><b><span style='font-size:10.0pt;font-family:
+  "Tahoma","sans-serif"'>Atuação</span></b></p>
+  </td>
+  <td width="62%" style='width:62.44%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  background:#DBE5F1;padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><b><span style='font-size:10.0pt;font-family:
+  "Tahoma","sans-serif"'>&nbsp;</span></b></p>
+  </td>
+ </tr>
+ <tr style='height:13.2pt'>
+  <td width="37%" style='width:37.56%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>Empilhável</span></p>
+  </td>
+  <td width="62%" style='width:62.44%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>Não</span></p>
+  </td>
+ </tr>
+ <tr style='height:13.2pt'>
+  <td width="37%" style='width:37.56%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>Memória
+  buffer de pacote</span></p>
+  </td>
+  <td width="62%" style='width:62.44%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>0.5
+  MB</span></p>
+  </td>
+ </tr>
+ <tr style='height:13.2pt'>
+  <td width="37%" style='width:37.56%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>MTBF</span></p>
+  </td>
+  <td width="62%" style='width:62.44%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>419467
+  h</span></p>
+  </td>
+ </tr>
+ <tr style='height:13.2pt'>
+  <td width="37%" style='width:37.56%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  background:#DBE5F1;padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><b><span style='font-size:10.0pt;font-family:
+  "Tahoma","sans-serif"'>Gestão de energia</span></b></p>
+  </td>
+  <td width="62%" style='width:62.44%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  background:#DBE5F1;padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><b><span style='font-size:10.0pt;font-family:
+  "Tahoma","sans-serif"'>&nbsp;</span></b></p>
+  </td>
+ </tr>
+ <tr style='height:13.2pt'>
+  <td width="37%" style='width:37.56%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>Consumo
+  de Energia</span></p>
+  </td>
+  <td width="62%" style='width:62.44%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>17,6
+  Em</span></p>
+  </td>
+ </tr>
+ <tr style='height:13.2pt'>
+  <td width="37%" style='width:37.56%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>Tensão</span></p>
+  </td>
+  <td width="62%" style='width:62.44%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>100
+  - 240</span></p>
+  </td>
+ </tr>
+ <tr style='height:13.2pt'>
+  <td width="37%" style='width:37.56%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  background:#DBE5F1;padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><b><span style='font-size:10.0pt;font-family:
+  "Tahoma","sans-serif"'>Power over Ethernet (PoE)</span></b></p>
+  </td>
+  <td width="62%" style='width:62.44%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  background:#DBE5F1;padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><b><span style='font-size:10.0pt;font-family:
+  "Tahoma","sans-serif"'>&nbsp;</span></b></p>
+  </td>
+ </tr>
+ <tr style='height:13.2pt'>
+  <td width="37%" style='width:37.56%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><span lang=EN-US style='font-size:10.0pt;
+  font-family:"Tahoma","sans-serif"'>Apoio Power over Ethernet (PoE)</span></p>
+  </td>
+  <td width="62%" style='width:62.44%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>Não</span></p>
+  </td>
+ </tr>
+ <tr style='height:13.2pt'>
+  <td width="37%" style='width:37.56%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  background:#DBE5F1;padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><b><span style='font-size:10.0pt;font-family:
+  "Tahoma","sans-serif"'>Condições ambientais</span></b></p>
+  </td>
+  <td width="62%" style='width:62.44%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  background:#DBE5F1;padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><b><span style='font-size:10.0pt;font-family:
+  "Tahoma","sans-serif"'>&nbsp;</span></b></p>
+  </td>
+ </tr>
+ <tr style='height:13.2pt'>
+  <td width="37%" style='width:37.56%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>A
+  temperatura ambiente</span></p>
+  </td>
+  <td width="62%" style='width:62.44%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>0
+  - 40 ° C</span></p>
+  </td>
+ </tr>
+ <tr style='height:13.2pt'>
+  <td width="37%" style='width:37.56%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>Limite
+  de temperaturas (armazenamento)</span></p>
+  </td>
+  <td width="62%" style='width:62.44%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>-10
+  - 70 ° C</span></p>
+  </td>
+ </tr>
+ <tr style='height:13.2pt'>
+  <td width="37%" style='width:37.56%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>Gama
+  de umidade relativa</span></p>
+  </td>
+  <td width="62%" style='width:62.44%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>10-95%</span></p>
+  </td>
+ </tr>
+ <tr style='height:13.2pt'>
+  <td width="37%" style='width:37.56%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>Umidade
+  de não funcionamento</span></p>
+  </td>
+  <td width="62%" style='width:62.44%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>5
+  - 95%</span></p>
+  </td>
+ </tr>
+ <tr style='height:13.2pt'>
+  <td width="37%" style='width:37.56%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>Dissipação
+  de calor</span></p>
+  </td>
+  <td width="62%" style='width:62.44%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>60,05
+  BTU / h</span></p>
+  </td>
+ </tr>
+ <tr style='height:13.2pt'>
+  <td width="37%" style='width:37.56%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  background:#DBE5F1;padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><b><span style='font-size:10.0pt;font-family:
+  "Tahoma","sans-serif"'>Pesos e dimensões</span></b></p>
+  </td>
+  <td width="62%" style='width:62.44%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  background:#DBE5F1;padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><b><span style='font-size:10.0pt;font-family:
+  "Tahoma","sans-serif"'>&nbsp;</span></b></p>
+  </td>
+ </tr>
+ <tr style='height:13.2pt'>
+  <td width="37%" style='width:37.56%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>Largura
+  do produto</span></p>
+  </td>
+  <td width="62%" style='width:62.44%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>440
+  milímetros</span></p>
+  </td>
+ </tr>
+ <tr style='height:13.2pt'>
+  <td width="37%" style='width:37.56%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>Profundidade
+  da Unidade</span></p>
+  </td>
+  <td width="62%" style='width:62.44%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>210
+  milímetros</span></p>
+  </td>
+ </tr>
+ <tr style='height:13.2pt'>
+  <td width="37%" style='width:37.56%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>Altura
+  da Unidade</span></p>
+  </td>
+  <td width="62%" style='width:62.44%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>44
+  milímetros</span></p>
+  </td>
+ </tr>
+ <tr style='height:13.2pt'>
+  <td width="37%" style='width:37.56%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>Peso
+  do produto</span></p>
+  </td>
+  <td width="62%" style='width:62.44%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>2,6
+  kg</span></p>
+  </td>
+ </tr>
+ <tr style='height:13.2pt'>
+  <td width="37%" style='width:37.56%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  background:#DBE5F1;padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><b><span style='font-size:10.0pt;font-family:
+  "Tahoma","sans-serif"'>Outras características</span></b></p>
+  </td>
+  <td width="62%" style='width:62.44%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  background:#DBE5F1;padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><b><span style='font-size:10.0pt;font-family:
+  "Tahoma","sans-serif"'>&nbsp;</span></b></p>
+  </td>
+ </tr>
+ <tr style='height:13.2pt'>
+  <td width="37%" style='width:37.56%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>Tecnologia
+  da conectividade</span></p>
+  </td>
+  <td width="62%" style='width:62.44%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>Com
+  fios</span></p>
+  </td>
+ </tr>
+ <tr style='height:13.2pt'>
+  <td width="37%" style='width:37.56%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>Pacote
+  de transferência de velocidade</span></p>
+  </td>
+  <td width="62%" style='width:62.44%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>9,5
+  MLSP</span></p>
+  </td>
+ </tr>
+ <tr style='height:13.2pt'>
+  <td width="37%" style='width:37.56%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>Funcionalidades
+  de gestão</span></p>
+  </td>
+  <td width="62%" style='width:62.44%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>Telnet,
+  o servidor Telnet, o cliente TFTP, SNMP v1/v2/v3, SNMP Trap</span></p>
+  </td>
+ </tr>
+ <tr style='height:13.2pt'>
+  <td width="37%" style='width:37.56%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>LEDs
+  Conectividade</span></p>
+  </td>
+  <td width="62%" style='width:62.44%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>Sim</span></p>
+  </td>
+ </tr>
+ <tr style='height:13.2pt'>
+  <td width="37%" style='width:37.56%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>Frequência</span></p>
+  </td>
+  <td width="62%" style='width:62.44%;border:none;border-bottom:solid #DBE5F1 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>50/60
+  Hz.</span></p>
+  </td>
+ </tr>
+ <tr style='height:13.2pt'>
+  <td width="37%" style='width:37.56%;border:none;padding:0cm 3.5pt 0cm 3.5pt;
+  height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tahoma","sans-serif"'>Emissões
+  electromagnéticas</span></p>
+  </td>
+  <td width="62%" style='width:62.44%;border:none;padding:0cm 3.5pt 0cm 3.5pt;
+  height:13.2pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;text-autospace:none'><span lang=EN-US style='font-size:10.0pt;
+  font-family:"Tahoma","sans-serif"'>FCC Class A, CE Class A, VCCI Class A,
+  C-Tick</span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+</div>
+
+</body>
+
+</html>

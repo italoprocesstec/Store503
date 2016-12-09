@@ -1,0 +1,170 @@
+<script>
+var IDLojaAS='<IDLoja>'
+var CaminhoProdAS='<BaseLoja>prod/' 
+var g1='5'; //Quantidade de itens do grupo g1(Termos), Padrão 5, Máximo 9, 0 Não exibe
+var g2='3'; //Quantidade de itens do grupo g2(Páginas), Padrão 3, Máximo 9, 0 Não exibe
+var g3='5'; //Quantidade de itens do grupo g3(Produtos), Padrão 5, Máximo 9, 0 Não exibe
+var g4='3'; //Quantidade de itens do grupo g4(Notícias), Padrão 3, Máximo 9, 0 Não exibe
+</script>
+<link rel="stylesheet" href="<BaseLoja>htm/jquery_ui.css"> 
+<script language="JavaScript" src="/jquery-1.8.2.min.js"></script>
+<script language="JavaScript" src="/jquery-ui-1.9.2.custom.min.js"></script>
+<script type="text/javascript" src="<BaseLoja>htm/autosuggest.js"></script>
+<!--[if IE]>
+ <style type="text/css">.ui-autocomplete-category{margin-top: -2px}</style>
+<![endif]-->
+
+
+</td>
+</tr>
+</table>
+
+
+<script type="text/javascript">
+function HomeMostraFreteGratis(iPeso){
+  document.write("<span class=\"frete\">Frete Grátis!<\/span>");
+}
+</script>
+<script type="text/javascript">
+	var sCaminhoImages="<BaseLoja>images/wi/";
+</script>
+<script type="text/javascript" src="<BaseLoja>htm/AbtSimulaFreteFC.js"></script>
+<script type="text/javascript">
+	IDLoja = '<IDLoja>';
+	IDLojaNum = '<IDLojaNum>';
+</script>
+<script type="text/javascript" src="<BaseLoja>htm/AbtLojaLib.js"></script>
+<script type="text/javascript" src="<BaseLoja>htm/JurosParcelas.js"></script>
+<script type="text/javascript" src="<BaseLoja>htm/prototype.js"></script>
+<script type="text/javascript" src="<BaseLoja>htm/autocomplete.js"></script>
+
+<script type="text/javascript" src="../sistema/magiczoom.js"></script>
+<script type="text/javascript" src="RequestObject.js"></script>
+
+<script type="text/javascript" language="javascript" src="<BaseLoja>htm/jquery.js"></script>
+<script type="text/javascript" language="javascript" src="<BaseLoja>htm/jcarousellite.js"></script>
+
+
+
+<script type="text/javascript" language="javascript">
+jQuery.noConflict();
+jQuery(document).ready(function(){
+	jQuery('html').before('<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">');
+	jQuery('head').prepend('<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">');
+	jQuery('head').prepend('<!--[if lt IE 9]> <script src="http://www.w3.org/2008/site/js/html5shiv.js"><\/script> <script src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js"><\/script> <script>CFInstall.check({ mode: "overlay" });<\/script> <![endif]-->');
+	jQuery('head').prepend('<meta name="viewport" content="width=device-width, initial-scale=0.75">');
+
+	jQuery('#TabExterna').remove();
+	jQuery('.TopoMenu').remove();
+	jQuery('#PosBuscaTMenu').remove();
+	jQuery('#TabBanners').remove();
+	jQuery('#idFoundFC').remove();
+
+	jQuery('body style').remove();
+
+	jQuery('#idMenuCat2 li').live('mouseover',function(){
+		jQuery('#idMenuCat2 li ul').hide();
+		jQuery(this).removeClass('hover');
+		jQuery(this).addClass('hover');
+		jQuery(this).find('ul:first').show();
+	});
+	jQuery('#idMenuCat2 li').mouseleave(function(){
+		jQuery(this).removeClass('hover');
+		jQuery('#idMenuCat2 li ul').hide();
+	});
+
+	jQuery('#marcas div').jCarouselLite({
+		vertical: true,
+		btnNext: ".next",
+		btnPrev: ".prev",
+		visible: 5,
+		scroll: 3,
+		auto: 2000,
+		speed: 2000,
+	});	
+});
+</script>
+
+<div class="geral">
+
+	<div id="topo">
+		<h1><a href="/home.asp?IDLoja=<idlojanum>"><nomeloja></a></h1>
+		<!-- <div class="boasvindas">
+			Seja bem-vindo <NomeCliente><br />
+			Clique para <a href="track.asp?IDLoja=<idlojanum>">logar</a> ou <a href="cadastro.asp?IDLoja=<IDLojaNum>">cadastre-se</a>
+		</div> -->
+		<div class="fale">
+			<a href="/faleconosco.asp?IDLoja=<IDLojaNum>">
+				<strong>Fale Conosco</strong><br />
+				<span>Clique aqui e entre em contato conosco</span>
+			</a>
+		</div>
+		<!-- <div class="chat">
+			<a href="javascript:MostraChatMSN()">
+				<strong>Chat ONLINE</strong><br />
+				<span>Clique para ser atendido</span>
+			</a>
+			<script type="text/javascript">
+				function MostraChatMSN(){
+					popup=window.open("http://www.rumo.com.br/sistema/Custom.asp?IDLoja=503&arq=ChatMSN.htm&int=1","Chat","width=302,height=302,scrollbars=no,resizable=yes");
+					popup.focus();return void(0);
+				}
+			</script>
+		</div> -->
+		<div class="atendimento">
+                       <span class="numero"><em>Atendimento:</em></span><br />
+                       <span class="numero">São Paulo:  (11) 4950.2202</span><br />
+                       <span class="numero">Recife: (81) 4042.1222</span><br />
+                       <span class="horario">Seg. à sex. das 9h às 17h</span>
+                </div>
+
+		<div class="carrinho">
+			<a href="AddProduto.asp?IDLoja=<IDLoja>">
+				<span class="itens">
+					<strong><QtdCesta> iten(s)</strong><br />
+					Total de <strong>R$ <ValorCesta></strong>
+				</span>
+				<span class="compras"><div>Carrinho de <span>Compras</span></div></span>
+			</a>
+		</div>
+		<div class="menu">
+			<ul>
+				<li class="home"><a href="/home.asp?IDLoja=<IDLojaNum>">Home</a></li>
+				<li class="quem"><a href="/custom.asp?IDLoja=<IDLoja>&amp;arq=QuemSomos.htm">Quem Somos</a></li>
+				<li class="cadastro"><a href="/cadastro.asp?IDLoja=<IDLojaNum>">Cadastro</a></li>
+				<li class="entrega"><a href="/ajuda.asp?IDLoja=<IDLoja>#Entregas">Entrega</a></li>
+				<li class="seguranca"><a href="/ajuda.asp?IDLoja=<IDLoja>#Seguranca">Segurança</a></li>
+				<li class="privacidade"><a href="/ajuda.asp?IDLoja=<IDLoja>">Política de Privacidade</a></li>
+				<li class="conta"><a href="/track.asp?IDLoja=<idlojanum>">Minha Conta</a></li>
+				<li class="duvidas"><a href="/Custom.asp?IDLoja=<IDLoja>&arq=faq.htm">Dúvidas Frequentes</a></li>
+				<li class="pedidos"><a href="/addproduto.asp?IDLoja=<IDLojaNum>">Meus Pedidos</a></li>
+				<li class="central"><a href="/ajuda.asp?IDLoja=<IDLoja>">Central de Atendimento</a></li>
+			</ul>
+		</div>
+		<div class="busca">
+			<form name="buscaprod" method="GET" id="autocomplete-form" action="listaProdutos.asp?IDLoja=<IDLoja>" onSubmit="return VerTexto(this)">
+				<input type="hidden" name="IDLoja" value="<IDLojaNum>" />
+				<input type="hidden" name="Y" value="<Y>" />
+				<input type="hidden" name="Digitada" value="True" />
+				<input class="procurando" type="text" value="<SearchText>" name=Texto id="autocomplete" placeholder="O que está procurando?" />
+                                                                          <input type=text class=InputTextBusca value="<SearchText>" name=Texto id="autocomplete" maxlength=35 value="">
+				<!-- <div class="departamento">
+					<ListCat em="manual">
+					<select name="departamento">
+						<option value="">Departamento</option>
+					</select>
+				</div> -->
+				<input class="ok" type="submit" value="OK" />
+				<a class="detalhada" href="/buscaAvancada.asp?IDLoja=<IDLoja>">Busca Detalhada</a>
+			</form>
+		</div>
+	</div>
+
+</div>
+
+
+
+
+<table id="AbtTopo">
+<tr>
+<td>

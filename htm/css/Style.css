@@ -1,0 +1,3810 @@
+a, span, strong, input, h1, h2, h3, h4, h5, h6, label{
+    font-family: "ff-dax-web-pro", sans-serif;
+}
+a, span, strong, small, input, h1, h2, h3, h4, h5, h6 {
+    font-family: "ff-dax-web-pro", sans-serif;
+}
+img{
+    max-width: 100%;
+}
+.inline-block li{
+    display: inline-block;
+}
+#autocomplete-form-toolbar #autocomplete-toolbar,
+#newsletter input{
+    outline: none;
+}
+ul li,
+#secao-banner li{
+    list-style: none;
+}
+a:hover{
+    text-decoration: none;
+}
+#idBadgeFC,
+#idFCLeftContentRight #menu-filtro{
+    display: none;
+}
+.ProductList #idFCLeftContentRight #menu-filtro{
+    display: block;
+}
+.carrinho a:hover,
+#autocomplete-form-toolbar .fa-search:hover:before,
+#menu-superior .EstListCat li a:hover,
+.menu-info li a:hover,
+#menu-superior .bt-laranja span:hover,
+#conteudo .DivHomeProd .DivHomeSpy a:hover,
+#conteudo .DivListProd .DivListProdSpy a:hover,
+#newsletter .cadastrar:hover,
+#rodape a:hover,
+#conteudo .DivHomeProd .DivHomeDetails a:hover,
+.ProductList .DivListProd #Botoes-catalogo a:hover,
+.ProductDet .abriga-preco-produto #Botoes-catalogo table a:hover,
+.ProductDet .ZipSubmitButton:hover,
+.ProductDet .duvidas a:hover,
+.produto-flutuante .Botoes-catalogo a:hover,
+.FCCart #FCCartStillShoppingBut:hover,
+.FCCart #FCCartRecalculateBut:hover,
+.FCCart #FCCartBuyBut:hover,
+.FCCart #FCCartFreightSimulationBut:hover,
+#idFCLeftContentRight #idTxtBotNextPageFC:hover,
+.FCTrack #idTrackFC .inputButton #Enviar:hover{
+    opacity: 0.8;
+}
+
+/*** Barra topo ***/
+.FCHelp #barra-topo{
+    display: none!important;
+}
+.FCToolBar {
+    background: #fff;
+    box-shadow: 0 0 5px #e6edf4;
+    border-color: #fff;
+    width: 100%;
+    height: 60px;
+    box-sizing: border-box;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 99999;
+    overflow: visible !important;
+    display: none;
+}
+#barra-topo .FCToolBarLogo{
+    width: auto;
+}
+#barra-topo .LogoBarra{
+    margin-top: 10px;
+    display: block;
+}
+#barra-topo #menu-superior .tit-menu{
+    background: none;
+    font-size: 17px;
+    margin-top: 5px;
+}
+#barra-topo #menu-superior .tit-menu .fa-bars:before{
+    color: #034A8B;
+}
+#barra-topo #autocomplete-form-toolbar{
+    height: 45px;
+    line-height: 40px;
+    margin-top: 6px;
+}
+#barra-topo #autocomplete-form-toolbar #autocomplete-toolbar{
+    width: 90%;
+}
+#barra-topo .carrinho{
+    height: 45px;
+    line-height: 45px;
+    margin-top: 5px;
+}
+#barra-topo .menu-info li a,
+#barra-topo .menu-info li span{
+    font-size: 16px;
+    line-height: 26px;
+}
+
+/*** #cabecalho ***/
+#cabecalho{
+    margin-top: 20px;
+}
+/* logotipo */
+.logotipo{
+    padding: 0;
+}
+.logotipo img{
+    width: 178px;
+    height: 40px;
+    margin-left: 10px;
+}
+
+/* busca */
+#autocomplete-form,
+#autocomplete-form-toolbar{
+    border: 1px solid #FF5F2E;
+    border-radius: 2px;
+    box-shadow: inset -3px 2px 4px 0px #ffeee9;
+    height: 50px;
+    line-height: 46px;
+}
+#autocomplete-form #autocomplete,
+#autocomplete-form-toolbar #autocomplete-toolbar{
+    border: 0 none;
+    color: #C6CBCF;
+    font-size: 17px;
+    font-weight: 500;
+    width: 95%;
+    background: none;
+    padding: 0 0 0 15px;
+    font-family: 'ff-dax-web-pro', sans-serif;
+    box-shadow: none;
+    outline: none;
+}
+#autocomplete-form #autocomplete::-webkit-input-placeholder, #autocomplete-form-toolbar #autocomplete-toolbar::-webkit-input-placeholder, { color: #C6CBCF; }
+#autocomplete-form #autocomplete::-moz-placeholder, #autocomplete-form-toolbar #autocomplete-toolbar::-moz-placeholder { color: #C6CBCF; }
+#autocomplete-form #autocomplete:-ms-input-placeholder, #autocomplete-form-toolbar #autocomplete-toolbar:-ms-input-placeholder { color: #C6CBCF; }
+
+#autocomplete-form .fa-search:before,
+#autocomplete-form-toolbar .fa-search:before{
+    color: #FF5F2E;
+    font-size: 22px;
+    top: 2px;
+    position: relative;
+}
+
+#autocomplete-form .bt-busca,
+#autocomplete-form-toolbar .bt-busca{
+    background: url(//www.rumo.com.br/lojas/00000503/images/btbusca.png) no-repeat;
+    height: 21px;
+    width: 21px;
+    top: -1px;
+    position: relative;
+    border: 0 none;
+    font-size: 0;
+    outline: none;
+}
+
+/* Search busca */
+#ui-id-1{
+    background: #fafbfc;
+    box-shadow: 0 0 5px 0 #e9ecee;
+    padding: 15px;
+    border: 0 none;
+    border-radius: 0;
+    top: 70px!important;
+    left: 26%!important;
+    width: 54%!important;
+}
+#ui-id-1 .ui-autocomplete-category,
+#ui-id-1 .as-sale{
+    display: none!important;
+}
+#ui-id-1 .ui-menu-item{
+    background: none!important;
+    padding: 0 10px 18px;
+}
+#ui-id-1 .ui-menu-item:hover{
+    background: none!important;
+}
+#ui-id-1 .ui-menu-item tr td + td{
+    display: inline-block;
+    width: 75%;
+}
+#ui-id-1 #as-img-prod{
+    border: 1px solid #fff;
+    margin-left: 0;
+}
+#ui-id-1 #as-nome-prod{
+    color: #787F85;
+    font-size: 16px;
+    font-family: 'ff-dax-web-pro', sans-serif!important;
+    padding-left: 5px;
+}
+#ui-id-1 #as-cat-prod{
+    color: #A9AFB5;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'ff-dax-web-pro', sans-serif!important;
+    padding-left: 5px;
+}
+#ui-id-1 #as-valor-prod{
+    float: right;
+    width: auto;
+}
+#ui-id-1 #as-valor-prod span{
+    color: #FF5F2E;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'ff-dax-web-pro', sans-serif!important;
+}
+
+/* carrinho */
+.carrinho{
+    background: #FF5F2E;
+    border-radius: 2px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+.carrinho .fa-shopping-cart:before{
+    color: #fff;
+    font-size: 24px;
+    margin-right: 6px;
+}
+.carrinho #idCartItemsTop{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.abriga-menu{
+    clear: both;
+    padding-top: 18px;
+}
+
+/* menu superior */
+#menu-superior{
+    position: relative;
+    height: 50px;
+    line-height: 50px;
+}
+#menu-superior .tit-menu{
+    background: #034A8B url(//www.rumo.com.br/lojas/00000503/images/setadepartamentos.png) no-repeat 95%;
+    border-radius: 2px 2px 0 0;
+    color: #fff;
+    font-size: 18px;
+    padding-left: 20px;
+    display: block;
+    width: 263px;
+}
+#menu-superior:hover .tit-menu{
+    background: #034A8B;
+}
+#menu-superior .tit-menu .fa-bars:before{
+    margin-right: 8px;
+}
+.FCHome #cabecalho #menu-superior .EstListCat10{
+    display: block;
+}
+#menu-superior .EstListCat10{
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 15px;
+    background: #034a8b;
+    width: 263px;
+    padding: 0;
+    border-radius: 0 0 2px 2px;
+    margin: 0;
+    z-index: 9;
+}
+#cabecalho #menu-superior:hover .EstListCat10{
+    display: block;
+}
+#menu-superior .EstListCat ul{
+    margin: 0;
+}
+#menu-superior .EstListCat > ul > li,
+#menu-superior .bt-laranja p{
+    background: url(//www.rumo.com.br/lojas/00000503/images/icoseta.png) no-repeat 95% center;
+    border-top: 1px solid #356ea2;
+    border-bottom: 0 none;
+    padding: 0!important;
+    position: relative;
+    height: 50px;
+    line-height: 50px;
+    margin: 0;
+}
+#menu-superior .EstListCat > ul > li > span a,
+#menu-superior .bt-laranja span{
+    color: #fff!important;
+    font-size: 17px;
+    font-weight: 400;
+    padding-left: 25px;
+    margin-left: 20px;
+}
+#menu-superior .EstListCat #Cat1_253555 a,
+#menu-superior .EstListCat #Cat2_253555 a,
+#menu-superior .EstListCat #Cat3_253555 a{
+    background: url(//www.rumo.com.br/lojas/00000503/images/lancamentos.png) no-repeat left center;
+}
+#menu-superior .EstListCat #Cat1_168440 a,
+#menu-superior .EstListCat #Cat2_168440 a,
+#menu-superior .EstListCat #Cat3_168440 a{
+    background: url(//www.rumo.com.br/lojas/00000503/images/telefonia.png) no-repeat left center;
+}
+#menu-superior .EstListCat #Cat1_223642 a,
+#menu-superior .EstListCat #Cat2_223642 a,
+#menu-superior .EstListCat #Cat3_223642 a{
+    background: url(//www.rumo.com.br/lojas/00000503/images/informatica.png) no-repeat left center;
+}
+#menu-superior .EstListCat #Cat1_223694 a,
+#menu-superior .EstListCat #Cat2_223694 a,
+#menu-superior .EstListCat #Cat3_223694 a{
+    background: url(//www.rumo.com.br/lojas/00000503/images/games.png) no-repeat left center;
+}
+#menu-superior .EstListCat #Cat1_223692 a,
+#menu-superior .EstListCat #Cat2_223692 a,
+#menu-superior .EstListCat #Cat3_223692 a{
+    background: url(//www.rumo.com.br/lojas/00000503/images/fotografia.png) no-repeat left center;
+}
+#menu-superior .EstListCat #Cat1_223699 a,
+#menu-superior .EstListCat #Cat2_223699 a,
+#menu-superior .EstListCat #Cat3_223699 a{
+    background: url(//www.rumo.com.br/lojas/00000503/images/eletronicos.png) no-repeat left center;
+}
+#menu-superior .bt-laranja > p > span{
+    background: url(//www.rumo.com.br/lojas/00000503/images/promocao.png) no-repeat left center;
+}
+#menu-superior .wid{
+    display: none;
+}
+/* nivel dois */
+#menu-superior .EstListCat ul > li > ul{
+    position: absolute;
+    left: 99.9%;
+    top: 0;
+    border: 1px solid #034A8B;
+    width: 100%;
+    background: #fff;
+    padding: 15px 0 15px 15px;
+}
+#menu-superior .drop-menu,
+#menu-superior .CatOpened .CatOpened{
+    background: #fefefe;
+    opacity: 0.8;
+    border: 1px solid #cfd3d7;
+    padding: 50px;
+    width: 100%;
+}
+#menu-superior .EstListCat ul > li > ul li{
+    padding: 0!important;
+    border: 0 none;
+    line-height: 25px;
+    position: relative;
+}
+#menu-superior .EstListCat ul > li > ul li a,
+#menu-superior .EstListCat ul > li:hover > ul li:hover ul li a{
+    color: #053573;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
+}
+#menu-superior .EstListCat ul > li > ul > li:hover > span a,
+#menu-superior .EstListCat ul > li:hover > ul li:hover ul li:hover a{
+    color: #FF5F2E;
+    font-weight: 700;
+}
+
+/* promocao do dia */
+#menu-superior .bt-laranja{
+    background: #FF5F2E;
+    position: relative;
+}
+#menu-superior .drop-menu{
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: 0;
+    width: 100%;
+    padding: 10px;
+    opacity: 1.0;
+    text-align: center;
+}
+#menu-superior .bt-laranja:hover .drop-menu{
+    display: block;
+}
+#menu-superior .drop-menu .DivHomeImagemProd img{
+    border: 0 none;
+}
+#menu-superior .drop-menu .nome a,
+#menu-superior .drop-menu .HomeNomeProd{
+    font-family: 'ff-dax-web-pro', sans-serif;
+    font-size: 16px;
+    line-height: 18px;
+    display: block;
+    font-weight: 400;
+    color: #034A8B!important;
+    margin: 0;
+    padding: 0;
+}
+#menu-superior .drop-menu .preco.por,
+#menu-superior .drop-menu .DivHomePriceProd{
+    line-height: 20px;
+}
+#menu-superior .drop-menu .DivHomePriceProd{
+    padding: 0;
+    margin: 0;
+}
+#menu-superior .drop-menu .preco.por b{
+    font-weight: 400;
+    font-family: 'ff-dax-web-pro', sans-serif;
+}
+#menu-superior .drop-menu .preco.por strong{
+    color: #FF5F2E;
+    font-size: 21px;
+    font-family: 'ff-dax-web-pro', sans-serif;
+}
+#menu-superior .DivHomeSpy,
+#menu-superior .DivHomeDetails,
+#menu-superior .drop-menu .DivHomePriceProd .prices .installments{
+    display: none!important;
+}
+#menu-superior .drop-menu .DivHomePriceProd{
+    width: auto;
+    float: none;
+}
+#menu-superior .drop-menu .DivHomePriceProd .prices .old-price,
+#menu-superior .drop-menu .DivHomePriceProd .prices .old-price span,
+#menu-superior .drop-menu .DivHomePriceProd .prices .old-price .por{
+    padding: 0;
+    margin: 0;
+    color: #9B9B9B!important;
+    font-family: 'ff-dax-web-pro', sans-serif;
+    font-size: 14px!important;
+    font-weight: 400!important;
+}
+#menu-superior .drop-menu .DivHomePriceProd .prices .price strong,
+#menu-superior .drop-menu .DivHomePriceProd .prices .price strong span{
+    padding: 0;
+    margin: 0;
+    color: #FF5F2E!important;
+    font-family: 'ff-dax-web-pro', sans-serif;
+    font-size: 24px!important;
+    font-weight: 700!important;
+}
+#menu-superior .drop-menu .DivHomePriceProd .prices .price .currency{
+    margin: 0;
+    padding: 0;
+}
+
+/* menu info */
+.menu-info > ul{
+    text-align: right;
+    margin-top: 15px;
+}
+.menu-info ul li{
+    margin-right: 5px;
+}
+.menu-info ul li:last-child{
+    margin-right: 0;
+}
+.menu-info li a,
+.menu-info li span{
+    font-size: 17px;
+    line-height: 20px;
+    color: #034A8B;
+}
+.menu-info li.pedidos a{
+    color: #9B9B9B;
+}
+.menu-info li.cadastro a,
+.menu-info li.atendimento a{
+    color: #FF5F2E;
+}
+.menu-info .fa-sign-in:before{
+    margin-right: 5px;
+}
+
+/* banners */
+#secao-banner{
+    border-bottom: 1px solid #DDE4EB;
+    display: none;
+}
+.FCHome #secao-banner{
+    display: block;
+}
+#secao-banner .owl-controls{
+    margin: 0 auto;
+    max-width: 1170px;
+    text-align: right;
+    position: relative;
+    z-index: 9;
+    top: -30px;
+}
+#secao-banner .owl-controls .owl-nav{
+    float: right;
+    margin-top: -15px;
+    margin-left: 20px;
+}
+
+#secao-banner .owl-carousel .owl-controls .owl-prev,
+#secao-banner .owl-carousel .owl-controls .owl-next{
+    height: 19px;
+    width: 17px;
+    display: inline-block!important;
+    font-size: 0;
+    margin-left: 10px;
+}
+#secao-banner .owl-carousel .owl-controls .owl-prev{
+    background: url(//www.rumo.com.br/lojas/00000503/images/prev.png) no-repeat;
+}
+#secao-banner .owl-carousel .owl-controls .owl-prev:hover{
+    background: url(//www.rumo.com.br/lojas/00000503/images/prevhover.png) no-repeat;
+}
+#secao-banner .owl-carousel .owl-controls .owl-next{
+    background: url(//www.rumo.com.br/lojas/00000503/images/next.png) no-repeat;
+}
+#secao-banner .owl-carousel .owl-controls .owl-next:hover{
+    background: url(//www.rumo.com.br/lojas/00000503/images/nexthover.png) no-repeat;
+}
+#secao-banner .owl-nav div{
+    display: inline-block;
+}
+
+#secao-banner .owl-controls .owl-dots{
+    float: right;
+}
+
+#secao-banner .owl-dots .owl-dot{
+    display: inline-block;
+}
+#secao-banner .owl-dots .owl-dot span{
+    border: 2px solid #CFD3D7;
+    height: 14px;
+    width: 14px;
+    border-radius: 15px;
+    display: block;
+    margin-right: 5px;
+}
+#secao-banner .owl-dots .owl-dot.active span,
+#secao-banner .owl-dots .owl-dot span:hover{
+    background: #FF763B;
+    border: 2px solid #FF763B;
+}
+
+#banner-regua{
+    margin: 25px 0 12px 0;
+}
+
+/*** meio ***/
+#conteudo .MainHomeBoxTitFC{
+    padding: 0;
+    margin: 0;
+}
+.FCHome #menu-filtro,
+.FCHome #conteudo #idFCLeftContentRight .text-left{
+    display: none;
+}
+#conteudo .tit-vitrine{
+    clear: both;
+    font-weight: 400;
+    padding-left: 28px;
+    margin-bottom: 10px;
+    display: block;
+}
+#conteudo .tit-vitrine,
+#conteudo .tit-vitrine b{
+    font-size: 24px;
+    color: #9EA4AA;
+}
+#conteudo .ico-eletronicos{
+    background: url(//www.rumo.com.br/lojas/00000503/images/vitrineeletronicos.png) no-repeat left center;
+}
+#conteudo .ico-fotografia{
+    background: url(//www.rumo.com.br/lojas/00000503/images/vitrinefotografia.png) no-repeat left center;
+}
+#conteudo .ico-games{
+    background: url(//www.rumo.com.br/lojas/00000503/images/vitrinegames.png) no-repeat left center;
+}
+#conteudo .ico-informatica{
+    background: url(//www.rumo.com.br/lojas/00000503/images/vitrineinformatica.png) no-repeat left center;
+}
+#conteudo .ico-telefonia{
+    background: url(//www.rumo.com.br/lojas/00000503/images/vitrinetelefonia.png) no-repeat left center;
+}
+#conteudo .ico-lancamentos{
+    background: url(//www.rumo.com.br/lojas/00000503/images/vitrinelancamentos.png) no-repeat left center;
+}
+
+#conteudo .vitrine{
+    border-top: 1px solid #f0f3f6;
+    padding: 20px 0;
+}
+#conteudo .vitrine:first-child{
+    border-top: 0 none;
+}
+#conteudo .vitrine .produtos .item-produto{
+    padding: 0;
+}
+#conteudo .DivHomeProd{
+    padding: 10px 0 55px;
+    border-radius: 5px;
+    border: 2px solid #fff;
+    box-shadow: none;
+    overflow: hidden;
+    position: relative;
+    min-height: 225px;
+}
+#conteudo .DivHomeProd:hover{
+    border: 2px solid #eff3f6;
+    box-shadow: none;
+}
+#conteudo .DivHomeImagemProd,
+#mais-ofertas .DivHomeImagemProd,
+.CrossSellingFC #idListProdCrossFC .EstImageProdCross{
+    float: left;
+    width: 50%;
+    padding: 0;
+}
+#conteudo .DivHomeImagemProd .EstImgFC{
+    max-width: 180px;
+    max-height: 160px;
+    border: 0 none;
+}
+#conteudo .DivListProdImagemProd .EstImgFC{
+    margin: 0 auto;
+    display: block;
+}
+#conteudo .DivIntHomeProd,
+#mais-ofertas .DivIntHomeProd{
+    float: left;
+    width: 49%;
+}
+#conteudo .DivHomeNomeProd span,
+#mais-ofertas .DivHomeNomeProd span{
+    color: #034A8B;
+    font-size: 18px;
+    font-family: 'ff-dax-web-pro', sans-serif;
+    margin-bottom: 10px;
+    line-height: 22px;
+    height: 57px;
+}
+#conteudo .DivHomePriceProd,
+#mais-ofertas .DivHomePriceProd{
+    width: auto;
+    margin: 0;
+}
+#conteudo .prices .old-price,
+#mais-ofertas .prices .old-price{
+    color: #9B9B9B;
+    font-size: 14px;
+    font-family: 'ff-dax-web-pro', sans-serif;
+    font-weight: 400!important;
+}
+#conteudo .prices .old-price span,
+#mais-ofertas .prices .old-price span{
+    text-decoration: line-through;
+    margin-right: 5px;
+}
+#conteudo .prices .old-price .por,
+#mais-ofertas .prices .old-price .por{
+    font-weight: 400!important;
+    color: #9B9B9B;
+    font-size: 16px;
+    font-family: 'ff-dax-web-pro', sans-serif;
+    display: inline-block;
+    position: initial;
+    text-transform: lowercase;
+    margin-bottom: 8px;
+}
+#conteudo .prices .price,
+#conteudo .prices .price span,
+#conteudo .prices .price strong,
+#conteudo .prices .price span strong,
+#mais-ofertas .prices .price,
+#mais-ofertas .prices .price span,
+#mais-ofertas .prices .price strong,
+#mais-ofertas .prices .price span strong{
+    color: #FF5F2E;
+    font-family: 'ff-dax-web-pro', sans-serif;
+    font-size: 24px;
+    line-height: 44px;
+    font-weight: 700;
+}
+#conteudo .installments,
+#mais-ofertas .installments{
+    font-size: 0;
+}
+#conteudo .installments strong:nth-child(1):after,
+#mais-ofertas .installments strong:nth-child(1):after{
+    content: 'de';
+    color: #9B9B9B;
+    font-size: 16px;
+    font-family: 'ff-dax-web-pro', sans-serif;
+    font-weight: 400;
+    margin: 0 2px;
+}
+#conteudo .installments strong,
+#conteudo .installments strong span,
+#mais-ofertas .installments strong,
+#mais-ofertas .installments strong span{
+    color: #9B9B9B;
+    font-size: 16px;
+    font-family: 'ff-dax-web-pro', sans-serif;
+}
+#conteudo .DivHomeProd .DivHomeSpy a,
+#conteudo .DivHomeProd .DivHomeSpy a:hover,
+#mais-ofertas .DivHomeProd .DivHomeSpy a,
+#mais-ofertas .DivHomeProd .DivHomeSpy a:hover{
+    background: #034a8b;
+    padding: 15px 18px;
+    font-size: 18px;
+    font-family: 'ff-dax-web-pro', sans-serif;
+    border-radius: 3px;
+    border: 0 none;
+    color: #fff;
+    display: none;
+    position: absolute;
+    left: 7%;
+    bottom: 7px;
+}
+#conteudo .DivHomeProd .DivHomeDetails a,
+#conteudo .DivHomeProd .DivHomeDetails a:hover,
+#mais-ofertas .DivHomeProd .DivHomeDetails a,
+#mais-ofertas .DivHomeProd .DivHomeDetails a:hover{
+    background: #528b19;
+    padding: 0 0 0 20px;
+    border-radius: 3px;
+    border: 0 none;
+    width: 60%;
+    display: none;
+    text-align: center;
+    position: absolute;
+    left: 33%;
+}
+#conteudo .DivHomeProd .DivHomeDetails a:before,
+#mais-ofertas .DivHomeProd .DivHomeDetails a:before{
+    background: url(//www.rumo.com.br/lojas/00000503/images/icocarrinho.png) no-repeat left center;
+    content: 'Adicionar ao carrinho';
+    font-size: 18px;
+    font-family: 'ff-dax-web-pro', sans-serif;
+    color: #fff;
+    display: block;
+    padding: 15px 0;
+}
+
+#conteudo .DivHomeProd:hover .DivHomeSpy a,
+#conteudo .DivHomeProd:hover .DivHomeSpy a:hover,
+#conteudo .DivHomeProd:hover .DivHomeDetails a,
+#conteudo .DivHomeProd:hover .DivHomeDetails a:hover,
+#mais-ofertas .DivHomeProd:hover .DivHomeSpy a,
+#mais-ofertas .DivHomeProd:hover .DivHomeSpy a:hover,
+#mais-ofertas .DivHomeProd:hover .DivHomeDetails a,
+#mais-ofertas .DivHomeProd:hover .DivHomeDetails a:hover{
+    display: block;
+}
+#conteudo .DivHomeProd .DivHomeDetails a img,
+#conteudo .DivHomeProd .DivHomeDetails a br,
+#conteudo .DivHomeProd .DivHomeDetails a span,
+.ProductList .DivListProd #Botoes-catalogo a img,
+.ProductList .DivListProd #Botoes-catalogo a br,
+.ProductList .DivListProd #Botoes-catalogo a span,
+.ProductDet .abriga-preco-produto #Botoes-catalogo a img,
+.ProductDet .abriga-preco-produto #Botoes-catalogo a br,
+.ProductDet .abriga-preco-produto #Botoes-catalogo a span,
+.produto-flutuante .Botoes-catalogo a img,
+.produto-flutuante .Botoes-catalogo a br,
+.produto-flutuante .Botoes-catalogo a span,
+.ProductDet .abriga-preco-produto #Botoes-catalogo .BotCartProd{
+    display: none;
+}
+
+.abriga-preco-produto #Botoes-catalogo{
+    margin-top: 15px;
+}
+.ProductDet .abriga-preco-produto #Botoes-catalogo .mntext,
+.ProductDet .abriga-preco-produto #Botoes-catalogo .mntext a{
+    color: #9B9B9B!important;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "ff-dax-web-pro", sans-serif;
+}
+.ProductDet .abriga-preco-produto #Botoes-catalogo .mntext a{
+    text-decoration: underline;
+}
+
+#conteudo .DivHomeDetails{
+    bottom: 55px;
+    position: absolute;
+    width: 100%;
+    left: 0;
+}
+#conteudo .DivHomeSpy{
+    right: auto;
+    left: 8px;
+    bottom: 0;
+    background: none;
+    z-index: 9;
+}
+
+.MainHomeBoxTitFC{
+    border: 0 none;
+}
+#mais-ofertas{
+    background: #034A8B;
+    padding: 40px 0;
+}
+#mais-ofertas #tit-ofertas{
+    font-size: 24px;
+    color: #fff;
+    font-weight: 400;
+}
+#mais-ofertas #txt-ofertas{
+    color: #91B5D8;
+    font-size: 17px;
+    margin-left: 8px;
+}
+#mais-ofertas #txt-ofertas strong{
+    color: #fff;
+    font-weight: 400;
+}
+#mais-ofertas .produtos{
+    background: #fff;
+    overflow: hidden;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 10px;
+}
+#mais-ofertas .DivHomeProd:hover .DivHomeSpy a,
+#mais-ofertas .DivHomeProd:hover .DivHomeSpy a:hover,
+#mais-ofertas .DivHomeProd:hover .DivHomeDetails a,
+#mais-ofertas .DivHomeProd:hover .DivHomeDetails a:hover,
+#mais-ofertas .DivHomeProd:hover .DivHomeDetails a img,
+#mais-ofertas .DivHomeProd:hover .DivHomeDetails a br,
+#mais-ofertas .DivHomeProd:hover .DivHomeDetails a span{
+    display: none;
+}
+#mais-ofertas .DivHomeProd:hover .DivHomeSpy a,
+#mais-ofertas .DivHomeProd:hover .DivHomeDetails a{
+    display: block!important;
+    position: absolute;
+    bottom: 10px;
+}
+#mais-ofertas .DivHomeProd,
+#mais-ofertas .DivHomeProd:hover{
+    border: 0 none;
+    padding: 10px 0 0 0;
+    min-height: 242px;
+}
+
+/*** rodape ***/
+#rodape{
+    clear: both;
+}
+
+#newsletter{
+    background: #fbfbfb;
+    border-bottom: 1px solid #e5e5e5;
+    height: 85px;
+    line-height: 85px;
+}
+#rodape .news-fixo{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+}
+#newsletter .texto-news span{
+    color: #034A8B;
+    font-size: 18px;
+    font-weight: 400;
+}
+#newsletter input{
+    background: #fff;
+    border: 1px solid #dfe5eb;
+    border-radius: 3px;
+    color: #9b9b9b;
+    font-size: 17px;
+    height: 44px;
+    line-height: 45px;
+    margin: 0;
+    padding: 0 10px;
+    font-weight: 400;
+    width: 80%;
+    margin-right: 0px;
+    box-shadow: inset 0px 0px 5px 0px #edf2f6;
+    float: left;
+    font-family: 'ff-dax-web-pro', sans-serif;
+}
+#newsletter .cadastrar{
+    background: #FF5F2E;
+    border-color: #FF5F2E;
+    color: #fff;
+    padding: 0;
+    margin-right: 0;
+    width: 15%;
+    box-shadow: 2px 2px 5px 0px #fccfc1;
+    line-height: 44px;
+    outline: none;
+    font-family: 'ff-dax-web-pro', sans-serif;
+    font-size: 17px;
+}
+#newsletter .close{
+    color: #9EA4AA;
+    font-size: 32px;
+    position: absolute;
+    top: 27px;
+    right: 0;
+    opacity: 0.8;
+}
+
+#rodape .menu-rodape .institucional{
+    clear: both;
+}
+#rodape .tit-rodape{
+    color: #FF5F2E;
+    font-size: 22px;
+    font-weight: 400;
+    display: block;
+    line-height: 25px;
+    margin-bottom: 8px;
+}
+#rodape a{
+    color: #9B9B9B;
+    font-size: 18px;
+    line-height: 20px;
+}
+#rodape span,
+#rodape strong{
+    color: #034A8B;
+    font-size: 18px;
+    line-height: 25px;
+}
+#rodape .horario{
+    color: #9B9B9B;
+    font-size: 16px;
+    display: block;
+    margin-bottom: 40px;
+}
+
+#rodape .menu-rodape{
+    padding: 45px 0;
+}
+#rodape .atendimento-rodape li,
+#rodape .institucional li,
+#rodape .pague-com li{
+    margin-left: 2%;
+}
+#rodape .atendimento-rodape li:first-child,
+#rodape .institucional li:first-child,
+#rodape .selos li:first-child,
+#rodape .pague-com li:first-child{
+    margin-left: 0;
+}
+#rodape .selos li{
+    margin-left: 4%;
+}
+
+#rodape .pague-com{
+    margin-top: 25px;
+}
+#rodape .selos{
+    margin-top: 35px;
+}
+
+#rodape .info-final{
+    margin-top: 45px;
+}
+#rodape .info-final span{
+    color: #9B9B9B;
+    font-size: 16px;
+}
+
+/*** Catalogo ***/
+.ProductList #idPaginationProdFC #idNextPageFC{
+    width: 100%;
+    text-align: center;
+}
+.ProductList #idMiddlePageFC {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.ProductList #idPaginationProdFC #idNextPageFC a{
+    background:  none;
+}
+.ProductList #idPaginationProdFC #idNextPageFC img,
+.ProductList #idPaginationProdFC #idPreviousPageFC{
+    display: none;
+}
+
+.FCProduct.ProductList #conteudo{
+    margin-top: 15px;
+}
+
+#TabTitProd #TabListaProdutos .col-small-12{
+    display: block;
+}
+
+.ProductList #idDivSearch,
+.ProductList #idPageCountFC,
+.ProductList #idFCLeftContentRight h2,
+.ProductList #idFCLeftContentRight .wid img,
+.ProductList #idDivPath{
+    display: none;
+}
+
+.ProductList #idFCLeftContentRight > div{
+    border: 1px solid #DDE4EB;
+    border-radius: 3px;
+    margin-bottom: 15px;
+}
+.ProductList .EstListCat li{
+    border: 0 none;
+}
+.ProductList #idFCLeftContentRight > div li span a{
+    color: #676F77!important;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 5px 0;
+    display: block;
+}
+.ProductList #idFCLeftContentRight > div li ul li span a{
+    color: #9EA4AA!important;
+    font-size: 14px;
+    font-weight: 400;
+}
+.ProductList #idFCLeftContentRight > div li ul li span a:hover{
+    color: #FF763B!important;
+}
+
+.ProductList #TabTitProd{
+    padding-left: 15px;
+}
+
+.ProductList #idFoundFC{
+    font-size: 0;
+}
+.ProductList #idTxtIntroFoundProdsFC{
+    margin: 12px 0 0 0;
+    width: 50%;
+    min-height: 30px;
+    float: left;
+}
+.ProductList #idFoundFC b:first-child{
+    font-size: 12px;
+    font-weight: 700;
+    color: #7C8289;
+}
+.ProductList #idFoundFC b:first-child:before{
+    font-size: 16px;
+    content: 'Encontrados ';
+    font-family: 'ff-dax-web-pro', sans-serif;
+    display: inline-block;
+    color: #9EA4AA;
+    font-weight: 400;
+    padding-right: 2px;
+}
+.ProductList #idFoundFC b:first-child:after{
+    font-size: 16px;
+    content: ' Produtos';
+    font-family: 'ff-dax-web-pro', sans-serif;
+    display: inline-block;
+    color: #7C8289;
+    font-weight: 700;
+    padding-left: 2px;
+}
+
+.ProductList #idPagProdTop{
+    width: 50%;
+    float: left;
+}
+.ProductList #idDivPagProd{
+    float: right;
+    width: auto;
+    margin: 0 0 25px 0;
+}
+.ProductList #idDivPagProd tr td{
+    font-size: 16px;
+    font-family: 'ff-dax-web-pro', sans-serif;
+    color: #7C8289;
+}
+
+.ProductList select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: #fff url(//www.rumo.com.br/lojas/00000503/images/setaselect3.png) no-repeat 95% 7px;
+    border-radius: 2px;
+    padding: 10px;
+    border: 1px solid #DDE4EB;
+    outline: none;
+    font-family: 'ff-dax-web-pro', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.ProductList .DivListProdImagemProd{
+    float: left;
+    width: 20%;
+}
+.ProductList .DivIntListProdProd{
+    width: 74%;
+    float: left;
+    margin-left: 5%;
+}
+.ProductList .DivIntListProdProd .ListProdNomeProd{
+    margin: 0;
+    color: #034A8B;
+    font-size: 18px;
+    font-weight: 400;
+}
+.ProductList .DivIntListProdProd .DivListProdNomeProd,
+.ProductList .DivIntListProdProd .DivListProdPriceProd{
+    text-align: left;
+}
+
+.ProductList #idDivImagemTopoCatFC{
+    margin-bottom: 15px;
+}
+.ProductList .DivListProd:first-child{
+    padding-top: 0px;
+}
+.ProductList .DivListProd{
+    height: auto;
+    border-bottom: 2px solid #DDE4EB;
+    padding-top: 20px;
+}
+.ProductList .DivListProd:hover{
+    border-radius: 0;
+    box-shadow: none;
+}
+.ProductList .DivListProd #Botoes-catalogo{
+    position: absolute;
+    right: 0;
+    top: 25%;
+}
+.ProductList .DivListProd #Botoes-catalogo a{
+    background: #64B613;
+    display: block;
+    padding: 5px 35px;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 24px;
+}
+.ProductList .DivListProd #Botoes-catalogo a:before{
+    background: url(//www.rumo.com.br/lojas/00000503/images/icocarrinhoprod.png) no-repeat left center;
+    content: 'Comprar';
+    font-size: 24px;
+    font-family: 'ff-dax-web-pro', sans-serif;
+    color: #fff;
+    display: block;
+    padding: 15px 0 15px 38px;
+}
+
+.ProductList .form:last-child .DivListProd{
+    border: 0 none;
+}
+.ProductList .descricao-categoria{
+    clear: both;
+    padding-bottom: 15px;
+    padding-top: 10px;
+}
+.ProductList .descricao-categoria strong{
+    color: #CFCFCF;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0 0 20px 0;
+    display: block;
+}
+.ProductList .descricao-categoria p{
+    color: #9FA5AB!important;
+    font-size: 12px;
+    line-height: 17px;
+    text-align: justify!important;
+}
+
+#DivShowCartOnPage #idTDTitShowCartOnPageFC{
+    background: #528B19!important;
+}
+#DivShowCartOnPage #idTDTitShowCartOnPageFC div{
+    font-family: 'ff-dax-web-pro', sans-serif;
+}
+#Quantidade-catalogo{
+    float: left;
+    margin-right: 7px;
+    border-radius: 3px;
+}
+#Quantidade-catalogo .CBIncMult{
+    display: none;
+}
+.ProductList #Quantidade-catalogo .QTIncMult{
+    border-radius: 3px;
+    display: block;
+    width: 70px!important;
+    outline: none;
+    color: #676F77;
+    font-size: 20px;
+    font-family: 'ff-dax-web-pro', sans-serif;
+    font-weight: 700;
+    padding: 20px 0!important;
+    text-align: center;
+}
+
+.CatBlockFC .CatContainerFC{
+    vertical-align: top;
+    text-align: left;
+    margin: 0 2%;
+}
+.CatBlockFC .CatContainerFC a,
+.FCCategories .FCBtnMixit{
+    color: #337ab7;
+    font-family: "ff-dax-web-pro", sans-serif;
+}
+.FCCategories .CatBlockFC{
+    margin-top: 30px;
+}
+
+#Img-Produto .BotLancProd,
+#Breadcrumb .EstPathCat .pad img,
+.FCProduct.ProductDet .text-left.left-bar,
+.FCCategories .text-left.left-bar,
+#Img-Produto > p{
+    display: none;
+}
+#Img-Produto .mz-thumb img {
+    border: 0;
+    box-shadow: none;
+    height: auto!important;
+    width: auto!important;
+    max-width: 60px;
+    margin-right: 10px;
+}
+#Img-Produto .mz-thumb-selected img {
+    -webkit-filter: none;
+}
+.FCCategories #conteudo #idFCLeftContentRight #idFCContent #idCategoryListFC > div{
+    width: 100%;
+}
+
+/*** Produto ***/
+.FCProduct.ProductDet #conteudo,
+.FCCategories #conteudo{
+    margin-top: 15px;
+}
+
+#Breadcrumb > ul > li > a{
+    color: #9EA4AA;
+    font-size: 16px;
+    font-weight: 700;
+}
+#Breadcrumb .EstPathCat .pad{
+    background: none;
+    margin-right: 5px;
+}
+#Breadcrumb > ul > li > a:after,
+#Breadcrumb .EstPathCat .pad:after{
+    color: #DDE4EB;
+    font-size: 12px;
+    content: "/";
+    margin-left: 5px;
+}
+#Breadcrumb > ul > li > span a{
+    color: #676F77;
+    font-size: 14px;
+    font-family: 'ff-dax-web-pro', sans-serif;
+}
+
+/* esquerda */
+#Img-Produto .MagicZoom{
+    position: relative;
+}
+#Img-Produto .MagicZoom figure:before{
+    content: '*Imagem Meramente Ilustrativa';
+    font-size: 13px;
+    color: #9B9B9B;
+    font-weight: 400;
+    font-family: "ff-dax-web-pro", sans-serif;
+    display: block;
+    position: absolute;
+    top: 18px;
+    z-index: 9;
+}
+#Img-Produto .MagicZoomPlusHint{
+    display: none!important;
+}
+#Img-Produto .MagicThumb-swap{
+    border: 1px solid #fff;
+    border-radius: 3px;
+}
+#Img-Produto .MagicThumb-swap.active{
+    border: 1px solid #FF5F2E;
+}
+
+/* meio */
+.ProductDet #TabListaProdutos .ProdRating{
+    display: block!important;
+    float: left;
+    margin-top: 10px;
+}
+.ProductDet #TabListaProdutos .ProdRating > div > div{
+    display: inline-block;
+}
+.ProductDet #TabListaProdutos .ProdRating a{
+    color: #034A8B;
+    margin-left: 10px;
+}
+.ProductDet #TabListaProdutos .ProductStyleULFC h1{
+    color: #676F77;
+    font-size: 24px;
+    font-family: 'ff-dax-web-pro', sans-serif!important;
+}
+.ProductDet .ProductStyleBoxFC{
+    border: 0 none;
+}
+.ProductDet .ProductStyleBoxFC .titulo{
+    color: #676F77;
+    font-size: 17px;
+    line-height: 22px;
+    font-weight: 700;
+}
+.ProductDet .ProductStyleBoxFC .NotaOpiniaoVazio,
+.NotaOpiniaoVazio{
+    width: 15px;
+    height: 14px;
+    background: url(//www.rumo.com.br/lojas/00000503/images/vazio.png) no-repeat;
+    display: inline-block;
+}
+.ProductDet .ProductStyleBoxFC .NotaOpiniaoCheio,
+.NotaOpiniaoCheio{
+    width: 15px;
+    height: 14px;
+    background: url(//www.rumo.com.br/lojas/00000503/images/cheio.png) no-repeat;
+    display: inline-block;
+}
+.ProductDet .ProductStyleBoxFC .NotaOpiniaoMeio,
+.NotaOpiniaoMeio{
+    width: 15px;
+    height: 14px;
+    background: url(//www.rumo.com.br/lojas/00000503/images/meio.png) no-repeat;
+    display: inline-block;
+}
+.ProductDet .ProductStyleBoxFC p{
+    color: #9EA4AA!important;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    margin: 0;
+    padding: 0;
+    text-align: left!important;
+    text-shadow: none;
+    font-family: 'ff-dax-web-pro', sans-serif;
+}
+.ProductDet .descritores,
+.ProductDet .descricao-curta{
+    clear: both;
+    padding-top: 10px;
+}
+.ProductDet .descritores{
+    padding-top: 5px;
+}
+    .ProductDet .descritores .prod-info{
+        line-height: 20px;
+    }
+    .ProductDet .descritores .prod-info .AdicNome{
+        font-weight: 700;
+    }
+    .ProductDet .descritores .prod-info .AdicNome,
+    .ProductDet .descritores .prod-info .AdicItem,
+    .ProductDet #TabTitProd .prod-info, 
+    .ProductDet #TabTitProd .prod-info small, 
+    .ProductDet #TabTitProd .prod-info a,
+    .ProductDet .descricao-curta .DescrLineHeight{
+        color: #676F77;
+    }
+.ProductDet .SocialProdLinks {
+    margin-left: 7px;
+    margin-top: 40px;
+    float: left;
+    clear: both;
+}
+.SocialProdLinks .ShareWhatsApp{
+    display: none;
+}
+.SocialProdLinks li{
+    display: inline-block;
+}
+/* direita */
+.ProductDet .abriga-preco-produto{
+    border: 1px solid #64B613;
+    border-radius: 5px;
+    padding: 20px;
+}
+.ProductDet #TabListaProdutos .prod-price,
+.ProductDet #TabListaProdutos .prod-price span,
+.ProductDet #TabListaProdutos .prod-price span span,
+.ProductDet #TabListaProdutos .prod-price strike .FCPrice,
+.ProductDet #TabListaProdutos .prod-price strike .FCPrice span,
+.ProductDet #TabListaProdutos .prod-price strike .FCPrice span span,
+.ProductDet #TabListaProdutos .prod-price .EstParc font{
+    line-height: 20px;
+    text-align: left;
+}
+.ProductDet #TabListaProdutos .prod-price strike .total-desconto{
+    display: none;
+}
+
+.ProductDet #TabListaProdutos .prod-price b .FCPrice,
+.ProductDet #TabListaProdutos .prod-price b .FCPrice span,
+.ProductDet #TabListaProdutos .prod-price b .FCPrice span span {
+    color: #FF5F2E!important;
+    font-size: 30px;
+    line-height: 34px;
+    font-weight: 700;
+}
+.ProductDet #TabListaProdutos .prod-price b .FCPrice{
+    display: block;
+}
+.ProductDet .prod-price b {
+    font-family: 'ff-dax-web-pro', sans-serif;
+    color: #FF5F2E;
+}
+#idShippingValues5286463 table{
+    margin-left: 0;
+}
+
+.ProductDet .parcelamento{
+    position: relative;
+}
+.ProductDet .parcelamento h3{
+    background: url(//www.rumo.com.br/lojas/00000503/images/setaparcelamento.png) no-repeat right;
+    color: #a0a6ac;
+    text-transform: lowercase;
+    font-size: 14px;
+    padding-right: 12px;
+    display: inline-block;
+    font-family: "ff-dax-web-pro", sans-serif;
+    font-weight: 400;
+}
+.ProductDet .parcelamento .lista{
+    border: 1px solid #dde4eb;
+    border-radius: 5px;
+    box-shadow: 0 0px 6px 1px #dde4eb;
+    padding: 15px;
+    position: absolute;
+    top: 16px;
+    background: #fff;
+    z-index: 9;
+    width: 90%;
+    left: 0;
+}
+.ProductDet .parcelamento .lista:before{
+    content: '';
+    height: 7px;
+    width: 12px;
+    display: block;
+    background: url(//www.rumo.com.br/lojas/00000503/images/icoparcelamento.png) no-repeat right;
+    position: absolute;
+    top: -7px;
+    left: 48%;
+}
+.ProductDet .parcelamento .lista li,
+.ProductDet .parcelamento .lista li span{
+    color: #676F77;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+}
+.ProductDet .parcelamento .lista li .valor{
+    color: #FF5F2E;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.ProductDet .parcelamento .lista,
+.ProductDet #TabListaProdutos .prod-price .EstParc font{
+    display: none;
+}
+.ProductDet .abriga-preco-produto #Botoes-catalogo table a{
+    background: #64B613;
+    padding: 0 40px 0 40px;
+    border-radius: 3px;
+    border: 0 none;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+}
+.ProductDet .abriga-preco-produto #Botoes-catalogo table a:before{
+    content: 'Comprar';
+    background: url(//www.rumo.com.br/lojas/00000503/images/icocarrinhoprod.png) no-repeat left center;
+    font-size: 24px;
+    font-family: 'ff-dax-web-pro', sans-serif;
+    color: #fff;
+    display: block;
+    padding: 22px 0 22px 40px;
+}
+.FCProduct #Quantidade-catalogo{
+    position: relative;
+}
+.FCProduct #Quantidade-catalogo .QTIncMult{
+    width: 70px;
+    outline: none;
+    border: 1px solid #ccc;
+}
+.ProductDet #Quantidade-catalogo .QTIncMult{
+    padding: 22px 0;
+    text-align: center;
+    border-radius: 3px;
+    color: #676F77;
+    font-size: 20px;
+    font-family: 'ff-dax-web-pro', sans-serif;
+}
+.FCProduct .moreFCCartQtyInput{
+    color: #C6CBCF;
+    font-size: 17px;
+    position: absolute;
+    top: 24px;
+    right: 5px;
+    cursor: pointer;
+}
+.FCProduct .lessFCCartQtyInput{
+    color: #C6CBCF;
+    font-size: 20px;
+    position: absolute;
+    top: 22px;
+    left: 7px;
+    cursor: pointer;
+}
+
+.ProductDet .frete{
+    position: relative;
+    overflow: hidden;
+}
+.ProductDet .frete h3{
+    margin: 20px 0 10px;
+    color: #676F77;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: "ff-dax-web-pro", sans-serif;
+}
+.ProductDet .frete .nao-sei{
+    position: absolute;
+    top: 22px;
+    right: 0;
+    color: #C6CBCF;
+    font-size: 14px;
+    text-decoration: underline;
+}
+.ProductDet #idDivContentFieldsCEP{
+    border: 0 none;
+}
+.ProductDet #idDivCEPCalc{
+    border: 1px solid #DDE4EF!important;
+    overflow: hidden;
+    border-radius: 3px;
+    padding: 10px;
+}
+.ProductDet #idDivCEPCalc .FieldCEPNum{
+    width: 80%;
+}
+.ProductDet #idDivCEPCalc .FieldCEPNum input{
+    background: url(//www.rumo.com.br/lojas/00000503/images/frete.png) no-repeat left center;
+    border: 0 none;
+    color: #C6CBCF;
+    font-size: 15px;
+    padding-left: 27px;
+    width: 80%;
+    outline: none;
+    font-family: 'ff-dax-web-pro', sans-serif;
+    float: left;
+}
+.ProductDet .frete #idCEPButton{
+    display: block;
+    height: 12px;
+    width: 58px;
+    background-color: #fff;
+    border: 0 none;
+    margin-top: 6px;
+    float: right;
+}
+.ProductDet .frete .freightResult{
+    margin: 0;
+    color: #034A8B!important;
+}
+.ProductDet .frete .ZipBackground td{
+    font-size: 14px;
+}
+
+.ProductDet #idDivTitCEP,
+.ProductDet .ZipTitCalc,
+.ProductDet .ZipTitType,
+.ProductDet .FieldCEPQty{
+    display: none;
+}
+.ProductDet .frete > div{
+    border: 1px solid #DDE4EB;
+}
+.ProductDet .ZipBackground{
+    border: 0 none;
+    background: #fff;
+    width: 100%;
+}
+.ProductDet .ZipInputButton{
+    color: #C6CBCF;
+    font-size: 15px;
+    font-weight: 700;
+}
+.ProductDet .ZipSubmitButton{
+    border: 0 none;
+    background: none;
+    color: #034A8B;
+    font-size: 15px;
+    font-weight: 700;
+}
+.ProductDet .duvidas{
+    background: #F4F7FA;
+    border-radius: 3px;
+    padding: 22px 0;
+    text-align: center;
+    margin-top: 15px;
+}
+.ProductDet .duvidas a{
+    background: url(//www.rumo.com.br/lojas/00000503/images/duvidas.png) no-repeat left center;
+    color: #676F77;
+    font-size: 17px;
+    font-weight: 700;
+    text-align: center;
+    padding: 2px 0 2px 27px;
+}
+
+.ZipBackground tr td table{
+    float: left;
+    margin-left: 10px;
+    width: 100%;
+}
+.ProductDet .ZipBackground .ZipInputButton{
+    color: #676F77;
+    border: 0 none;
+    font-size: 15px;
+    font-weight: 400;
+    width: 100%;
+    margin-top: 9px;
+    background: url(//www.rumo.com.br/lojas/00000503/images/frete.png) no-repeat left center;
+    padding-left: 25px;
+    outline: none;
+    text-align: right;
+    font-size: 20px;
+}
+.ProductDet .ZipSubmitButton{
+    border: 0 none;
+    background: none;
+    color: #034A8B;
+    font-size: 15px;
+    font-weight: 700;
+    float: right;
+    margin: 3px 15px 0 0;
+    outline: none;
+}
+
+.main-container{
+    clear: both;
+}
+
+.tabs{
+    border-bottom: 1px solid #dde4eb;
+    text-align: center;
+    padding-top: 25px;
+}
+.tabs li a{
+    color: #C6CBCF;
+    font-size: 16px;
+    border-bottom: 1px solid #fff;
+    padding: 10px 10px;
+    display: block;
+    margin: 0 10px;
+}
+.tabs li a:hover{
+    color: #676F77;
+    border-bottom: 1px solid #FF5F2E;
+}
+
+#Descricao,
+#Avaliacao{
+    border-bottom: 1px solid #dde4eb;
+    padding: 65px 0;
+    color: #9FA5AB;
+    font-size: 14px;
+    line-height: 18px;
+    font-family: 'ff-dax-web-pro', sans-serif;
+}
+
+#Descricao h2,
+#Avaliacao #EstCommentsTxt,
+#idEstTitProdOpFC + table .EstOpiniaoNome{
+    color: #676F77;
+    font-size: 20px;
+    font-family: 'ff-dax-web-pro', sans-serif;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+#Avaliacao #EstCommentsTxt{
+    margin-left: -5px;
+}
+#Avaliacao span,
+#Avaliacao strong,
+#Avaliacao a,
+#idEstTitProdOpFC + table a,
+#idEstTitProdOpFC + table span{
+    color: #9FA5AB;
+    font-size: 14px;
+    line-height: 16px;
+}
+#idEstNoCommentsClickProdOpFC a{
+    font-family: 'ff-dax-web-pro', sans-serif!important;
+}
+#idEstTitProdOpFC + table tr > td > table {
+    margin-bottom: 15px;
+    display: block;
+}
+
+/* Relacionados */
+.ProductDet #idTitProdCrossFC{
+    color: #676F77;
+    font-size: 18px;
+    margin-left: 0;
+    margin-top: 20px;
+    font-family: 'ff-dax-web-pro', sans-serif;
+    margin-bottom: 25px;
+}
+.ProductDet .EstCatProdCross{
+    display: none;
+}
+.ProductDet .EstNameProdCross a{
+    color: #034A8B;
+    font-size: 18px;
+    font-family: 'ff-dax-web-pro', sans-serif;
+    margin-bottom: 10px;
+    display: block;
+}
+.ProductDet .FCPrice,
+.ProductDet .FCPrice span{
+    color: #FF5F2E;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+/* Compre Junto */
+.compre-junto #bTContainer .bTText{
+    color: #676F77;
+    font-size: 18px;
+    margin-left: 0;
+    margin-top: 20px;
+    font-family: 'ff-dax-web-pro', sans-serif;
+    margin-bottom: 25px;
+    text-align: left;
+    font-weight: 400;
+}
+.compre-junto #bTContainer #bTEconomyItemConj{
+    display: block;
+}
+.compre-junto #bTContainer .bTProdSelectName{
+    top: 0;
+}
+.compre-junto .bTProdPrice{
+    font-size: 0;
+}
+.compre-junto .bTOriPrice{
+    font-size: 22px;
+}
+
+
+/* produto flutuante */
+.produto-flutuante{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    margin-bottom: 10%;
+    padding: 20px;
+    display: none;
+    z-index: 999;
+    box-shadow: 0 2px 10px #64B613;
+    -webkit-backface-visibility: hidden;
+    background: #fff;
+    border: 1px solid #64B613;
+    border-radius: 3px;
+    width: 260px;
+}
+.produto-flutuante.bt-fixo{
+    display: block;
+}
+.produto-flutuante .NameProduct{
+    color: #676F77;
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+.produto-flutuante .abriga-preco-produto{
+    border: 0 none;
+    padding: 0;
+}
+.produto-flutuante .Botoes-catalogo #Quantidade-catalogo .QTIncMult{
+    padding: 17px 0;
+    width: 45px;
+    outline: none;
+}
+.produto-flutuante .Botoes-catalogo a{
+    background: #64B613 url(//www.rumo.com.br/lojas/00000503/images/icocarrinhoprod.png) no-repeat left center;
+    border-radius: 3px;
+    border: 0 none;
+    display: block;
+    padding: 0 8px;
+    font-size: 24px;
+    font-family: 'ff-dax-web-pro', sans-serif;
+    color: #fff;
+    padding: 15px 15px 15px 40px;
+}
+
+.vex.vex-theme-default .vex-dialog-button.vex-dialog-button-primary {
+    background: #64B613;
+}
+.CrossSellingFC #idProdCrossFC #idListProdCrossFC > li{
+    width: 33%;
+    display: none;
+    vertical-align: bottom;
+}
+.CrossSellingFC #idProdCrossFC #idListProdCrossFC > li:nth-child(1),
+.CrossSellingFC #idProdCrossFC #idListProdCrossFC > li:nth-child(2),
+.CrossSellingFC #idProdCrossFC #idListProdCrossFC > li:nth-child(3){
+    display: inline-block;
+}
+
+/*** Carrinho ***/
+.FCCart #idTabItensFC .FCCartRightCol,
+.FCCart #idTxtRecalculateFC,
+.FCCart .EstTabPedidoAdicNome{
+    display: none;
+}
+.FCCart .FCCartTableTit .EstTabPedidoTit,
+.FCCart .FCCartItemCont .EstTabPedidoAdicItem{
+    font-family: 'ff-dax-web-pro', sans-serif!important;
+    font-weight: 400;
+}
+.FCCart .FCCartItemCont .EstTabPedidoAdicItem{
+    display: none;
+}
+.FCCart .FCCartTableTit .EstTabPedidoTit.FCCartItemTh + .EstTabPedidoTit{
+    left: -1.5%;
+    position: relative;
+}
+
+.FCCart #idTabItensFC .FCCartLeftCol{
+    float: left;
+    width: 100%;
+}
+.FCCart #idTitTextoFC{
+    font-size: 0!important;
+    text-align: left!important;
+}
+.FCCart #idTitTextoFC:before{
+    color: #034A8B;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left!important;
+    font-family: 'ff-dax-web-pro', sans-serif;
+    content: 'Carrinho de Compras';
+}
+.FCCart #idTitTextoFC:after{
+    color: #8296A9;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'ff-dax-web-pro', sans-serif;
+    content: 'Compra protegida';
+    float: right;
+    background: url(//www.rumo.com.br/lojas/00000503/images/cadeado.png) no-repeat left;
+    padding-left: 18px;
+    padding-top: 3px;
+}
+.FCCart .FCCartRespTable,
+.FCCartRespTable tbody tr td{
+    border: 0 none;
+}
+.FCCart .FCCartRespTable > tbody > tr > td{
+    color: #8296A9!important;
+    font-weight: 700;
+    font-size: 18px;
+    width: 15%;
+    text-align: center;
+    padding-left: 0;
+}
+.FCCart .FCCartRespTable > tbody > #FCCartSubtotals > .FCCartItemsPrice{
+    text-align: right;
+    padding-right: 15px;
+    padding-top: 61px;
+}
+.FCCart .FCCartRespTable > tbody > #FCCartSubtotals > .FCCartSubtotalsLabel,
+.FCCart .FCCartRespTable > tbody > #FCCartSubtotals > .FCCartItemsQty{
+    visibility: hidden;
+}
+.FCCart .FCCartRespTable > tbody > #FCCartSubtotals > .FCCartItemsPrice{
+    visibility: visible;
+}
+.FCCart #FCCartSubtotals .FCCartItemsPrice .FCPrice:before{
+    content: 'Total do Pedido';
+    color: #8296A9;
+    font-size: 12px;
+    font-family: 'ff-dax-web-pro', sans-serif;
+    font-weight: 700;
+    margin-right: 8px;
+}
+.FCCart #FCCartSubtotals .FCCartItemsPrice .ValorVista{
+    display: block;
+    margin-top: 10px;
+}
+.FCCart #FCCartSubtotals .FCCartItemsPrice .ValorVista,
+.FCCart #FCCartSubtotals .FCCartItemsPrice .ValorVista b{
+    color: #FF5F2E;
+    font-size: 20px;
+    font-family: 'ff-dax-web-pro', sans-serif;
+    font-weight: 700;
+}
+.FCCart .FCCartRespTable > tbody > tr > td:nth-child(1){
+    text-align: left;
+}
+.FCCart .FCCartRespTable > tbody > tr > .EstTabPedido.FCCartItemCont{
+    width: 55%;
+}
+.FCCart .FCCartItemProdImg{
+    border: 0 none;
+}
+.FCCart .EstTabPedidoNome{
+    color: #235B8C!important;
+    font-weight: 700;
+    font-size: 16px!important;
+    margin-top: 10px;
+    display: block;
+    font-family: 'ff-dax-web-pro', sans-serif!important;
+    line-height: 17px;
+}
+.FCCart .FCCartItemCont .EstTabPedidoRef{
+    font-size: 14px;
+    display: block;
+    margin: -10px 0 5px 0;
+}
+.FCCart .EstTabPedidoAdicItem{
+    color: #8296A9;
+    font-weight: 700;
+    font-size: 12px;
+    float: left;
+}
+.FCCart .FCCartQtyInput{
+    border: 1px solid #DDE4EB;
+    border-radius: 3px;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-left: 20%;
+}
+.FCCart .FCCartUnitPrice .FCPrice,
+.FCCart .FCCartUnitPrice .FCPrice span{
+    color: #8296A9;
+    font-size: 15px;
+    margin-top: 5px;
+    display: inline-block;
+}
+.FCCart .FCCartTotalPrice .FCPrice,
+.FCCart .FCCartTotalPrice .FCPrice span{
+    color: #FF5F2E;
+    font-size: 15px;
+    margin-top: 5px;
+    display: inline-block;
+}
+.FCCart .BotExcluir{
+    background: url(//www.rumo.com.br/lojas/00000503/images/lixeira.png) no-repeat;
+    height: 16px;
+    width: 13px;
+    display: inline-block;
+    margin-top: 15px;
+    float: left;
+    margin-left: 15px;
+}
+.FCCart .BotExcluir img{
+    display: none;
+}
+.FCCart .TabItens tr{
+    border-bottom: 1px solid #DDE4EB;
+}
+.FCCart #FCCartSubtotals .FCCartItemsPrice .FCPrice,
+.FCCart #FCCartSubtotals .FCCartItemsPrice .FCPrice span{
+    color: #8296A9;
+    font-size: 12px;
+}
+.FCCart .EstTabPedido .EstFotoProdCesta{
+    margin-right: 10px;
+}
+.FCCart #FCCartSubtotals .FCCartSubtotalsLabel{
+    text-align: right;
+}
+.FCCart #FCCartFreightSimulationBut{
+    background: #8296A9;
+    padding: 15px 50px 18px;
+    font-size: 0;
+}
+.FCCart #FCCartFreightSimulationBut:before{
+    content: 'Consulte o Valor do Frete';
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'ff-dax-web-pro', sans-serif;
+}
+.FCCart #FCCartStillShoppingBut,
+.FCCart #FCCartRecalculateBut{
+    background: #F0F7FB;
+    color: #6F767E;
+    font-family: 'ff-dax-web-pro', sans-serif!important;
+    font-size: 18px;
+    text-transform: none;
+    font-weight: 700;
+    padding: 25px 0;
+    outline: none;
+}
+.FCCart #FCCartBuyBut{
+    background: #64B613;
+    font-size: 0!important;
+    padding: 22px 0;
+    outline: none;
+}
+.FCCart #FCCartBuyBut:before{
+    content: 'Finalizar Pedido';
+    color: #fff;
+    display: block;
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: none;
+    font-family: 'ff-dax-web-pro', sans-serif;
+}
+.FCCart #FCCartButtons{
+    margin-bottom: 20px;
+    margin-left: 0;
+}
+.FCCart #FCCartCupom{
+    position: relative;
+    height: 70px;
+}
+.FCCart #FCCartCupom .FCCartCupomInfo{
+    padding-top: 20px;
+}
+.FCCart #FCCartCupom .FCCartCupomLabel{
+    display: none;
+}
+.FCCart #FCCartCupom .FCCartCupomInfo #Cupom{
+    border-radius: 3px;
+    border: 1px solid #DDE4EB;
+    outline: none;
+    height: 40px;
+    color: #8296A9!important;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'ff-dax-web-pro', sans-serif;
+    min-width: 300px;
+    text-align: center;
+    float: left;
+}
+.FCCart #FCCartCupom .FCCartCupomInfo .FCCartCupomPerc{
+    float: left;
+    margin: 10px 0 0 10px;
+}
+.FCCart #FCCartCupom .FCCartCupomInfo .FCCartCupomError{
+    padding-top: 10px;
+    float: left;
+}    
+.FCCart #FCCartCupom .FCCartCupomInfo #Cupom::-webkit-input-placeholder{ color: #8296A9; }
+.FCCart #FCCartCupom .FCCartCupomInfo #Cupom::-moz-placeholder{ color: #8296A9; }
+.FCCart #FCCartCupom .FCCartCupomInfo #Cupom:-ms-input-placeholder{ color: #8296A9; }
+
+.FCCart #FCCartCupom .FCCartCupomInfo #Cupom:hover,
+.FCCart #FCCartCupom .FCCartCupomInfo #Cupom:active{
+    border-color: #FF5F2E;
+}
+.FCCart #FCCartCupom #FCCartFreightSimulation{
+    position: absolute;
+    width: 292px;
+    right: -14px;
+    
+}
+#TabItens{
+    position: relative;
+}
+.FCCart #FCCartButtons ul li{
+    padding: 0 10px 0 0;
+}
+.FCCart #FCCartButtons ul li.FCCartBuy{
+    padding: 0;
+}
+.FCCart .FCCartContainer{
+    max-width: 100%;
+    margin: 0;
+}
+.FCCart #idTabItensFC #TabItens > tbody > tr{
+    border-bottom: 1px solid #e8e8e8;
+}
+.FCCart #idTabItensFC #TabItens > tbody > #FCCartCupom,
+.FCCart #idTabItensFC #TabItens > tbody > #FCCartSubtotals,
+.FCCart #idTabItensFC #TabItens > tbody > #FCCartSubtotalPrice{
+    border-bottom: 0 none;
+}
+.FCCart #idTabItensFC #TabItens .FCCartSubtotalPriceLabel{
+    text-align: right;
+}
+
+/* pop frete */
+#idFreightSimulationFC{
+    border-radius: 0!important;
+    border: 0 none!important;
+}
+#idFreightSimulationFC #idTDFreightSimulationFC tr,
+#idFreightSimulationFC #idTDFreightSimulationFC tr td{
+    background: #fff;
+}
+#idFreightSimulationFC #idTDFreightSimulationFC .EstTabPedidoTit{
+    padding-top: 20px!important;
+}
+#idFreightSimulationFC .EstTabPedidoTit{
+    background: #fff;
+    color: #8296A9;
+    font-size: 15px;
+}
+#idFreightSimulationFC #idTDFreightSimulationFC tr td tr{
+    border: 1px solid #DDE4EB;
+    padding: 10px;
+    display: block;
+}
+#idFreightSimulationFC #idTDFreightSimulationFC tr td tr .ZipTitType{
+    display: none;
+}
+#idFreightSimulationFC #idTDFreightSimulationFC tr td tr td #idZip{
+    border: 0 none;
+    width: 150px;
+    color: #C6CBCF;
+    font-size: 15px;
+    background: url(//www.rumo.com.br/lojas/00000503/images/frete.png) no-repeat left center;
+    padding-left: 22px;
+    outline: none;
+}
+#idFreightSimulationFC #idTDFreightSimulationFC #idBut{
+    background: #fff;
+    color: #034A8B;
+    font-size: 15px;
+    font-weight: 700;
+    border: 0;
+}
+#idFreightSimulationFC #idTDFreightSimulationFC tr .EstTabPedido a{
+    font-size: 0;
+}
+#idFreightSimulationFC #idTDFreightSimulationFC tr .EstTabPedido a:before{
+    content: 'X';
+    display: block;
+    font-size: 14px;
+    height: 11px;
+    width: 11px;
+    position: absolute;
+    top: 5px;
+    right: 7px;
+    color: #8296A9;
+    font-weight: 700;
+}
+
+/*** Login ***/
+#cabecalho-checkout{
+    margin: 30px 0;
+}
+#cabecalho-checkout .menu-info-checkout{
+    text-align: right;
+    margin-top: 7px;
+}
+#cabecalho-checkout .menu-info-checkout span,
+#cabecalho-checkout .menu-info-checkout span b{
+    color: #B5C1CC;
+    font-size: 15px;
+    font-family: 'ff-dax-web-pro', sans-serif;
+}
+
+#idTabLoginFC #FCFormContainer .inputsContainer .EstRequiredField{
+    font-size: 0;
+    margin: 16px 0 0 0;
+    padding: 0;
+    float: left;
+    display: inline-block;
+    width: 100px;
+}
+#idTabLoginFC #FCFormContainer .inputsContainer .EstRequiredField:before{
+    font-size: 17px;
+    content: 'Seu e-mail';
+    color: #888;
+    font-family: 'ff-dax-web-pro', sans-serif;
+    font-weight: 500;
+}
+#idFCLeftContentRight #idRegisterExtFC{
+    margin: 0!important;
+}
+#idFCLeftContentRight .Titulos{
+    text-align: center;
+    display: block;
+    color: #034A8B;
+    font-family: 'ff-dax-web-pro', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+.FCRegister #idFCLeftContentRight .Titulos:after{
+    content: 'ATENÇÃO: ao cadastrar uma Pessoa Jurídica, informe o endereço publicado no site da Receita Federal. Em caso de divergências, procederemos com o cancelamento da compra e a respectiva devolução do pagamento caso este tenha ocorrido.';
+    text-align: center;
+    display: block;
+    color: #888;
+    font-size: 15px;
+    font-family: 'ff-dax-web-pro', sans-serif;
+    font-weight: 400;
+    line-height: 18px;
+    width: 80%;
+    margin: 15px auto 0 auto;
+}
+.FCRegister #idFCLeftContentRight #idRegisterExtFC{
+    margin: 0 auto!important;
+    width: 50%;
+}
+.FCRegister #idNextPageFC{
+    margin: 0 auto;
+}
+#idFCLeftContentRight #FCFormContainer{
+    background: #fff;
+    border: 0 none;
+    border-radius: 0;
+}
+#idFCLeftContentRight #idTabLoginFC #Email{
+    border: 1px solid #DDE4EB;
+    border-radius: 3px!important;
+    text-align: center;
+    padding: 0;
+    height: 50px;
+    color: #888;
+    font-size: 22px;
+    outline: none;
+    float: left;
+    width: 80%;
+}
+.FCCheckout #idFCLeftContentRight #idTabLoginFC #Email{
+    font-size: 12px;
+}
+#idFCLeftContentRight #idTxtBotNextPageFC,
+.FCTrack #idTrackFC .inputButton #Enviar{
+    background: #64B613!important;
+    border-radius: 3px!important;
+    font-size: 22px!important;
+    text-transform: none!important;
+    padding: 15px 100px 20px!important;
+    outline: none!important;
+    font-family: 'ff-dax-web-pro', sans-serif!important;
+    color: #fff;
+}
+.FCTrack #idTrackFC .inputButton #Enviar{
+    padding: 15px 0px 20px!important;
+}
+#idFCLeftContentRight .inputsContainer,
+#idFCLeftContentRight .inputsContainer label,
+#idFCLeftContentRight .inputsContainer label b{
+    color: #888;
+    font-family: 'ff-dax-web-pro', sans-serif!important;
+    font-size: 16px;
+    font-weight: 400;
+}
+#idFCLeftContentRight #idTabLoginFC #Email,
+#idFCLeftContentRight #SenhaAtual{
+    outline: none;
+}
+#idFCLeftContentRight #idTabLoginFC #Email:focus,
+#idFCLeftContentRight #SenhaAtual:focus{
+    border-color: #FF5F2E;
+}
+#FCFormContainer .inputsContainer input[type=radio] {
+    margin: -5px 0 0 0;
+}
+#idTabBotPreviousNextFC #idTxtBotNextPageFC{
+    font-family: 'ff-dax-web-pro', sans-serif!important;
+    font-weight: 400!important;
+    margin: 0 auto!important;
+    display: block;
+    width: 275px;
+}
+
+#rodape-checkout .SecurityLogos span{
+    background: url(//www.rumo.com.br/lojas/00000503/images/compraprotegida.png) no-repeat left;
+    color: #8296A9;
+    font-size: 15px;
+    padding: 7px 0 2px 20px;
+    font-weight: 700;
+}
+#rodape-checkout .rodape{
+    margin-top: 50px;
+    border-top: 1px solid #DDE4EB;
+    padding-top: 50px;
+}
+#rodape-checkout .rodape .tit-rodape{
+    color: #FF5F2E;
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 22px;
+    display: block;
+}
+#rodape-checkout .rodape .rodape-m li{
+    margin-right: 15px;
+    vertical-align: middle;
+}
+#rodape-checkout .rodape .rodape-m > img{
+    margin-bottom: 25px;
+    display: block;
+}
+#rodape-checkout .rodape .info-final{
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+#rodape-checkout .rodape .info-final span{
+    color: #9B9B9B;
+}
+
+#Descricao .MsoNormalTable,
+#Descricao .MsoNormalTable a,
+#Descricao .MsoNormalTable p{
+    text-align: left;
+}
+
+/* Cadastro */
+.FCRegister #idRegisterExtFC table p{
+    display: none;
+}
+.FCRegister #idRegisterExtFC #idTabRegisterFC .EstTabTopo{
+    background: #fff;
+    color: #034A8B;
+    position: relative;
+    font-family: 'ff-dax-web-pro', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+}
+.FCRegister #idRegisterExtFC #idTabRegisterFC tr:first-child .EstTabTopo:after{
+    content: '= campo obrigatório';
+    font-size: 14px;
+    font-family: 'ff-dax-web-pro', sans-serif;
+    color: #709ECA;
+    display: block;
+    background: url(//www.rumo.com.br/lojas/00000503/images/campoobrigatorio.png) no-repeat left;
+    width: 163px;
+    margin: 0 auto 15px;
+}
+
+.FCRegister #idRegisterExtFC #idTabRegisterFC .EstNomeCampo font,
+.FCRegister #idRegisterExtFC #idTabRegisterFC .EstNomeCampo,
+#idRegisterFC span,
+#idRegisterFC strong,
+#idRegisterFC b,
+#idRegisterFC td,
+#idRegisterFC a{
+    font-size: 16px;
+    font-family: 'ff-dax-web-pro', sans-serif;
+}
+#FCFormContainer .inputsContainer table tr:nth-child(1) .smtext label{
+    margin-bottom: 22px;
+    margin-top: 15px;
+}
+
+.FCRegister #idRegisterExtFC #idTabRegisterFC .EstNomeCampo font{
+    color: #034a8b;
+    font-family: 'ff-dax-web-pro', sans-serif;
+    font-size: 16px;
+    margin-right: 5px;
+}
+.FCRegister #idRegisterExtFC #idTabRegisterFC input[type='text'],
+.FCRegister #idRegisterExtFC #idTabRegisterFC input[type='password'],
+.FCRegister #idRegisterExtFC #idTabRegisterFC select{
+    padding: 5px 10px !important;
+    border: 1px solid #DDE4EB;
+    border-radius: 3px!important;
+    background: #fff;
+    outline: none;
+    margin-bottom: 10px;
+}
+.FCRegister #idRegisterExtFC #idTabRegisterFC select{
+    height: 35px;
+}
+.FCRegister #idTabRegisterFC #idOptInFC input{
+    margin: -3px 0 0 0;
+}
+
+#idFCLeftContentRight #idTabRegisterFC {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+#idTabBotPreviousNextFC #idTxtBotPreviousPageFC {
+    padding: 15px 40px 18px 40px!important;
+    text-transform: none!important;
+    color: #fff!important;
+    font-size: 24px!important;
+    font-family: 'ff-dax-web-pro', sans-serif!important;
+    background-color: #e4e5e5;
+}
+#idTabBotPreviousNextFC #idImgBotNextPageFC,
+#idPreviousPageFC #idImgBotPreviousPageFC,
+#idTabRequiredFieldFC{
+    display: none;
+}
+#FCFormContainer #Email,
+#FCFormContainer #Senha{
+    border: 1px solid #DDE4EB;
+    border-radius: 3px;
+    height: 50px;
+}
+#FCFormContainer #idPwReminderFC a,
+#idFCContent p,
+#idFCContent p a{
+    color: #034A8B;
+    text-align: center;
+    font-family: 'ff-dax-web-pro', sans-serif;
+}
+#idFCContent #TabTitProd .Titulos,
+#idFCLeftContentRight #menu-filtro .EstTitFiltroFC{
+    display: none;
+}
+#FCFormContainer #Email,
+#FCFormContainer #Senha{
+    outline: none;
+}
+#FCFormContainer #Email:focus,
+#FCFormContainer #Senha:focus{
+    border-color: #FF5F2E;
+}
+.FCTrack #idTrackFC .inputButton #Enviar{
+    padding: 15px 0px;
+}
+
+.inputButton .buttonForm{
+    background: #FF5F2E;
+    padding: 15px 10px;
+}
+
+
+/*** Pagina Extra ***/
+.FCHelp #idTitTextoFC,
+.FCHelp .text-left.left-bar,
+.FCCart .text-left.left-bar,
+.FCTrack .text-left.left-bar{
+    display: none;
+}
+.pagina-extra .container{
+    padding: 0;
+}
+.FCHelp #conteudo,
+.FCCart #conteudo,
+.FCTrack #conteudo{
+    margin-top: 15px;
+}
+
+.FCTrack #idFCContent .EstDivRequired .EstDivCorRequired{
+    background: #034A8B!important;
+}
+/* coluna */
+.pagina-extra .coluna-pagina{
+    border: 1px solid #DDE4EB;
+    border-radius: 3px;
+    padding: 0;
+}
+.pagina-extra .coluna-pagina ul{
+    margin: 0;
+}
+.pagina-extra .coluna-pagina > ul > li{
+    border-bottom: 1px solid #DDE4EB;
+}
+.pagina-extra .coluna-pagina > ul > li:last-child{
+    border-bottom: 0 none;
+}
+.pagina-extra .coluna-pagina > ul > li:hover{
+    border: 1px solid #FF5F2E;
+}
+.pagina-extra .coluna-pagina > ul > li a{
+    color: #9B9B9B;
+    font-size: 15px;
+    font-family: 'ff-dax-web-pro', sans-serif;
+    font-weight: 600;
+    padding: 15px 0 15px 20px;
+    display: block;
+}
+.pagina-extra .coluna-pagina > ul > li:hover a{
+    color: #FF763B;
+    background: url(//www.rumo.com.br/lojas/00000503/images/setapaginaextra.png) no-repeat 97%;
+}
+/* meio */
+.pagina-extra .titulo{
+    color: #8296A9!important;
+    font-size: 22px;
+    font-weight: 700;
+    font-family: 'ff-dax-web-pro', sans-serif;
+    margin-bottom: 15px;
+    display: block;
+}
+.pagina-extra .meio-pagina p{
+    color: #6F7A84!important;
+    text-align: justify!important;
+    font-family: 'ff-dax-web-pro', sans-serif;
+}
+.pagina-extra .img-pagina{
+    margin: 50px 0;
+    text-align: center;
+}
+.pagina-extra .img-pagina li{
+    margin: 0 2%;
+}
+.pagina-extra .distribuicao{
+    background: url(//www.rumo.com.br/lojas/00000503/images/distribuicao.png) no-repeat center;
+    border: 1px solid #FF5F2E;
+    display: block;
+    padding: 50px 20%;
+    text-align: center;
+    border-radius: 3px;
+    margin: 50px 0;
+    color: #034A8B;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 700;
+}
+.pagina-extra .itens-paginas li span{
+    background: url(//www.rumo.com.br/lojas/00000503/images/liststyle.png) no-repeat center left;
+    color: #8296A9;
+    font-family: 'ff-dax-web-pro', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+.pagina-extra .logo-extra{
+    opacity: 1;
+    display: block;
+    margin: 25px auto;
+}
+.pagina-extra .titulo-terceiro{
+    color: #FF5F2E;
+    font-family: 'ff-dax-web-pro', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    display: block;
+}
+
+#politicaPrivacidade,
+#duvidasFrequentes,
+#trocas-devolucoes,
+#seguranca,
+#entrega{
+    margin-top: 80px;
+}
+#duvidasFrequentes b{
+    color: #8296A9;
+    font-family: 'ff-dax-web-pro', sans-serif;
+    font-weight: 700;
+    margin: 10px 0;
+    display: block;
+}
+#duvidasFrequentes span{
+    color: #8296A9;
+    font-family: 'ff-dax-web-pro', sans-serif;
+    font-weight: 400;
+    display: block;
+    text-align: justify;
+}
+#duvidasFrequentes .sublinhado{
+    text-decoration: underline;
+}
+#politicaPrivacidade a,
+#duvidasFrequentes a,
+#trocas-devolucoes a,
+#seguranca a,
+#entrega a{
+    color: #FF5F2E;
+    font-family: 'ff-dax-web-pro', sans-serif;
+}
+
+.FCCustom.Error404Page #idFCLeftContentRight .text-left{
+    display: none;
+}
+.FCCustom.Error404Page #idFCLeftContentRight #idFCContent > div{
+    width: 100%;
+}
+
+/* Meus Pedidos */
+.FCTrack #idTxtIntroTrackFC,
+.FCTrack #idTxtIntroTrackFC span,
+/*#idFCContent td,*/
+#EstTabPedidoTit,
+#idRecoverOrderFC{
+    color: #337ab7;
+    font-family: 'ff-dax-web-pro', sans-serif;
+    text-align: left;
+}
+#idTabOrderSituationFC tr td,
+#idTabOrderDeliveryFC td,
+#idFCContent{
+    text-align: left;
+}
+.EstTabPedidoTit{
+    font-weight: 700;
+}
+#TabCesta > p{
+    padding: 50px 0;
+}
+#idLinkBoletoFC,
+#idLinkBoletoFC a,
+#idLinkBoletoFC b{
+    color: #337ab7;
+}
+
+/*** Paginacao ***/
+.ProductList #idMiddlePageFC a{
+    background: none;
+    color: #9B9B9B;
+}
+.ProductList #idMiddlePageFC #idCurrentPageFC,
+.ProductList #idMiddlePageFC a:hover{
+    background: none;
+    color: #FF5F2D;
+}
+#idNextPageFC{
+    display: none;
+}
+
+#idTxtBotNextPageFC,
+#idImgBotNextPageFC {
+    display: block;
+}
+#idNextPageFC {
+    display: block !important;
+}
+.prod-price .total-desconto {
+    display: block;
+    padding: 6px 0 0;
+    font-size: 18px;
+}
+.FCCart #FCCartSubtotals .FCCartItemsPrice .FCPrice,
+#FCCartSubtotals .FCCartItemsPrice .FCPrice span,
+.FCCart #FCCartSubtotals .FCCartItemsPrice .FCPrice:before,
+#FCCartSubtotals .FCCartItemsPrice .FCPrice span{
+    font-size: 20px !important;
+}
+#FCCartSubtotalPrice .FCCartSubtotalPriceValue .FCPrice span {
+    font-size: 20px !important;
+    color: #8296A9;
+}
+#FCCartSubtotalPrice .FCCartSubtotalPriceValue .FCPrice span.FCCurrencyLabel::before {
+   content: 'Valor com Cupom ';
+    font-size: 20px !important;
+    color: #8296A9;
+}
+#FCCartCupom .FCCartCupomValue {
+    float: left;
+    width: 120px;
+}
+.FCProductAvailability #idTitTextoFC,
+#idTxtProductShareFC,
+.EstDivRequired .EstTxtRequired{
+    color: #9B9B9B;
+}
+
+.compre-junto .bTItem {
+    width: 18%;
+}
+    
+/*** Responsivo ***/
+@media only screen and (max-width: 1450px){
+    .ProductList #idFCContent #TabListaProdutos .DivListProdNomeProd{
+        width: 55%;
+    }
+}
+@media only screen and (max-width: 1200px){
+    .logotipo img {
+        width: 178px;
+        height: 40px;
+        margin-top: 5px;
+    }
+    #barra-topo .menu-info li a{
+        font-size: 12px;
+    }
+    #cabecalho .menu-info > ul{
+        margin-top: 5px;
+    }
+    #newsletter .texto-news span{
+        display: block;
+        margin-top: 22px;
+    }
+    #rodape .selos li {
+        margin-left: 2%;
+    }
+    .ProductDet .abriga-preco-produto #Botoes-catalogo table a{
+        padding: 0 20px;
+    }
+    .ProductList #idFCContent #TabListaProdutos .DivListProdNomeProd{
+        width: 45%;
+    }
+    #conteudo .DivHomeProd .DivHomeDetails a:before{
+        background: none;
+    }
+}
+@media only screen and (max-width: 992px){
+    #conteudo .DivHomeProd .DivHomeDetails a,
+    #conteudo .DivHomeProd .DivHomeSpy a,
+    #mais-ofertas .DivHomeProd .DivHomeSpy a,
+    #mais-ofertas .DivHomeProd .DivHomeDetails a{
+        display: block!important;
+    }
+    #mais-ofertas .DivHomeProd .DivHomeDetails a img,
+    #mais-ofertas .DivHomeProd .DivHomeDetails a span,
+    .CrossSellingFC{
+        display: none!important;
+    }
+    #menu-superior .aberto{
+        display: block;
+    }    
+    #cabecalho {
+        margin-bottom: 10px;
+    }
+    #menu-superior .EstListCat > ul > li, #menu-superior .bt-laranja p{
+        background: none;
+    }
+    #menu-superior .EstListCat > ul > li, #menu-superior .bt-laranja p{
+        height: auto;
+    }
+    #menu-superior .EstListCat > ul > li.com-filho .click{
+        background: url(//www.rumo.com.br/lojas/00000503/images/icoseta.png) no-repeat;
+        font-size: 0;
+        height: 10px;
+        width: 10px;
+        float: right;
+        margin: 19px 15px;
+    }
+    #menu-superior .EstListCat ul > li > ul{
+        position: relative;
+        left: 0;
+    }
+    #menu-superior .EstListCat10{
+        background: #034077;
+    }
+    #menu-superior .EstListCat ul > li > ul {
+        padding: 0;
+        background: #034A8B;
+    }
+        #menu-superior .EstListCat ul > li > ul li {
+            border-top: 1px solid #356ea2;
+        }
+        #menu-superior .EstListCat ul > li > ul li a{
+            background: none!important;
+            color: #fff;
+            padding: 8px 28px;
+            display: block;
+        }
+        #menu-superior .EstListCat ul > li > ul li ul li a,
+        #menu-superior .EstListCat ul > li:hover > ul li:hover ul li a{
+            color: #fff;
+        }
+    #menu-superior .EstListCat ul > li > ul li ul{
+        border: 0 none;
+        padding: 5px 10px;
+    }
+    #menu-superior .CatOpened .CatOpened{
+        padding: 0;
+        opacity: 1.0;
+        display: none;
+        background: #034A8B;
+        border: 0;
+    }
+    .FCHome #cabecalho #menu-superior .EstListCat10{
+        display: none;
+    }
+    .logotipo img{
+        margin-top: 0;
+    }
+    #menu-superior .tit-menu{
+        height: 40px;
+        padding: 0 0 0 5px;
+        line-height: 40px;
+        width: 45px;
+        text-align: center;
+    }
+    #menu-superior .EstListCat10{
+        top: 40px;
+    }
+    #menu-superior .tit-menu,
+    #menu-superior:hover .tit-menu{
+        background: #034A8B;
+    }
+
+    #autocomplete-form-toolbar #autocomplete-toolbar{
+        width: 86%;
+    }
+    #rodape .facebook{
+        margin-top: 30px;
+        text-align: center;
+    }
+    #newsletter .texto-news span{
+        margin-top: 10px;
+    }
+    #newsletter .form-news{
+        margin-top: -18px;
+    }
+    #Img-Produto{
+        text-align: center;
+    }
+    .ProductList .DivListProd #Botoes-catalogo{
+        position: relative;
+        margin-bottom: 10px;
+    }
+    .ProductList #idFCContent #TabListaProdutos .DivListProdNomeProd {
+        width: 100%;
+    }
+    #menu-superior > div{
+        display: none;        
+        width: 320px;
+        position: absolute;
+        top: 40px;
+        z-index: 999;
+        left: 0;
+        background: #fff;
+        border-top: 1px solid #ccc;
+    }
+    #menu-superior .tit-menu,
+    #menu-superior:hover .tit-menu{
+        background: none;
+        color: #FF5F2E;
+        font-size: 22px;
+    }
+    #menu-superior .tit-menu.fa-bars:before{
+        background: url(//www.rumo.com.br/lojas/00032926/images/icomenum.png) no-repeat;
+        height: 16px;
+        width: 19px;
+        content: '';
+        display: block;
+        position: relative;
+        top: 10px;
+    }
+    #menu-superior .tit-menu.fa-times:before{
+        background: url(//www.rumo.com.br/lojas/00032926/images/icofecharm.png) no-repeat;
+        height: 16px;
+        width: 19px;
+        content: '';
+        display: block;
+        position: relative;
+        top: 10px;
+    }
+    #cabecalho #menu-superior #menu-mobile .EstListCat10{
+        display: block;
+        position: initial;
+        width: 100%;
+    }
+        #menu-superior #menu-mobile .menu-info-m{
+            padding: 0 8px;
+        }   
+            #menu-superior #menu-mobile .menu-info-m a{
+                font-size: 13px;
+            }
+            #menu-superior #menu-mobile .menu-info-m .login a,
+            #menu-superior #menu-mobile .menu-info-m .pedidos a{
+                color: #034A8B;
+            }
+            #menu-superior #menu-mobile .menu-info-m .cadastro a{
+                color: #FF5F2E;
+                padding-left: 8px;
+            }
+            #menu-superior #menu-mobile .menu-info-m .login a i{
+                margin-right: 5px;
+            }
+    .produtos .owl-item .item-produto{
+        width: 100%;
+    } 
+    .produtos .owl-dots{
+        text-align: center;
+    } 
+        .produtos .owl-dots .owl-dot{
+            display: inline-block;
+            margin: 0 2px; 
+        } 
+            .produtos .owl-dots .owl-dot span{
+                border: 2px solid #CFD3D7;
+                height: 10px;
+                width: 10px;
+                display: block;
+                border-radius: 15px;
+            } 
+            .produtos .owl-dots .owl-dot.active span{
+                background: #FF763B;
+                border: 2px solid #FF763B;
+            }      
+    #conteudo .DivHomeProd .DivHomeDetails a:before,
+    #mais-ofertas .DivHomeProd .DivHomeDetails a:before{
+        background: none;
+    }
+    #mais-ofertas .DivHomeProd .DivHomeDetails a {
+        display: block!important;
+        position: absolute;
+        bottom: 10px;
+        height: 45px;
+    }
+    #mais-ofertas .DivHomeImagemProd .EstImgFC {
+        max-width: 180px;
+        max-height: 160px;
+        border: 0 none;
+    }
+    #mais-ofertas .DivHomeProd .DivHomeSpy a{
+        bottom: 10px;
+    }  
+    #Img-Produto .MagicZoom{
+        position: relative;
+    }
+        #Img-Produto .MagicZoom:before{
+            content: '';
+            background: url(//www.rumo.com.br/lojas/00000503/images/prevpag.png) no-repeat;
+            display: block;
+            position: absolute;
+            z-index: 999;
+            left: 7px;
+            top: 50%;
+            height: 20px;
+            width: 20px;
+        }
+        #Img-Produto .MagicZoom:after{
+            content: '';
+            background: url(//www.rumo.com.br/lojas/00000503/images/nextpag.png) no-repeat;
+            display: block;
+            position: absolute;
+            z-index: 999;
+            right: 0;
+            top: 50%;
+            height: 20px;
+            width: 20px;
+        } 
+    .ProductDet .frete h3{
+        font-size: 14px;
+        font-weight: 400;
+    }  
+    .ProductDet .frete .nao-sei{
+        font-size: 13px;
+    }       
+}
+@media only screen and (max-width: 860px){
+    #TabListaProdutos .DivListProdImagemProd{
+        width: 25%;
+    }
+    #TabListaProdutos .DivIntListProdProd{
+        width: 69%;
+    }
+}
+@media ( min-width: 768px ){
+    .ProductDet .parcelamento:hover .lista {
+        display: block!important;
+    }
+    #menu-superior .EstListCat ul > li > ul{
+        display: none!important;
+    }
+    #menu-superior .EstListCat ul > li:hover > ul{
+        display: block!important;
+    }
+}
+@media only screen and (max-width: 767px){
+    .bg-mobile:before {
+        content: '';
+        background: rgba(0,0,0,0.8);
+        position: absolute;
+        top: 50px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 99;
+    }
+    /* cabecalho */
+    #cabecalho {
+        margin-bottom: 0;
+        margin-top: 10px;
+    }
+    #menu-superior .EstListCat ul > li > ul.active{
+        display: block;
+    }    
+    #cabecalho .busca{
+        position: relative;
+    }
+        #cabecalho .busca > span{
+            background: url(//www.rumo.com.br/lojas/00000503/images/btbusca.png) no-repeat;
+            font-size: 0;
+            height: 21px;
+            width: 21px;
+            display: block;
+            position: relative;
+            left: 10px;
+            top: 10px;
+        }
+        #cabecalho #autocomplete-form{
+            display: none;
+            position: absolute;
+            top: 40px;
+            right: -10px;
+            width: 235px;
+            z-index: 999;
+            background: #fff;
+        }
+        #autocomplete-form #autocomplete, 
+        #autocomplete-form-toolbar #autocomplete-toolbar {
+            width: 85%;
+        }    
+    .carrinho{
+        background: none;
+    }
+        .carrinho .fa-shopping-cart:before{
+            color: #FF5F2E;
+            top: -3px;
+            position: relative;
+            left: 10px;
+        }
+    #conteudo .DivHomeProd{
+        margin-bottom: 10px;
+        min-height: 405px;
+    }
+        #mais-ofertas .DivHomeImagemProd .EstImgFC,
+        #conteudo .DivHomeImagemProd .EstImgFC,
+        .DivListProdImagemProd .EstImgFC{
+            max-width: 100%;
+            max-height: 100%;
+        } 
+        .DivHomeNomeProd,
+        .prices{
+            text-align: left;
+        }        
+        #conteudo .DivHomeProd .DivHomeDetails a, 
+        #conteudo .DivHomeProd .DivHomeDetails a:hover, 
+        #mais-ofertas .DivHomeProd .DivHomeDetails a, 
+        #mais-ofertas .DivHomeProd .DivHomeDetails a:hover{
+            padding: 5px;
+        }
+            #conteudo .DivHomeProd .DivHomeDetails a:before, 
+            #mais-ofertas .DivHomeProd .DivHomeDetails a:before {
+                background: url(//www.rumo.com.br/lojas/00000503/images/icocarrinho.png) no-repeat left center;
+                font-size: 14px;
+                padding: 0;
+                padding-left: 20px;
+                font-weight: 400;
+                line-height: 14px;
+            }
+        #conteudo .DivHomeNomeProd span, 
+        #mais-ofertas .DivHomeNomeProd span {
+            font-size: 15px;
+            line-height: 15px;  
+        }     
+    #banner-regua{
+        text-align: center;
+    }    
+    #conteudo #mais-ofertas #txt-ofertas{
+        margin-left: 0;
+        display: block;
+    }
+    #mais-ofertas #tit-ofertas{
+        text-align: center;
+        display: block;
+        margin-bottom: 8px;
+    }
+    #mais-ofertas #txt-ofertas{
+        display: block;
+        margin: 0;
+        text-align: center;
+    }
+
+    /* News */
+    #rodape .news-fixo{
+        position: initial;
+    }
+    #newsletter{
+        border: 0 none;
+    }
+    #newsletter .form-news{
+        margin-top: 0px;
+    }
+    #newsletter .close {
+        display: none;
+    }
+    #newsletter .texto-news span{
+        font-size: 16px;
+        line-height: 16px;
+        font-weight: 700;
+        padding-bottom: 5px;
+    }
+    #newsletter input{
+        width: 100%;
+        margin-bottom: 8px;
+        text-transform: lowercase;
+    }
+    #newsletter .cadastrar{
+        width: 100%;
+    }
+
+    /* rodape */
+    #rodape .menu-rodape{
+        padding: 0;
+        text-align: left;
+    }
+    #rodape{
+        text-align: center;
+    }
+    #rodape ul li{
+        display: block;
+    }
+    #rodape .info-final .pull-right{
+        text-align: center;
+        float: none!important;
+        display: block;
+    }
+    #rodape .pague-com,
+    #rodape .selos{
+        margin: 0;
+    }
+    #rodape .tit-rodape {
+        padding: 10px 0;
+        margin: 0;
+    }
+    #rodape .atendimento-rodape,
+    #rodape .institucional,
+    #rodape .pague-com .rodape-m{
+        border-bottom: 1px solid #DDE4EB;
+        padding: 0 0 10px 0;
+        margin-bottom: 10px;
+    }
+    #rodape .institucional .rodape-m{
+        display: none;
+        padding-top: 10px
+    }
+    #rodape .atendimento-rodape li{
+        padding: 3px 0;
+    }
+    #rodape .selos .rodape-m li {
+        display: inline-block!important;
+        padding: 0;
+        margin: 0;
+        min-width: 41%;
+    }
+    #rodape .atendimento-rodape li,
+    #rodape .institucional li,
+    #rodape .pague-com li {
+        margin-left: 0;
+    } 
+    #rodape .horario{
+        margin-bottom: 0;
+    }
+    #rodape .info-final{
+        text-align: center;
+    }   
+    .tabs{
+        display: none;
+    }
+    .produto-flutuante.bt-fixo{
+        display: none!important;
+    }
+
+    /* Catalogo */
+    .ProductList #Quantidade-catalogo{
+        display: none;
+    }
+        .ProductList #idFCContent #TabListaProdutos .DivListProd{
+            border: 0 none;
+            padding: 0 5px!important;
+        }
+    .ProductList .DivListProd #Botoes-catalogo a{
+        background: #528B19;
+        padding: 5px;
+    }
+        .ProductList .DivListProd #Botoes-catalogo a:before {
+            content: 'Adicionar ao Carrinho';
+            font-size: 15px;
+            padding: 0;
+            line-height: 15px;
+            padding-left: 32px;
+        }    
+    .ProductList #idFCContent{
+        width: 100%;
+        padding: 0;
+    }
+    .ProductList #idFCLeftContentRight > div{
+        display: none;
+    }
+    .ProductList #TabTitProd{
+        padding-left: 0;
+    }
+    .ProductList #idTxtIntroFoundProdsFC{
+        margin: 0 0 0 -8px;
+        width: 100%;
+    }
+    .ProductList #idPagProdTop{
+        width: 104%;
+        margin-left: -5px;
+        padding-left: 15px;
+        padding-top: 15px;
+        background: #F0F7FB;
+        border-bottom: 1px solid #DDE4EB;
+        padding-bottom: 0;
+        margin-bottom: 15px;
+    }
+    .ProductList #idDivPagProd{
+        margin-left: -8px;
+        margin-bottom: 18px;
+        float: left;
+    }
+    .ProductStyleSocialIcons li{
+        float: left;
+        margin-right: 5px;
+    }
+    .SocialProdLinks .ShareWhatsApp{
+        display: block;
+    }
+    .FCProduct #cabecalho{
+        border-bottom: 1px solid #DDE4EB;       
+    }  
+    .FCProduct.ProductList #conteudo,
+    .FCProduct.ProductDet #conteudo,
+    .FCCart #conteudo{
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    .FCProduct.ProductList .FullSpaceFC,
+    .FCProduct.ProductDet .FullSpaceFC,
+    .FCCart .FullSpaceFC{
+        display: none;
+    }
+    .ProductList #idFoundFC{
+        padding-left: 20px;
+        width: 106%;
+        border-bottom: 1px solid #DDE4EB;
+        padding-bottom: 8px;
+        padding-top: 10px;
+    }
+    .FCProduct.ProductList #TabListaProdutos{
+        padding: 0 5px;
+    }
+
+    /* Produto */
+    .FCProduct.ProductDet #Breadcrumb{
+        padding: 10px;
+        border-bottom: 1px solid #DDE4EB;
+        margin-bottom: 20px;
+    }
+        .ProductDet #Breadcrumb > ul > li > a,
+        .ProductDet #Breadcrumb > ul > li > span a{
+            font-weight: 400;
+            color: #9B9B9B;
+            font-size: 12px;
+        }
+        .ProductDet .ProductStyleBoxFC{
+            text-align: center;
+        }
+            .ProductDet #TabListaProdutos .ProductStyleULFC h1{
+                color: #034A8B;
+                font-size: 17px;                
+                line-height: 20px;
+            }
+            .ProductDet #TabTitProd .prod-info, 
+            .ProductDet #TabTitProd .prod-info small,
+            .ProductDet #TabTitProd .prod-info a{
+                color: #9EA4AA;
+                font-size: 12px;
+                font-style: normal;
+            }
+            .ProductDet #TabTitProd .prod-info a{
+                color: #FF763B;
+            }
+            .ProductDet #TabListaProdutos .ProdRating{
+                display: inline-block!important;
+                float: none;
+                margin-top: 0px;
+            }
+                .ProductDet #TabListaProdutos .ProdRating a{
+                    font-size: 11px;
+                    color: #9EA4AA;
+                    text-decoration: none;
+                }
+        .ProductDet .descricao-curta,
+        .ProductDet .descritores{
+            display: none;
+        }  
+        .ProductDet .ProductStyleSocialIcons{
+            max-width: 100%;
+        }
+        .ProductDet .SocialProdLinks{
+            float: none;
+            text-align: center;
+            margin: 0;
+            max-width: 100%;
+        }  
+            .ProductStyleSocialIcons li{
+                float: none;
+            }  
+        .ProductDet .abriga-preco-produto{
+            padding: 10px;
+            margin: 10px;  
+        } 
+        .ProductDet #TabListaProdutos .prod-price .EstParc b{
+            color: #FF5F2E!important;
+        }
+        .ProductDet.FCProduct #TabListaProdutos .prod-price,
+        .ProductDet #TabListaProdutos .prod-price b .FCPrice,
+        .ProductDet #TabListaProdutos .prod-price span,
+        .ProductDet .parcelamento{
+            text-align: center!important;
+        } 
+        .abriga-preco-produto #Botoes-catalogo table{
+            width: 72%;
+        }  
+        .ProductDet #Quantidade-catalogo .QTIncMult{
+            padding: 22px 0 22px 20px;
+            text-align: left;
+        }
+            .FCProduct .moreFCCartQtyInput{
+                right: 0;
+                top: auto;
+                bottom: 0;
+                padding: 0 7px;
+                line-height: 33px;
+                border-left: 1px solid #c6cbcf;
+            }
+            .FCProduct .lessFCCartQtyInput{
+                top: 0;                
+                left: auto;
+                right: 0;
+                cursor: pointer;
+                border-left: 1px solid #c6cbcf;
+                padding: 0 8px;
+                border-bottom: 1px solid #c6cbcf;
+                line-height: 32px;
+            }
+    .ProductDet .frete, 
+    .ProductDet .duvidas{
+        margin: 0 10px;
+    } 
+    .ProductDet .frete{
+        margin-bottom: 15px;
+    }       
+
+    .descr-prod #tit-descricao{
+        background: url(//www.rumo.com.br/lojas/00032926/images/icoplus.png) no-repeat 92% 20px;
+        color: #676F77;
+        font-size: 20px;
+        font-family: 'ff-dax-web-pro', sans-serif;
+        font-weight: 700;
+        padding: 15px 28px;
+        border-top: 1px solid #dde4eb;
+        display: block;
+        border-bottom: 1px solid #dde4eb;
+        position: relative;
+        top: 15px;
+        margin: 0;
+    }
+    #Descricao{
+        display: none;
+        padding: 0;
+        margin: 25px 25px 0;
+        border: 0 none;
+    }
+    #Avaliacao,
+    #Descricao h2{
+        display: none;
+    }
+
+    /* Carrinho */
+    .FCCart #idTitTextoFC:before{
+        font-size: 15px;
+    }
+    .FCCart #idTitTextoFC:before{
+        float: left;
+    }  
+    .FCCart #idFCLeftContentRight #idTitTextoFC:after{
+        float: right;
+        font-size: 12px;
+        padding-top: 0;
+    }
+    .FCCart #idFCLeftContentRight #idTitTextoFC{
+        border-top: 1px solid #DDE4EB;
+        padding: 7px 10px;
+        border-bottom: 1px solid #DDE4EB;
+    }
+    .FCCart #TabItens tr .FCCartItemCont{
+        position: relative;
+    }
+    .FCCart .FCCartRespTable > tbody > tr > .EstTabPedido.FCCartItemCont{
+        width: 100%;
+        position: relative;
+        min-height: 210px;
+        height: 100%;
+        display: block;
+    }
+    .FCCart #idTabItensFC #TabItens > tbody > tr,
+    #conteudo .DivHomeProd,
+    #conteudo .DivHomeProd:hover{
+        border: 0 none;
+    }
+    .FCCart #TabItens tr .FCCartItemCont tr:nth-child(1){
+        display: block;
+        min-height: 100px;
+    }
+    .FCCart #TabItens tr .FCCartItemCont tr + tr{
+        width: 100%;
+        background: #F9FDFF;
+        display: block;
+        border-top: 1px solid #DDE4EB;
+        border-bottom: 1px solid #DDE4EB;
+        padding: 10px 0;
+        position: absolute;
+        left: 0;
+        min-height: 100px;
+    }
+        .FCCart #TabItens tr .FCCartItemCont tr + tr td{
+            width: 100%;
+            display: block;
+        }
+        .FCCart #TabItens tr .FCCartItemCont tr + tr td .FCCartSmallProd p > span{
+            display: block;
+            margin: 0;
+            padding: 0;
+            line-height: 12px;
+            color: #7C838A;
+            font-size: 12px;
+            text-align: left;
+            font-weight: 400;
+        }
+        .FCCart .FCCartUnitPrice .FCPrice span{
+            color: #7C838A;
+            font-size: 12px;
+        }
+        .FCCart #TabItens tr .FCCartItemCont tr + tr td .FCCartItemQty{
+            position: absolute;
+            right: 0;
+        }
+            .FCCart #TabItens tr .FCCartItemCont tr + tr td .FCCartItemQty .FCCartQtyLabel{
+                display: none;
+            }
+            .FCCart #TabItens tr .FCCartItemCont tr + tr td .FCCartItemQty .FCCartQtyInput{
+                margin: 0;
+            }
+            #FCFormContainer #idPwReminderFC a, #idFCContent p, #idFCContent p a{
+                margin: 15px 5px 0;
+            }
+        .FCCart #TabItens tr .FCCartItemCont tr + tr td .FCCartUnitPrice{
+            position: absolute;
+            left: 0;
+        }
+        .FCCart #TabItens tr .FCCartItemCont tr + tr td .FCCartTotalPrice{
+            position: absolute;
+            left: 40%;
+        }
+    .FCCart #FCCartButtons ul li{
+        padding: 0 10px;
+    }    
+    .FCCart .EstTabPedidoNome,
+    .FCCart .FCCartItemCont .EstTabPedidoRef,
+    .FCCart .FCCartItemCont .EstTabPedidoAdicItem{
+        font-size: 12px!important;
+    } 
+    .FCCart #FCCartSmallSubtotals > ul{
+        float: right;
+        clear: right;
+    }
+        .FCCart #FCCartSmallSubtotals > ul li{
+            text-align: right;
+            width: auto!important;
+            display: inline-block;
+        }
+    .FCCart .FCCartItemCont .EstTabPedidoRef{
+        color: #7C838A;
+        font-weight: 700;
+        margin-bottom: 5px;
+    } 
+    .FCCart .FCCartItemCont .EstTabPedidoAdicItem{
+        color: #FF5F2E;
+        font-weight: 700;
+    }  
+    .FCCart .FCCartSmallProd{
+        border-top: 0 none;
+        background: #F9FDFF;
+    }
+    .FCCart #FCCartButtons{
+        margin-left: 0;
+    }
+    .FCCart #FCCartBuyBut{
+        width: 94%;
+        margin-left: 3%;
+    }
+    .FCCart #FCCartSmallSubtotals .FCCartItemsPrice .FCCartSubtotalsLabel{
+        color: #7C838A;
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .FCCart #FCCartSmallSubtotals li,
+    .FCCart #FCCartSmallSubtotals li span{
+        border: 0 none;
+        color: #8296A9;
+        font-size: 13px;
+    }
+    .FCCart #FCCartSmallSubtotals .FCPrice .FCCurrencyLabel,
+    .FCCart #FCCartSmallSubtotals .FCPrice .FCPriceValue,
+    .FCCart #FCCartSmallSubtotals .FCPrice .FCPriceValue span{
+        color: #676F77;
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .FCCart #FCCartSmallFreightSimulationBut,
+    .FCCart #FCCartCupomBut{
+        background-color: #fff;
+        padding: 10px 12px;
+        border: 1px solid #034A8B;
+        color: #034A8B;
+        font-size: 14px;
+        font-weight: 700;
+        width: 80%;
+    }
+    .FCCart #FCCartSmallCupom{
+        border: 0 none;
+        color: #fff;
+        margin-top: 30px;
+        margin-bottom: 0;
+    }
+    .FCCart #FCCartCupomBut{
+        background: #F0F7FB;
+        color: #6F767E;
+        border: 0 none;
+    }
+    #FCCartSmallCupom .FCCartCupomLabel{
+        color: #8296A9;
+    }
+    .FCCart #FCCartSmallSubtotals .FCCartItemsQty,
+    .FCCart #FCCartSmallSubtotals .FCCartPriceValue{
+        text-align: left;
+    }
+    .FCCart .FCCartSmallProd p{
+        clear: both;
+    }
+    .FCCartSmallProd .FCCartQtyLabel{
+        display: none;
+    }  
+    .institucional li a{
+        margin-bottom: 7px;
+        display: block;
+    } 
+    .SocialProdLinks .ShareWhatsApp{
+        max-width: 50%;
+        top: 9px;
+        position: relative;
+    }   
+    .FCCart .EstTabPedidoAdicItem{
+        display: none;
+    }
+    #idFreightSimulationFC #idTDFreightSimulationFC tr table{
+        width: 88%;
+        float: right;
+    }
+    #idEstTitProdOpFC + table{
+        margin-left: 8%;
+        margin-top: 30px;
+        width: 85%;
+    }
+}
+@media only screen and (max-width: 600px){
+    #mais-ofertas .DivHomeProd, 
+    #mais-ofertas .DivHomeProd:hover{
+        padding-bottom: 50px;
+        min-height: 350px;
+    }    
+    #autocomplete-form #autocomplete,
+    #autocomplete-form-toolbar #autocomplete-toolbar{
+        width: 85%;
+    }
+    #cabecalho .col-xs-2.pull-right{
+        padding-left: 0;
+    }
+    .carrinho .fa-shopping-cart:before{
+        font-size: 20px;
+        margin-right: 0px;
+    }
+    .carrinho #idCartItemsTop{
+        font-size: 18px;
+    }
+    #autocomplete-form-toolbar #autocomplete-toolbar{
+        width: 84%;
+    }
+    #TabListaProdutos .DivListProdImagemProd,
+    #TabListaProdutos .DivIntListProdProd{
+        width: 100%;
+        margin-left: 0;
+    }
+    .ProductList .DivListProd #Botoes-catalogo .bt-comprar,
+    .ProductList .DivListProd #Botoes-catalogo{
+        position: initial;
+    }
+    .ProductList .DivListProd #Botoes-catalogo .bt-comprar a{
+        display: block;
+        text-align: center;
+    }
+    .ProductList #idFCContent #TabListaProdutos .DivListProd{
+        min-height: 392px;
+    }
+    .ProductList .price .currency a{
+        font-size: 14px;
+    }
+    #conteudo .vitrine{
+        padding-left: 8px;
+    }
+    #newsletter {
+        height: auto;
+    }
+    #newsletter #form-newsletter{
+        margin-left: -10px;
+    }
+    #conteudo #mais-ofertas {
+        padding-left: 8px;
+    }
+    #conteudo .installments{
+        font-size: 0;
+    }
+    #conteudo .installments strong,
+    #conteudo .installments strong span{
+        font-size: 12px;
+    }
+    /* catalogo */
+    .ProductList .descricao-categoria{
+        display: none;
+    }
+    /* produto */
+    .ProductDet #idDivCEPCalc .FieldCEPNum{
+        width: 72%;
+    }
+    .ProductDet .parcelamento{
+        margin: 15px 0 20px;
+    }
+    .ProductDet .parcelamento .lista{
+        top: 22px;
+    }
+    #conteudo .DivHomeProd .DivHomeDetails a,
+    #conteudo .DivHomeProd .DivHomeDetails a:hover,
+    #mais-ofertas .DivHomeProd .DivHomeDetails a,
+    #mais-ofertas .DivHomeProd .DivHomeDetails a:hover{
+        width: 90%;
+        left: 5%;
+    }
+    #mais-ofertas .DivHomeProd .DivHomeDetails a,
+    #mais-ofertas .DivHomeProd .DivHomeDetails a:hover{
+        height: 39px;
+    }
+    #idTabLoginFC #FCFormContainer .inputsContainer .EstRequiredField{
+        float: none;
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+    }
+    #idFCLeftContentRight #idTabLoginFC #Email{
+        width: 100%;
+    }
+    .FCProduct.ProductDet #conteudo{
+        margin-bottom: 15px;
+    }
+    .ProductList #idPaginationProdFC{
+        padding-top: 0;
+        margin-top: 0;
+        text-align: center;
+    }
+        .ProductList #idPaginationProdFC > div{
+            display: inline-block!important;
+            width: auto!important;
+            float: none!important;
+            vertical-align: top;
+        }
+        .ProductList #idPaginationProdFC > #idMiddlePageFC span{
+            background: #FF5F2E;
+            border: 1px solid #FF5F2E;
+            border-radius: 3px;
+            color: #fff;
+            font-weight: 700;
+            padding: 8px 13px;
+        }
+        .ProductList #idMiddlePageFC a{
+            border: 1px solid #DDE4EB;
+            border-radius: 3px;
+            color: #034A8B;
+            font-weight: 700;
+            padding: 8px 13px;
+            display: inline-block;
+        }
+        .ProductList #idPaginationProdFC > #idNextPageFC a:before{
+            content: '';
+            background: url(//www.rumo.com.br/lojas/00000503/images/nextpag.png) no-repeat;
+            height: 12px;
+            width: 8px;
+            display: block;
+        }
+        .ProductList #idPaginationProdFC > #idPreviousPageFC a:before{
+            content: '';
+            background: url(//www.rumo.com.br/lojas/00000503/images/prevpag.png) no-repeat;
+            height: 12px;
+            width: 8px;
+            display: block;
+        }
+            .ProductList #idPaginationProdFC > #idNextPageFC span,
+            .ProductList #idPaginationProdFC > #idNextPageFC img,
+            .ProductList #idPaginationProdFC > #idPreviousPageFC span,
+            .ProductList #idPaginationProdFC > #idPreviousPageFC img{
+                display: none!important;
+            }
+            .ProductList #idPaginationProdFC > #idNextPageFC a,
+            .ProductList #idPaginationProdFC > #idPreviousPageFC a{
+                background: #F2F8FB;
+                border-radius: 3px;
+                padding: 11px 12px;
+                margin: 0 2px 0 2px;
+            }
+    .FCRegister #idFCLeftContentRight #idRegisterExtFC,        
+    .FCRegister #idNextPageFC,
+    .FCCheckout #idCheckoutFC .FCCheckoutLogin #idChkExtLoginFC #idChkLoginIntFC{
+        width: 100%;
+    }  
+    #idChkAllFC{
+        width: auto;
+    }
+    .ZipBackground tr td table{
+        width: 95%;
+    }    
+    .compre-junto .bTItem {
+        width: 42%;
+    }  
+    .ProductDet .descr-prod{
+        clear: both;
+    }
+    .compre-junto .bTItem .bTImgProd{
+        min-height: 125px;
+    }
+    .compre-junto .bTItem .bTPriceProd>div{
+        font-size: 0;
+    }
+    .compre-junto #bTContainer .bTText {
+        margin-left: 30px;
+    } 
+    .compre-junto .bTTotalBuy {
+        width: 100%;
+        min-height: 100px;
+        float: none;
+        text-align: center;
+    }   
+}
+@media only screen and (max-width: 480px){
+    .FCCart .FCCartQtyInput{
+        margin-left: 38%;
+    }
+    .FCCart .idTabItensFC .FCCartLeftCol #TabItens .EstTabPedido > table{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 450px){
+    #conteudo .DivIntHomeProd,
+    #mais-ofertas .DivIntHomeProd{
+        float: none;
+        width: 100%;
+    }
+    #conteudo .DivHomeImagemProd,
+    #mais-ofertas .DivHomeImagemProd{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    #idFCLeftContentRight .Titulos{
+        line-height: 24px;
+    } 
+    #idCheckoutFC .EstChkOrderConfirmationFC{
+        right: 0;
+        z-index: 999999!important;
+    } 
+}
+@media only screen and (max-width: 360px){
+    .FCCart .FCCartQtyInput{
+        margin-left: 33%;
+    }
+    #DivShowCartOnPage{
+        left: 60px!important;
+    }
+    #autocomplete-form #autocomplete,
+    #autocomplete-form-toolbar #autocomplete-toolbar {
+        width: 85%;
+    }
+}
+@media (max-width: 767px ){
+    #Img-Produto .MagicZoom figure:before {
+        font-size: 15px;
+        top: 9px;
+        left: 0;
+        right: 0;
+    }
+}
+

@@ -1,0 +1,56 @@
+#fw-wrapper {
+	overflow:visible;
+	position:absolute;
+	left:50%;
+	margin-left: -700px;
+}
+#fw-slider {
+	position:absolute;
+	height:400px;
+	overflow:hidden;
+}
+#fw-slider p {
+	float:left;
+}
+#fw-slider p:hover{opacity: 0.85;}
+
+#fw-nav-box{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 980px;
+}
+#fw-nav-next,
+#fw-nav-prev {
+	position:absolute;
+	top:160px;
+	height:40px;
+	width:40px;
+	background: url(../images/novo/sprite.png) no-repeat;
+}
+#fw-nav-next{background-position: -200px 0; right: 0;}
+#fw-nav-prev{background-position: -160px 0; left: 0;}
+#fullbanner #fw-nav-next:hover,
+#fullbanner #fw-nav-prev:hover{
+	opacity: 0.7;
+	/* IE */
+	filter: alpha(opacity=70);
+}
+#fw-nav-prev {
+	left:22px;
+	right:auto;
+}
+#fw-nav-next a,
+#fw-nav-prev a {
+	display:block;
+	height:100%;
+	text-indent:-9999px;
+}
+#fw-nav-next a {
+	background:url(../images/sprite.png) no-repeat -319px -203px;
+}
+#fw-nav-prev a {
+	background:url(../images/sprite.png) no-repeat -303px -203px;
+}

@@ -1,0 +1,8 @@
+/* Estilos personalizados */
+
+.EstPassoCompraDiv {display:none}
+.EstContinuarComprando {display:none;}
+#TabBancos {display:none;}
+.PedLinkRodape{color:004a8a;text-decoration:underline}
+.TopoMenu{display:none}
+.FundoLogo{background-image:url(../images/fundotopo.png);background-color:#0c2330;height:116px}

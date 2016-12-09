@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<xsl:template match="/">
+<html>
+	<head>
+		<title>XML</title>
+		<style>
+			* { margin:0; padding:0; }
+			body { background:#fff; font-family:arial; font-size:.8em; color:#666; }
+			a { color:#666; text-decoration:none; }
+			img { border:0; }
+			ul.produtos { list-style:none; margin:20px 0 20px; }
+			ul.produtos li { float:left; padding:0 5px; width:190px; text-align:center; }
+			ul.produtos li a:hover { text-decoration:underline; }
+			ul.produtos li span { display:block; margin:0 15px 2px; }
+			ul.produtos li .foto { background:url(../images/wi/logoc.png) no-repeat center; height:130px; line-height:130px; }
+			ul.produtos li .foto img { text-align:center; }
+			ul.produtos li .preco { font-weight:bold; color:#CC6D1E; }
+		</style>
+	</head>
+	<body>
+		<ul class="produtos">
+	        <xsl:for-each select="HistoryProd/item">
+			<li>
+				<span class="foto">
+					<xsl:if test="string-length(image)>0">
+						<xsl:element name="a">
+							<xsl:attribute name="href"><xsl:value-of select="link"/></xsl:attribute>
+							<xsl:attribute name="target">_top</xsl:attribute>
+							<img>
+								<xsl:attribute name="src"> <!-- Chamada da imagem -->
+									<xsl:value-of select="image" />
+								</xsl:attribute>
+								<xsl:attribute name="alt"> <!-- alt da imagem -->
+									<xsl:value-of select="title" />
+								</xsl:attribute>
+								<xsl:attribute name="width"> <!-- alt da imagem -->
+							    100
+								</xsl:attribute>
+							</img>
+						</xsl:element>
+					</xsl:if>
+				</span>
+				<span class="nome">
+					<xsl:element name="a">
+						<xsl:attribute name="href"><xsl:value-of select="link"/></xsl:attribute>
+						<xsl:attribute name="target">_top</xsl:attribute>
+						<xsl:value-of select="title"/> <!-- Nome do produto ou title da custom -->
+					</xsl:element>
+				</span>
+				<span class="preco por"><xsl:value-of select="price"/></span>
+			</li>
+	        </xsl:for-each>
+		</ul>
+	</body>
+</html>
+</xsl:template>
+</xsl:stylesheet>

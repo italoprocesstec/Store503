@@ -1,0 +1,527 @@
+<a href="https://www.ebitempresa.com.br/bitrate/pesquisa1.asp?empresa=1193925" id="bannerEbit"><img src="https://www.ebitempresa.com.br/bitrate/banners/b1193925.gif"></a> 
+<script type="text/javascript" id="getSelo" src="https://imgs.ebit.com.br/ebitBR/selo-ebit/js/getSelo.js?19392"> 
+</script>
+
+<!-- Começo da integração IFrame do Aceita Pagto 1-->
+<script>
+if(<IDFormaPagamento>==09){
+  sBcash='<form name="pagamentodigital" action="https://www.pagamentodigital.com.br/checkout/pay/" method="post" target="iframe_pd_pf">';
+  sBcash+='<input name="email_loja" type="hidden" value="comercial@processtec.com.br">';
+  sBcash+='<input name="id_pedido" type="hidden" value="<NumPedido>">';
+  sBcash+='<input name="email" type="hidden" value="<EmailCliente>">';
+  sBcash+='<input name="nome" type="hidden" value="<NomeCompletoCliente>">';
+  sBcash+='<input name="cpf" type="hidden" value="<CPFCNPJ>">';
+  sBcash+='<input name="telefone" type="hidden" value="<TelefoneCliente>">';
+  sBcash+='<input name="endereco" type="hidden" value="<EnderecoCliente>">';
+  sBcash+='<input name="complemento" type="hidden" value="<EnderecoComplCliente>">';
+  sBcash+='<input name="bairro" type="hidden" value="<BairroCliente>">';
+  sBcash+='<input name="cidade" type="hidden" value="<CidadeCliente>">';
+  sBcash+='<input name="estado" type="hidden" value="<EstadoCliente>">';
+  sBcash+='<input name="cep" type="hidden" value="<CEPCliente>">';
+  sBcash+='<input name="produto_codigo_1" type="hidden" value="<RefProduto1>">';
+  sBcash+='<input name="produto_descricao_1" type="hidden" value="<NomeProduto1>">';
+  sBcash+='<input name="produto_qtde_1" type="hidden" value="<QtdProduto1>">';
+  sBcash+='<input name="produto_valor_1" type="hidden" value="<PrecoUnitProduto1>">';
+  sBcash+='<input name="produto_codigo_2" type="hidden" value="<RefProduto2>">';
+  sBcash+='<input name="produto_descricao_2" type="hidden" value="<NomeProduto2>">';
+  sBcash+='<input name="produto_qtde_2" type="hidden" value="<QtdProduto2>">';
+  sBcash+='<input name="produto_valor_2" type="hidden" value="<PrecoUnitProduto2>">';
+  sBcash+='<input name="produto_codigo_3" type="hidden" value="<RefProduto3>">';
+  sBcash+='<input name="produto_descricao_3" type="hidden" value="<NomeProduto3>">';
+  sBcash+='<input name="produto_qtde_3" type="hidden" value="<QtdProduto3>">';
+  sBcash+='<input name="produto_valor_3" type="hidden" value="<PrecoUnitProduto3>">';
+  sBcash+='<input name="produto_codigo_4" type="hidden" value="<RefProduto4>">';
+  sBcash+='<input name="produto_descricao_4" type="hidden" value="<NomeProduto4>">';
+  sBcash+='<input name="produto_qtde_4" type="hidden" value="<QtdProduto4>">';
+  sBcash+='<input name="produto_valor_4" type="hidden" value="<PrecoUnitProduto4>">';
+  sBcash+='<input name="produto_codigo_5" type="hidden" value="<RefProduto5>">';
+  sBcash+='<input name="produto_descricao_5" type="hidden" value="<NomeProduto5>">';
+  sBcash+='<input name="produto_qtde_5" type="hidden" value="<QtdProduto5>">';
+  sBcash+='<input name="produto_valor_5" type="hidden" value="<PrecoUnitProduto5>">';
+  sBcash+='<input name="produto_codigo_6" type="hidden" value="<RefProduto6>">';
+  sBcash+='<input name="produto_descricao_6" type="hidden" value="<NomeProduto6>">';
+  sBcash+='<input name="produto_qtde_6" type="hidden" value="<QtdProduto6>">';
+  sBcash+='<input name="produto_valor_6" type="hidden" value="<PrecoUnitProduto6>">';
+  sBcash+='<input name="produto_codigo_7" type="hidden" value="<RefProduto7>">';
+  sBcash+='<input name="produto_descricao_7" type="hidden" value="<NomeProduto7>">';
+  sBcash+='<input name="produto_qtde_7" type="hidden" value="<QtdProduto7>">';
+  sBcash+='<input name="produto_valor_7" type="hidden" value="<PrecoUnitProduto7>">';
+  sBcash+='<input name="produto_codigo_8" type="hidden" value="<RefProduto8>">';
+  sBcash+='<input name="produto_descricao_8" type="hidden" value="<NomeProduto8>">';
+  sBcash+='<input name="produto_qtde_8" type="hidden" value="<QtdProduto8>">';
+  sBcash+='<input name="produto_valor_8" type="hidden" value="<PrecoUnitProduto8>">';
+  sBcash+='<input name="produto_codigo_9" type="hidden" value="<RefProduto9>">';
+  sBcash+='<input name="produto_descricao_9" type="hidden" value="<NomeProduto9>">';
+  sBcash+='<input name="produto_qtde_9" type="hidden" value="<QtdProduto9>">';
+  sBcash+='<input name="produto_valor_9" type="hidden" value="<PrecoUnitProduto9>">';
+  sBcash+='<input name="produto_codigo_10" type="hidden" value="<RefProduto10>">';
+  sBcash+='<input name="produto_descricao_10" type="hidden" value="<NomeProduto10>">';
+  sBcash+='<input name="produto_qtde_10" type="hidden" value="<QtdProduto10>">';
+  sBcash+='<input name="produto_valor_10" type="hidden" value="<PrecoUnitProduto10>">';
+  sBcash+='<input name="tipo_integracao" type="hidden" value="PAD">';
+  sBcash+='<input name="frete" type="hidden" value="<Frete>">';
+  sBcash+='<input name="desconto" type="hidden" value="">';
+  sBcash+='<input name="acrescimo" type="hidden" value="<ValorEmbalagemPedido>">';
+  sBcash+='<input name="meio_pagamento" type="hidden" value="10">';
+  sBcash+='</form>';
+
+  var t = setTimeout("document.pagamentodigital.submit();",1000); //2 seconds measured in miliseconds
+
+  /* novo script iframe Xtreme Checkout*/
+  sBcash+="<iframe name='iframe_pd_pf' src='' width='980px' height='1300px' frameborder='0'></iframe><br>"; //Instruções e botão para pagamento
+
+   var oChkEnd=F$.GetID("insere-bcash");
+   if(oChkEnd){
+     var oNewElementbCash=document.createElement("div");
+     oNewElementbCash.setAttribute("id","DivShowBcash");
+     oDivShowBcash=oChkEnd.parentNode.insertBefore(oNewElementbCash,oChkEnd);
+     oDivShowBcash.innerHTML=sBcash;
+     
+     var oChkBottom=F$.GetID("idChkBottomFC");
+     F$.FooterHeight+=1300;
+     if(oChkBottom)setTimeout("F$.fnIntoView(oChkBottom);",100);
+     
+   }
+  /* fim novo script iframe Xtreme Checkout*/
+
+
+
+var TotalSFrete=<TotalSemFrete>;
+var NumP=<NumParcelas>;
+var CupomDesc=<DescontoCupom>;
+
+// Informe o desconto que é oferecido de acordo com as regras da página "Pagamentos".
+if(TotalSFrete>=1)var Desc1=3;
+//else if(TotalSFrete>=160)var Desc1=20;
+//else if(TotalSFrete>=90)var Desc1=10;
+
+var Desc1
+var FatorDesc=Desc1/100
+Total=((TotalSFrete*100)/(100-Desc1)*FatorDesc)+CupomDesc;
+
+//coloca o resultado no campo hidden
+document.pagamentodigital.desconto.value=Total;
+}
+</script>
+<!-- Final da integração IFrame do Aceita Pagto 1-->
+
+<!-- Começo da integração IFrame do Aceita Pagto 2-->
+<script>
+if(<IDFormaPagamento>==10){
+  sBcash='<form name="pagamentodigital" action="https://www.pagamentodigital.com.br/checkout/pay/" method="post" target="iframe_pd_pf">';
+  sBcash+='<input name="email_loja" type="hidden" value="comercial@processtec.com.br">';
+  sBcash+='<input name="id_pedido" type="hidden" value="<NumPedido>">';
+  sBcash+='<input name="email" type="hidden" value="<EmailCliente>">';
+  sBcash+='<input name="nome" type="hidden" value="<NomeCompletoCliente>">';
+  sBcash+='<input name="cpf" type="hidden" value="<CPFCNPJ>">';
+  sBcash+='<input name="telefone" type="hidden" value="<TelefoneCliente>">';
+  sBcash+='<input name="endereco" type="hidden" value="<EnderecoCliente>">';
+  sBcash+='<input name="bairro" type="hidden" value="<BairroCliente>">';
+  sBcash+='<input name="cidade" type="hidden" value="<CidadeCliente>">';
+  sBcash+='<input name="estado" type="hidden" value="<EstadoCliente>">';
+  sBcash+='<input name="cep" type="hidden" value="<CEPCliente>">';
+  sBcash+='<input name="produto_codigo_1" type="hidden" value="<RefProduto1>">';
+  sBcash+='<input name="produto_descricao_1" type="hidden" value="<NomeProduto1>">';
+  sBcash+='<input name="produto_qtde_1" type="hidden" value="<QtdProduto1>">';
+  sBcash+='<input name="produto_valor_1" type="hidden" value="<PrecoUnitProduto1>">';
+  sBcash+='<input name="produto_codigo_2" type="hidden" value="<RefProduto2>">';
+  sBcash+='<input name="produto_descricao_2" type="hidden" value="<NomeProduto2>">';
+  sBcash+='<input name="produto_qtde_2" type="hidden" value="<QtdProduto2>">';
+  sBcash+='<input name="produto_valor_2" type="hidden" value="<PrecoUnitProduto2>">';
+  sBcash+='<input name="produto_codigo_3" type="hidden" value="<RefProduto3>">';
+  sBcash+='<input name="produto_descricao_3" type="hidden" value="<NomeProduto3>">';
+  sBcash+='<input name="produto_qtde_3" type="hidden" value="<QtdProduto3>">';
+  sBcash+='<input name="produto_valor_3" type="hidden" value="<PrecoUnitProduto3>">';
+  sBcash+='<input name="produto_codigo_4" type="hidden" value="<RefProduto4>">';
+  sBcash+='<input name="produto_descricao_4" type="hidden" value="<NomeProduto4>">';
+  sBcash+='<input name="produto_qtde_4" type="hidden" value="<QtdProduto4>">';
+  sBcash+='<input name="produto_valor_4" type="hidden" value="<PrecoUnitProduto4>">';
+  sBcash+='<input name="produto_codigo_5" type="hidden" value="<RefProduto5>">';
+  sBcash+='<input name="produto_descricao_5" type="hidden" value="<NomeProduto5>">';
+  sBcash+='<input name="produto_qtde_5" type="hidden" value="<QtdProduto5>">';
+  sBcash+='<input name="produto_valor_5" type="hidden" value="<PrecoUnitProduto5>">';
+  sBcash+='<input name="produto_codigo_6" type="hidden" value="<RefProduto6>">';
+  sBcash+='<input name="produto_descricao_6" type="hidden" value="<NomeProduto6>">';
+  sBcash+='<input name="produto_qtde_6" type="hidden" value="<QtdProduto6>">';
+  sBcash+='<input name="produto_valor_6" type="hidden" value="<PrecoUnitProduto6>">';
+  sBcash+='<input name="produto_codigo_7" type="hidden" value="<RefProduto7>">';
+  sBcash+='<input name="produto_descricao_7" type="hidden" value="<NomeProduto7>">';
+  sBcash+='<input name="produto_qtde_7" type="hidden" value="<QtdProduto7>">';
+  sBcash+='<input name="produto_valor_7" type="hidden" value="<PrecoUnitProduto7>">';
+  sBcash+='<input name="produto_codigo_8" type="hidden" value="<RefProduto8>">';
+  sBcash+='<input name="produto_descricao_8" type="hidden" value="<NomeProduto8>">';
+  sBcash+='<input name="produto_qtde_8" type="hidden" value="<QtdProduto8>">';
+  sBcash+='<input name="produto_valor_8" type="hidden" value="<PrecoUnitProduto8>">';
+  sBcash+='<input name="produto_codigo_9" type="hidden" value="<RefProduto9>">';
+  sBcash+='<input name="produto_descricao_9" type="hidden" value="<NomeProduto9>">';
+  sBcash+='<input name="produto_qtde_9" type="hidden" value="<QtdProduto9>">';
+  sBcash+='<input name="produto_valor_9" type="hidden" value="<PrecoUnitProduto9>">';
+  sBcash+='<input name="produto_codigo_10" type="hidden" value="<RefProduto10>">';
+  sBcash+='<input name="produto_descricao_10" type="hidden" value="<NomeProduto10>">';
+  sBcash+='<input name="produto_qtde_10" type="hidden" value="<QtdProduto10>">';
+  sBcash+='<input name="produto_valor_10" type="hidden" value="<PrecoUnitProduto10>">';
+  sBcash+='<input name="tipo_integracao" type="hidden" value="PAD">';
+  sBcash+='<input name="frete" type="hidden" value="<Frete>">';
+  sBcash+='<input name="desconto" type="hidden" value="<DescontoCupom>">';
+  sBcash+='<input name="acrescimo" type="hidden" value="<ValorEmbalagemPedido>">';
+  sBcash+='<input name="meio_pagamento" type="hidden" value="58">';
+  sBcash+='</form>';
+
+  var t = setTimeout("document.pagamentodigital.submit();",1000); //2 seconds measured in miliseconds
+
+
+  /* novo script iframe Xtreme Checkout*/
+  sBcash+="<iframe name='iframe_pd_pf' src='' width='980px' height='1300px' frameborder='0'></iframe><br>"; //Instruções e botão para pagamento
+
+   var oChkEnd=F$.GetID("insere-bcash");
+   if(oChkEnd){
+     var oNewElementbCash=document.createElement("div");
+     oNewElementbCash.setAttribute("id","DivShowBcash");
+     oDivShowBcash=oChkEnd.parentNode.insertBefore(oNewElementbCash,oChkEnd);
+     oDivShowBcash.innerHTML=sBcash;
+     
+     var oChkBottom=F$.GetID("idChkBottomFC");
+     F$.FooterHeight+=1300;
+     if(oChkBottom)setTimeout("F$.fnIntoView(oChkBottom);",100);
+     
+   }
+  /* fim novo script iframe Xtreme Checkout*/
+
+
+var TotalSFrete=<TotalSemFrete>;
+var NumP=<NumParcelas>;
+
+// Informe o desconto que é oferecido de acordo com as regras da página "Pagamentos".
+if(TotalSFrete>=1)var Desc1=3;
+//else if(TotalSFrete>=160)var Desc1=20;
+//else if(TotalSFrete>=90)var Desc1=10;
+
+var Desc1
+var FatorDesc=Desc1/100
+Total=((TotalSFrete*100)/(100-Desc1)*FatorDesc);
+
+//coloca o resultado no campo hidden
+document.pagamentodigital.desconto.value=Total;
+}
+</script>
+<!-- Final da integração IFrame do Aceita Pagto 2-->
+
+<!-- Começo da integração IFrame do Aceita Pagto 3-->
+<script>
+if(<IDFormaPagamento>==11){
+  sBcash='<form name="pagamentodigital" action="https://www.pagamentodigital.com.br/checkout/pay/" method="post" target="iframe_pd_pf">';
+  sBcash+='<input name="email_loja" type="hidden" value="comercial@processtec.com.br">';
+  sBcash+='<input name="id_pedido" type="hidden" value="<NumPedido>">';
+  sBcash+='<input name="email" type="hidden" value="<EmailCliente>">';
+  sBcash+='<input name="nome" type="hidden" value="<NomeCompletoCliente>">';
+  sBcash+='<input name="cpf" type="hidden" value="<CPFCNPJ>">';
+  sBcash+='<input name="telefone" type="hidden" value="<TelefoneCliente>">';
+  sBcash+='<input name="endereco" type="hidden" value="<EnderecoCliente>">';
+  sBcash+='<input name="bairro" type="hidden" value="<BairroCliente>">';
+  sBcash+='<input name="cidade" type="hidden" value="<CidadeCliente>">';
+  sBcash+='<input name="estado" type="hidden" value="<EstadoCliente>">';
+  sBcash+='<input name="cep" type="hidden" value="<CEPCliente>">';
+  sBcash+='<input name="produto_codigo_1" type="hidden" value="<RefProduto1>">';
+  sBcash+='<input name="produto_descricao_1" type="hidden" value="<NomeProduto1>">';
+  sBcash+='<input name="produto_qtde_1" type="hidden" value="<QtdProduto1>">';
+  sBcash+='<input name="produto_valor_1" type="hidden" value="<PrecoUnitProduto1>">';
+  sBcash+='<input name="produto_codigo_2" type="hidden" value="<RefProduto2>">';
+  sBcash+='<input name="produto_descricao_2" type="hidden" value="<NomeProduto2>">';
+  sBcash+='<input name="produto_qtde_2" type="hidden" value="<QtdProduto2>">';
+  sBcash+='<input name="produto_valor_2" type="hidden" value="<PrecoUnitProduto2>">';
+  sBcash+='<input name="produto_codigo_3" type="hidden" value="<RefProduto3>">';
+  sBcash+='<input name="produto_descricao_3" type="hidden" value="<NomeProduto3>">';
+  sBcash+='<input name="produto_qtde_3" type="hidden" value="<QtdProduto3>">';
+  sBcash+='<input name="produto_valor_3" type="hidden" value="<PrecoUnitProduto3>">';
+  sBcash+='<input name="produto_codigo_4" type="hidden" value="<RefProduto4>">';
+  sBcash+='<input name="produto_descricao_4" type="hidden" value="<NomeProduto4>">';
+  sBcash+='<input name="produto_qtde_4" type="hidden" value="<QtdProduto4>">';
+  sBcash+='<input name="produto_valor_4" type="hidden" value="<PrecoUnitProduto4>">';
+  sBcash+='<input name="produto_codigo_5" type="hidden" value="<RefProduto5>">';
+  sBcash+='<input name="produto_descricao_5" type="hidden" value="<NomeProduto5>">';
+  sBcash+='<input name="produto_qtde_5" type="hidden" value="<QtdProduto5>">';
+  sBcash+='<input name="produto_valor_5" type="hidden" value="<PrecoUnitProduto5>">';
+  sBcash+='<input name="produto_codigo_6" type="hidden" value="<RefProduto6>">';
+  sBcash+='<input name="produto_descricao_6" type="hidden" value="<NomeProduto6>">';
+  sBcash+='<input name="produto_qtde_6" type="hidden" value="<QtdProduto6>">';
+  sBcash+='<input name="produto_valor_6" type="hidden" value="<PrecoUnitProduto6>">';
+  sBcash+='<input name="produto_codigo_7" type="hidden" value="<RefProduto7>">';
+  sBcash+='<input name="produto_descricao_7" type="hidden" value="<NomeProduto7>">';
+  sBcash+='<input name="produto_qtde_7" type="hidden" value="<QtdProduto7>">';
+  sBcash+='<input name="produto_valor_7" type="hidden" value="<PrecoUnitProduto7>">';
+  sBcash+='<input name="produto_codigo_8" type="hidden" value="<RefProduto8>">';
+  sBcash+='<input name="produto_descricao_8" type="hidden" value="<NomeProduto8>">';
+  sBcash+='<input name="produto_qtde_8" type="hidden" value="<QtdProduto8>">';
+  sBcash+='<input name="produto_valor_8" type="hidden" value="<PrecoUnitProduto8>">';
+  sBcash+='<input name="produto_codigo_9" type="hidden" value="<RefProduto9>">';
+  sBcash+='<input name="produto_descricao_9" type="hidden" value="<NomeProduto9>">';
+  sBcash+='<input name="produto_qtde_9" type="hidden" value="<QtdProduto9>">';
+  sBcash+='<input name="produto_valor_9" type="hidden" value="<PrecoUnitProduto9>">';
+  sBcash+='<input name="produto_codigo_10" type="hidden" value="<RefProduto10>">';
+  sBcash+='<input name="produto_descricao_10" type="hidden" value="<NomeProduto10>">';
+  sBcash+='<input name="produto_qtde_10" type="hidden" value="<QtdProduto10>">';
+  sBcash+='<input name="produto_valor_10" type="hidden" value="<PrecoUnitProduto10>">';
+  sBcash+='<input name="tipo_integracao" type="hidden" value="PAD">';
+  sBcash+='<input name="frete" type="hidden" value="<Frete>">';
+  sBcash+='<input name="desconto" type="hidden" value="<DescontoCupom>">';
+  sBcash+='<input name="acrescimo" type="hidden" value="<ValorEmbalagemPedido>">';
+  sBcash+='<input name="meio_pagamento" type="hidden" value="59">';
+  sBcash+='</form>';
+
+  var t = setTimeout("document.pagamentodigital.submit();",1000); //2 seconds measured in miliseconds
+  
+  /* novo script iframe Xtreme Checkout*/
+  sBcash+="<iframe name='iframe_pd_pf' src='' width='980px' height='1300px' frameborder='0'></iframe><br>"; //Instruções e botão para pagamento
+
+   var oChkEnd=F$.GetID("insere-bcash");
+   if(oChkEnd){
+     var oNewElementbCash=document.createElement("div");
+     oNewElementbCash.setAttribute("id","DivShowBcash");
+     oDivShowBcash=oChkEnd.parentNode.insertBefore(oNewElementbCash,oChkEnd);
+     oDivShowBcash.innerHTML=sBcash;
+     
+     var oChkBottom=F$.GetID("idChkBottomFC");
+     F$.FooterHeight+=1300;
+     if(oChkBottom)setTimeout("F$.fnIntoView(oChkBottom);",100);
+     
+   }
+  /* fim novo script iframe Xtreme Checkout*/
+
+
+var TotalSFrete=<TotalSemFrete>;
+var NumP=<NumParcelas>;
+
+// Informe o desconto que é oferecido de acordo com as regras da página "Pagamentos".
+if(TotalSFrete>=1)var Desc1=3;
+//else if(TotalSFrete>=160)var Desc1=20;
+//else if(TotalSFrete>=90)var Desc1=10;
+
+var Desc1
+var FatorDesc=Desc1/100
+Total=((TotalSFrete*100)/(100-Desc1)*FatorDesc);
+
+//coloca o resultado no campo hidden
+document.pagamentodigital.desconto.value=Total;
+}
+</script>
+<!-- Final da integração IFrame do Aceita Pagto 3-->
+
+<!-- Começo da integração IFrame do Aceita Pagto 4-->
+<script>
+if(<IDFormaPagamento>==12){
+  sBcash='<form name="pagamentodigital" action="https://www.pagamentodigital.com.br/checkout/pay/" method="post" target="iframe_pd_pf">';
+  sBcash+='<input name="email_loja" type="hidden" value="comercial@processtec.com.br">';
+  sBcash+='<input name="id_pedido" type="hidden" value="<NumPedido>">';
+  sBcash+='<input name="email" type="hidden" value="<EmailCliente>">';
+  sBcash+='<input name="nome" type="hidden" value="<NomeCompletoCliente>">';
+  sBcash+='<input name="cpf" type="hidden" value="<CPFCNPJ>">';
+  sBcash+='<input name="telefone" type="hidden" value="<TelefoneCliente>">';
+  sBcash+='<input name="endereco" type="hidden" value="<EnderecoCliente>">';
+  sBcash+='<input name="bairro" type="hidden" value="<BairroCliente>">';
+  sBcash+='<input name="cidade" type="hidden" value="<CidadeCliente>">';
+  sBcash+='<input name="estado" type="hidden" value="<EstadoCliente>">';
+  sBcash+='<input name="cep" type="hidden" value="<CEPCliente>">';
+  sBcash+='<input name="produto_codigo_1" type="hidden" value="<RefProduto1>">';
+  sBcash+='<input name="produto_descricao_1" type="hidden" value="<NomeProduto1>">';
+  sBcash+='<input name="produto_qtde_1" type="hidden" value="<QtdProduto1>">';
+  sBcash+='<input name="produto_valor_1" type="hidden" value="<PrecoUnitProduto1>">';
+  sBcash+='<input name="produto_codigo_2" type="hidden" value="<RefProduto2>">';
+  sBcash+='<input name="produto_descricao_2" type="hidden" value="<NomeProduto2>">';
+  sBcash+='<input name="produto_qtde_2" type="hidden" value="<QtdProduto2>">';
+  sBcash+='<input name="produto_valor_2" type="hidden" value="<PrecoUnitProduto2>">';
+  sBcash+='<input name="produto_codigo_3" type="hidden" value="<RefProduto3>">';
+  sBcash+='<input name="produto_descricao_3" type="hidden" value="<NomeProduto3>">';
+  sBcash+='<input name="produto_qtde_3" type="hidden" value="<QtdProduto3>">';
+  sBcash+='<input name="produto_valor_3" type="hidden" value="<PrecoUnitProduto3>">';
+  sBcash+='<input name="produto_codigo_4" type="hidden" value="<RefProduto4>">';
+  sBcash+='<input name="produto_descricao_4" type="hidden" value="<NomeProduto4>">';
+  sBcash+='<input name="produto_qtde_4" type="hidden" value="<QtdProduto4>">';
+  sBcash+='<input name="produto_valor_4" type="hidden" value="<PrecoUnitProduto4>">';
+  sBcash+='<input name="produto_codigo_5" type="hidden" value="<RefProduto5>">';
+  sBcash+='<input name="produto_descricao_5" type="hidden" value="<NomeProduto5>">';
+  sBcash+='<input name="produto_qtde_5" type="hidden" value="<QtdProduto5>">';
+  sBcash+='<input name="produto_valor_5" type="hidden" value="<PrecoUnitProduto5>">';
+  sBcash+='<input name="produto_codigo_6" type="hidden" value="<RefProduto6>">';
+  sBcash+='<input name="produto_descricao_6" type="hidden" value="<NomeProduto6>">';
+  sBcash+='<input name="produto_qtde_6" type="hidden" value="<QtdProduto6>">';
+  sBcash+='<input name="produto_valor_6" type="hidden" value="<PrecoUnitProduto6>">';
+  sBcash+='<input name="produto_codigo_7" type="hidden" value="<RefProduto7>">';
+  sBcash+='<input name="produto_descricao_7" type="hidden" value="<NomeProduto7>">';
+  sBcash+='<input name="produto_qtde_7" type="hidden" value="<QtdProduto7>">';
+  sBcash+='<input name="produto_valor_7" type="hidden" value="<PrecoUnitProduto7>">';
+  sBcash+='<input name="produto_codigo_8" type="hidden" value="<RefProduto8>">';
+  sBcash+='<input name="produto_descricao_8" type="hidden" value="<NomeProduto8>">';
+  sBcash+='<input name="produto_qtde_8" type="hidden" value="<QtdProduto8>">';
+  sBcash+='<input name="produto_valor_8" type="hidden" value="<PrecoUnitProduto8>">';
+  sBcash+='<input name="produto_codigo_9" type="hidden" value="<RefProduto9>">';
+  sBcash+='<input name="produto_descricao_9" type="hidden" value="<NomeProduto9>">';
+  sBcash+='<input name="produto_qtde_9" type="hidden" value="<QtdProduto9>">';
+  sBcash+='<input name="produto_valor_9" type="hidden" value="<PrecoUnitProduto9>">';
+  sBcash+='<input name="produto_codigo_10" type="hidden" value="<RefProduto10>">';
+  sBcash+='<input name="produto_descricao_10" type="hidden" value="<NomeProduto10>">';
+  sBcash+='<input name="produto_qtde_10" type="hidden" value="<QtdProduto10>">';
+  sBcash+='<input name="produto_valor_10" type="hidden" value="<PrecoUnitProduto10>">';
+  sBcash+='<input name="tipo_integracao" type="hidden" value="PAD">';
+  sBcash+='<input name="frete" type="hidden" value="<Frete>">';
+  sBcash+='<input name="desconto" type="hidden" value="<DescontoCupom>">';
+  sBcash+='<input name="acrescimo" type="hidden" value="<ValorEmbalagemPedido>">';
+  sBcash+='<input name="meio_pagamento" type="hidden" value="60">';
+  sBcash+='</form>';
+
+  var t = setTimeout("document.pagamentodigital.submit();",1000); //2 seconds measured in miliseconds
+
+  /* novo script iframe Xtreme Checkout*/
+  sBcash+="<iframe name='iframe_pd_pf' src='' width='980px' height='1300px' frameborder='0'></iframe><br>"; //Instruções e botão para pagamento
+
+   var oChkEnd=F$.GetID("insere-bcash");
+   if(oChkEnd){
+     var oNewElementbCash=document.createElement("div");
+     oNewElementbCash.setAttribute("id","DivShowBcash");
+     oDivShowBcash=oChkEnd.parentNode.insertBefore(oNewElementbCash,oChkEnd);
+     oDivShowBcash.innerHTML=sBcash;
+     
+     var oChkBottom=F$.GetID("idChkBottomFC");
+     F$.FooterHeight+=1300;
+     if(oChkBottom)setTimeout("F$.fnIntoView(oChkBottom);",100);
+     
+   }
+  /* fim novo script iframe Xtreme Checkout*/
+
+
+var TotalSFrete=<TotalSemFrete>;
+var NumP=<NumParcelas>;
+
+// Informe o desconto que é oferecido de acordo com as regras da página "Pagamentos".
+if(TotalSFrete>=1)var Desc1=3;
+//else if(TotalSFrete>=160)var Desc1=20;
+//else if(TotalSFrete>=90)var Desc1=10;
+
+var Desc1
+var FatorDesc=Desc1/100
+Total=((TotalSFrete*100)/(100-Desc1)*FatorDesc);
+
+//coloca o resultado no campo hidden
+document.pagamentodigital.desconto.value=Total;
+}
+</script>
+<!-- Final da integração IFrame do Aceita Pagto 4-->
+
+<!-- Começo da integração IFrame do Aceita Pagto 5-->
+<script>
+if(<IDFormaPagamento>==13){
+  sBcash='<form name="pagamentodigital" action="https://www.pagamentodigital.com.br/checkout/pay/" method="post" target="iframe_pd_pf">';
+  sBcash+='<input name="email_loja" type="hidden" value="comercial@processtec.com.br">';
+  sBcash+='<input name="id_pedido" type="hidden" value="<NumPedido>">';
+  sBcash+='<input name="email" type="hidden" value="<EmailCliente>">';
+  sBcash+='<input name="nome" type="hidden" value="<NomeCompletoCliente>">';
+  sBcash+='<input name="cpf" type="hidden" value="<CPFCNPJ>">';
+  sBcash+='<input name="telefone" type="hidden" value="<TelefoneCliente>">';
+  sBcash+='<input name="endereco" type="hidden" value="<EnderecoCliente>">';
+  sBcash+='<input name="bairro" type="hidden" value="<BairroCliente>">';
+  sBcash+='<input name="cidade" type="hidden" value="<CidadeCliente>">';
+  sBcash+='<input name="estado" type="hidden" value="<EstadoCliente>">';
+  sBcash+='<input name="cep" type="hidden" value="<CEPCliente>">';
+  sBcash+='<input name="produto_codigo_1" type="hidden" value="<RefProduto1>">';
+  sBcash+='<input name="produto_descricao_1" type="hidden" value="<NomeProduto1>">';
+  sBcash+='<input name="produto_qtde_1" type="hidden" value="<QtdProduto1>">';
+  sBcash+='<input name="produto_valor_1" type="hidden" value="<PrecoUnitProduto1>">';
+  sBcash+='<input name="produto_codigo_2" type="hidden" value="<RefProduto2>">';
+  sBcash+='<input name="produto_descricao_2" type="hidden" value="<NomeProduto2>">';
+  sBcash+='<input name="produto_qtde_2" type="hidden" value="<QtdProduto2>">';
+  sBcash+='<input name="produto_valor_2" type="hidden" value="<PrecoUnitProduto2>">';
+  sBcash+='<input name="produto_codigo_3" type="hidden" value="<RefProduto3>">';
+  sBcash+='<input name="produto_descricao_3" type="hidden" value="<NomeProduto3>">';
+  sBcash+='<input name="produto_qtde_3" type="hidden" value="<QtdProduto3>">';
+  sBcash+='<input name="produto_valor_3" type="hidden" value="<PrecoUnitProduto3>">';
+  sBcash+='<input name="produto_codigo_4" type="hidden" value="<RefProduto4>">';
+  sBcash+='<input name="produto_descricao_4" type="hidden" value="<NomeProduto4>">';
+  sBcash+='<input name="produto_qtde_4" type="hidden" value="<QtdProduto4>">';
+  sBcash+='<input name="produto_valor_4" type="hidden" value="<PrecoUnitProduto4>">';
+  sBcash+='<input name="produto_codigo_5" type="hidden" value="<RefProduto5>">';
+  sBcash+='<input name="produto_descricao_5" type="hidden" value="<NomeProduto5>">';
+  sBcash+='<input name="produto_qtde_5" type="hidden" value="<QtdProduto5>">';
+  sBcash+='<input name="produto_valor_5" type="hidden" value="<PrecoUnitProduto5>">';
+  sBcash+='<input name="produto_codigo_6" type="hidden" value="<RefProduto6>">';
+  sBcash+='<input name="produto_descricao_6" type="hidden" value="<NomeProduto6>">';
+  sBcash+='<input name="produto_qtde_6" type="hidden" value="<QtdProduto6>">';
+  sBcash+='<input name="produto_valor_6" type="hidden" value="<PrecoUnitProduto6>">';
+  sBcash+='<input name="produto_codigo_7" type="hidden" value="<RefProduto7>">';
+  sBcash+='<input name="produto_descricao_7" type="hidden" value="<NomeProduto7>">';
+  sBcash+='<input name="produto_qtde_7" type="hidden" value="<QtdProduto7>">';
+  sBcash+='<input name="produto_valor_7" type="hidden" value="<PrecoUnitProduto7>">';
+  sBcash+='<input name="produto_codigo_8" type="hidden" value="<RefProduto8>">';
+  sBcash+='<input name="produto_descricao_8" type="hidden" value="<NomeProduto8>">';
+  sBcash+='<input name="produto_qtde_8" type="hidden" value="<QtdProduto8>">';
+  sBcash+='<input name="produto_valor_8" type="hidden" value="<PrecoUnitProduto8>">';
+  sBcash+='<input name="produto_codigo_9" type="hidden" value="<RefProduto9>">';
+  sBcash+='<input name="produto_descricao_9" type="hidden" value="<NomeProduto9>">';
+  sBcash+='<input name="produto_qtde_9" type="hidden" value="<QtdProduto9>">';
+  sBcash+='<input name="produto_valor_9" type="hidden" value="<PrecoUnitProduto9>">';
+  sBcash+='<input name="produto_codigo_10" type="hidden" value="<RefProduto10>">';
+  sBcash+='<input name="produto_descricao_10" type="hidden" value="<NomeProduto10>">';
+  sBcash+='<input name="produto_qtde_10" type="hidden" value="<QtdProduto10>">';
+  sBcash+='<input name="produto_valor_10" type="hidden" value="<PrecoUnitProduto10>">';
+  sBcash+='<input name="tipo_integracao" type="hidden" value="PAD">';
+  sBcash+='<input name="frete" type="hidden" value="<Frete>">';
+  sBcash+='<input name="desconto" type="hidden" value="<DescontoCupom>">';
+  sBcash+='<input name="acrescimo" type="hidden" value="<ValorEmbalagemPedido>">';
+  sBcash+='</form>';
+
+  var t = setTimeout("document.pagamentodigital.submit();",1000); //2 seconds measured in miliseconds
+
+  /* novo script iframe Xtreme Checkout*/
+  sBcash+="<iframe name='iframe_pd_pf' src='' width='980px' height='1300px' frameborder='0'></iframe><br>"; //Instruções e botão para pagamento
+
+   var oChkEnd=F$.GetID("insere-bcash");
+   if(oChkEnd){
+     var oNewElementbCash=document.createElement("div");
+     oNewElementbCash.setAttribute("id","DivShowBcash");
+     oDivShowBcash=oChkEnd.parentNode.insertBefore(oNewElementbCash,oChkEnd);
+     oDivShowBcash.innerHTML=sBcash;
+     
+     var oChkBottom=F$.GetID("idChkBottomFC");
+     F$.FooterHeight+=1300;
+     if(oChkBottom)setTimeout("F$.fnIntoView(oChkBottom);",100);
+     
+   }
+  /* fim novo script iframe Xtreme Checkout*/
+}
+</script>
+<!-- Final da integração IFrame do Aceita Pagto 5-->
+
+<!--<script>
+var sBannerEbit="<br><table width=100% align=center class=EstChkDiv><tr height=25><td class=EstChkTabTopo style=text-align:center>Avaliação e-bit</td></tr><tr><td style=text-align:center><a href='https://www.ebitempresa.com.br/bitrate/pesquisa1.asp?empresa=1193925' class='fancybox fancybox.iframe'><img src='https://www.ebitempresa.com.br/bitrate/banners/b1193925.gif' alt='O que você achou desta loja?' border='0' vspace='5' width='468' height='60'></a></td></tr></table><br>"; //Banner do e-bit
+F$.GetID("idChkBottomFC").innerHTML=sBannerEbit;
+</script>
+<script type="text/javascript" id="getSelo" src="https://imgs.ebit.com.br/ebitBR/selo-ebit/js/getSelo.js?1193925&lightbox=true"></script>
+-->
+<!-- Google Code for P&aacute;gina de Confirma&ccedil;&atilde;o Conversion Page -->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 1034802882;
+var google_conversion_language = "en";
+var google_conversion_format = "3";
+var google_conversion_color = "ffffff";
+var google_conversion_label = "9y4YCIKF5GUQwq237QM";
+var google_conversion_value = 1.00;
+var google_conversion_currency = "BRL";
+var google_remarketing_only = false;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/1034802882/?value=1.00&amp;currency_code=BRL&amp;label=9y4YCIKF5GUQwq237QM&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-N9TRWS"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-N9TRWS');</script>
+<!-- End Google Tag Manager -->

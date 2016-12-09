@@ -1,0 +1,51 @@
+		<div id="menu">
+			<div id="departamentos">
+				<h2>Departamentos</h2>
+				<div class="l">
+<ListPathCat out="2">
+					<ul class="extra">
+						<li><a class="destaque" href="/prod,idloja,<idlojanum>,promocao,1,ofertas.htm">Promoções</a></li>
+						<li><a class="destaque" href="/prod,idloja,<idlojanum>,lancamento,1,novidades.htm">Lançamentos</a></li>
+					</ul>
+				</div>
+			</div>
+			<div id="marcas">
+				<h2>Marcas</h2>
+				<div>
+					<ul>
+						<li><a href="#"><img alt="" src="<BaseLoja>images/wi/marcas/amd.png" /></a></li>
+						<li><a href="#"><img alt="" src="<BaseLoja>images/wi/marcas/aoc.png" /></a></li>
+						<li><a href="#"><img alt="" src="<BaseLoja>images/wi/marcas/asus.png" /></a></li>
+						<li><a href="#"><img alt="" src="<BaseLoja>images/wi/marcas/canon.png" /></a></li>
+						<li><a href="#"><img alt="" src="<BaseLoja>images/wi/marcas/epson.png" /></a></li>
+						<li><a href="#"><img alt="" src="<BaseLoja>images/wi/marcas/hp.png" /></a></li>
+						<li><a href="#"><img alt="" src="<BaseLoja>images/wi/marcas/intel.png" /></a></li>
+						<li><a href="#"><img alt="" src="<BaseLoja>images/wi/marcas/kingston.png" /></a></li>
+						<li><a href="#"><img alt="" src="<BaseLoja>images/wi/marcas/philips.png" /></a></li>
+						<li><a href="#"><img alt="" src="<BaseLoja>images/wi/marcas/samsung.png" /></a></li>
+						<li><a href="#"><img alt="" src="<BaseLoja>images/wi/marcas/sony.png" /></a></li>
+						<li><a href="#"><img alt="" src="<BaseLoja>images/wi/marcas/symantec.png" /></a></li>
+						<li><a href="#"><img alt="" src="<BaseLoja>images/wi/marcas/xerox.png" /></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+<script>
+navHover = function() {
+	var lis = document.getElementById("idMenuCat2").getElementsByTagName("li");
+	for (i=0; i<lis.length; i++) {
+		lis[i].onmouseover=function() {
+		    var attribute = document.createAttribute("class");
+		    	attribute.nodeValue = "hover";
+   			this.setAttributeNode(attribute);			
+		}
+		lis[i].onmouseout=function() {
+		    var attribute = document.createAttribute("class");
+		    	attribute.nodeValue = "nohover";
+   			this.setAttributeNode(attribute);			
+		}
+	}
+}
+if (window.attachEvent) window.attachEvent("onload", navHover);
+</script>

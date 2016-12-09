@@ -1,0 +1,182 @@
+<div class="geral">
+
+	<div id="rodape">
+
+
+		<form class="busca" name="buscaprod" method="GET" action="listaProdutos.asp?IDLoja=<IDLoja>" onSubmit="return VerTexto(this)">
+			<h2>Processtec</h2>
+			<input type="hidden" name="IDLoja" value="<IDLojaNum>" />
+			<input type="hidden" name="Y" value="<Y>" />
+			<input type="hidden" name="Digitada" value="True" />
+			<input class="procurando" type="text" name="Texto" value="" placeholder="O que está procurando?" />
+			<input class="buscar" type="submit" value="Buscar" />
+			<a class="detalhada" href="BuscaAvancada.asp?IDLoja=<IDLoja>">Busca Detalhada</a>
+		</form>
+		<div class="conteudo">
+			<div class="institucional">
+				<h3>Institucional</h3>
+				<ul>
+					<li><a href="home.asp?IDLoja=<idlojanum>">Home</a></li>
+					<li><a href="#">Quem Somos</a></li>
+					<li><a href="/cadastro.asp?IDLoja=<IDLojaNum>">Cadastro</a></li>
+					<li><a href="/ajuda.asp?IDLoja=<IDLoja>">Política de Privacidade</a></li>
+				</ul>
+			</div>
+			<div class="atendimento">
+				<h3>Atendimento</h3>
+				<ul>
+					<li class="duvidas"><a href="/Custom.asp?IDLoja=<IDLoja>&arq=faq.htm">Dúvidas Frequentes</a></li>
+					<li><a href="/ajuda.asp?IDLoja=<IDLoja>#Cancelamentos">Trocas e Devoluções</a></li>
+					<li><a href="/ajuda.asp?IDLoja=<IDLoja>#Seguranca">Segurança</a></li>
+					<li><a href="/ajuda.asp?IDLoja=<IDLoja>#Entregas">Entrega</a></li>
+					<li><a href="/ajuda.asp?IDLoja=<IDLoja>">Central de Atendimento</a></li>
+				</ul>
+			</div>
+			<div class="telefone">
+				<h3>Atendimento</h3>
+                                <span class="numero"><strong>(11) 5185.8746 - São Paulo</strong></span><br />
+				<span class="numero"><strong>(81) 3012.9501 - Recife</strong></span><br />
+				<span class="horario">Seg. à sex. das 9h às 17h</span>
+			</div>
+			<div class="informativos">
+				<h3>Informativos</h3>
+				<p>Fique por dentro de nossas ofertas e<br /> novidades, cadastre-se:</p>
+				<form name="Form1B" method="GET" action="/newsletter.asp" onsubmit="return Valida(this)">
+					<input type="hidden" name="IDLoja" value="<IDLoja>" />
+					<input class="email" type="email" name="Email" value="" placeholder="Digite seu e-mail" />
+					<input class="cadastrar" type="submit" value="Cadastrar" />
+				</form>
+			</div>
+			<div class="email">
+				<h3>E-mail</h3>
+				<p><strong>comercial@processtec.com.br</strong></p>
+			</div>
+		</div>
+		<div class="conteudo">
+			<div class="paguecom">
+				<h3>Pague com</h3>
+			</div>
+			<div class="social">
+				<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.processtec.com.br/" data-via="processtec" data-related="processtec">Tweet</a>
+				<a href="https://twitter.com/processtec" class="twitter-follow-button" data-show-count="false">Siga @processtec</a>
+				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+				<g:plusone size="medium" href="http://www.processtec.com.br/"></g:plusone>
+
+				<script type="text/javascript">
+				  window.___gcfg = {lang: 'pt-BR'};
+
+				  (function() {
+				    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+				    po.src = 'https://apis.google.com/js/plusone.js';
+				    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+				  })();
+				</script>
+
+				<br /><br />
+
+				<iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fpages%2FProcessteccombr%2F138149589596815&amp;width=400&amp;height=187&amp;colorscheme=light&amp;show_faces=true&amp;border_color&amp;stream=false&amp;header=false&amp;appId=312740462104838" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:400px; height:187px;" allowTransparency="true"></iframe>
+			</div>
+			<div class="certificados">
+				<h3>Certificados e Segurança</h3>
+			</div>
+		</div>
+		<div class="copyright">Todos os direitos reservados à <strong>Processtec.com.br</strong> 2012</div>
+		<div class="design"><a href="http://www.admake.com.br/">Design por <strong>Admake</strong></a></div>
+	</div>
+
+</div>
+
+<style>
+.EstPassoCompraDiv{display:none}
+.EstContinuarComprando{display:none;}
+</style>
+
+<script>
+//Personalização dos passos da compra com imagens
+var TemPassosCompra=document.getElementById("PassosCompra");
+if(TemPassosCompra){
+var passo1=document.getElementById("idPasso1FC");
+var passo2=document.getElementById("idPasso2FC");
+var passo3=document.getElementById("idPasso3FC");
+var passo4=document.getElementById("idPasso4FC");
+var passo5=document.getElementById("idPasso5FC");
+if(passo1.className=='EstPassoCompraAtual')
+passo1.innerHTML="<img src=<BaseLoja>images/Passo1Atual.png width=85 height=71>";
+else if(passo1.className=='EstPassoCompraPre')
+passo1.innerHTML="<img src=<BaseLoja>images/Passo1Pre.png width=85 height=71>";
+if(passo2.className=='EstPassoCompraAtual')
+passo2.innerHTML="<img src=<BaseLoja>images/Passo2Atual.png width=85 height=71>";
+else if(passo2.className=='EstPassoCompraPre')
+passo2.innerHTML="<img src=<BaseLoja>images/Passo2Pre.png width=85 height=71>";
+else if(passo2.className=='EstPassoCompraPos')
+passo2.innerHTML="<img src=<BaseLoja>images/Passo2Pos.png width=85 height=71>";
+if(passo3.className=='EstPassoCompraAtual')
+passo3.innerHTML="<img src=<BaseLoja>images/Passo3Atual.png width=86 height=71>";
+else if(passo3.className=='EstPassoCompraPre')
+passo3.innerHTML="<img src=<BaseLoja>images/Passo3Pre.png width=86 height=71>";
+else if(passo3.className=='EstPassoCompraPos')
+passo3.innerHTML="<img src=<BaseLoja>images/Passo3Pos.png width=86 height=71>";
+if(passo4.className=='EstPassoCompraAtual')
+passo4.innerHTML="<img src=<BaseLoja>images/Passo4Atual.png width=85 height=71>";
+else if(passo4.className=='EstPassoCompraPre')
+passo4.innerHTML="<img src=<BaseLoja>images/Passo4Pre.png width=85 height=71>";
+else if(passo4.className=='EstPassoCompraPos')
+passo4.innerHTML="<img src=<BaseLoja>images/Passo4Pos.png width=85 height=71>";
+if(passo5.className=='EstPassoCompraAtual')
+passo5.innerHTML="<img src=<BaseLoja>images/Passo5Atual.png width=86 height=71>";
+else if(passo5.className=='EstPassoCompraPos')
+passo5.innerHTML="<img src=<BaseLoja>images/Passo5Pos.png width=86 height=71>";
+}
+
+//Personalização dos links Vakinha
+var oLinks=document.getElementsByTagName("a");
+if(oLinks){
+  for(var i=0;i<oLinks.length;i++){
+    if(oLinks[i].className=="EstVakinha")
+      oLinks[i].innerHTML='<img src=images/FazerVakinha.png width=152 vspace=10 height=36 border=0>';
+  }
+}
+
+</script>
+<script>
+
+//Personalização dos passos da compra com imagens
+var TemPassosCompra=document.getElementById("PassosCompra"); 
+if(TemPassosCompra){
+var passo1=document.getElementById("idPasso1FC"); 
+var passo2=document.getElementById("idPasso2FC"); 
+var passo3=document.getElementById("idPasso3FC"); 
+var passo4=document.getElementById("idPasso4FC"); 
+var passo5=document.getElementById("idPasso5FC"); 
+if(passo1.className=='EstPassoCompraAtual')
+passo1.innerHTML="<img src=<BaseLoja>images/Passo1Atual.gif width=85 height=71>";
+else if(passo1.className=='EstPassoCompraPre')
+passo1.innerHTML="<img src=<BaseLoja>images/Passo1Pre.gif width=85 height=71>";
+if(passo2.className=='EstPassoCompraAtual')
+passo2.innerHTML="<img src=<BaseLoja>images/Passo2Atual.gif width=85 height=71>";
+else if(passo2.className=='EstPassoCompraPre')
+passo2.innerHTML="<img src=<BaseLoja>images/Passo2Pre.gif width=85 height=71>";
+else if(passo2.className=='EstPassoCompraPos')
+passo2.innerHTML="<img src=<BaseLoja>images/Passo2Pos.gif width=85 height=71>";
+if(passo3.className=='EstPassoCompraAtual')
+passo3.innerHTML="<img src=<BaseLoja>images/Passo3Atual.gif width=86 height=71>";
+else if(passo3.className=='EstPassoCompraPre')
+passo3.innerHTML="<img src=<BaseLoja>images/Passo3Pre.gif width=86 height=71>";
+else if(passo3.className=='EstPassoCompraPos')
+passo3.innerHTML="<img src=<BaseLoja>images/Passo3Pos.gif width=86 height=71>";
+if(passo4.className=='EstPassoCompraAtual')
+passo4.innerHTML="<img src=<BaseLoja>images/Passo4Atual.gif width=85 height=71>";
+else if(passo4.className=='EstPassoCompraPre')
+passo4.innerHTML="<img src=<BaseLoja>images/Passo4Pre.gif width=85 height=71>";
+else if(passo4.className=='EstPassoCompraPos')
+passo4.innerHTML="<img src=<BaseLoja>images/Passo4Pos.gif width=85 height=71>";
+if(passo5.className=='EstPassoCompraAtual')
+passo5.innerHTML="<img src=<BaseLoja>images/Passo5Atual.gif width=86 height=71>";
+else if(passo5.className=='EstPassoCompraPos')
+passo5.innerHTML="<img src=<BaseLoja>images/Passo5Pos.gif width=86 height=71>";
+}
+</script>
+<style>
+.EstPassoCompraDiv{display:none}
+</style>

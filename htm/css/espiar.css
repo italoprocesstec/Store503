@@ -1,0 +1,155 @@
+a, span, strong, small, input, h1, h2, h3, h4, h5, h6{
+	font-family: "ff-dax-web-pro", sans-serif;
+}
+
+.vex.vex-theme-default .vex-content{
+	background: none!important;
+	width: 600px!important;
+}
+.vex.vex-theme-default .vex-content.indique-produto{
+    height: 500px!important;
+    border-radius: 10px;
+}
+	.vex.vex-theme-default #Disp{
+		height: 350px!important;
+	    border-radius: 12px;
+	    background: #fff;
+	}
+
+	.vex.vex-theme-default .vex-content .vex-dialog-form{
+		padding: 10px;
+	    border-radius: 5px;
+	    background: #fff;
+	}
+
+	.vex.vex-theme-default .vex-close:before,
+	.vex.vex-theme-default .vex-close:hover:before, 
+	.vex.vex-theme-default .vex-close:active:before{
+		color: #fff;
+	    background: #000;
+	    border-radius: 15px;
+	    margin: 1px;
+	}
+	.vex.vex-theme-default .vex-close:hover:before, 
+	.vex.vex-theme-default .vex-close:active:before{
+		opacity: 0.8;
+	}
+	#TabListaProdutos .col-small-12,
+	#TabListaProdutos #MainContainer,
+	#TabListaProdutos .MagicZoomPlusHint,
+	#TabListaProdutos .FCGridBtnZoom,
+	.ProdRating,
+	#TabListaProdutos .FCBtnComprarGrid img,
+	#TabListaProdutos .DivDetRef,
+	#TabListaProdutos .DivDetCat,
+	#TabListaProdutos hr
+	#TabListaProdutos .FCBoxGrid.FCResumeProduct,
+	#TabListaProdutos .ProductStyleBoxDescriptionFC,
+	.FCHome.vex-open .ProductStyleBoxDescriptionFC,
+	#TabTitProd .ProductStyleBoxDescriptionFC,
+	#Disp #idEstLinhaProdOpFC,
+	hr,
+	#idDetailProduct,
+	.FCProduct.ProductDet #idEstTitProdOpFC,
+	#TabListaProdutos #idDivGridImg .MagicThumb-swap{
+		display: none!important;
+	}
+	#TabListaProdutos .MainContainerx #idDivGridImg{
+		display: block;
+	    width: 50%;
+    	float: left;
+	}
+		#TabListaProdutos #idDivGridImg .MagicZoomPlus,
+		#TabListaProdutos #idDivGridImg .ZoomIMG2,
+		#TabListaProdutos .ProductStyleBoxFC{
+			border: 0 none;
+		}
+
+	#TabListaProdutos #idDivGridImg + div{
+		display: block;
+	    width: 49%;
+    	float: left;
+	}
+#TabListaProdutos .ProductStyleULFC h1,
+#TabListaProdutos .info-produto #idNameProductGridFC{
+	color: #034A8B;
+	font-size: 18px;
+	font-family: "ff-dax-web-pro", sans-serif!important;
+	font-weight: 400;
+}
+#TabListaProdutos .ProductStyleBoxBGFC{
+	background: none;
+	margin: 10px 0;
+	padding: 0;
+}
+#TabListaProdutos .ProductStyleBoxFC{
+	padding-left: 0;
+}
+#TabListaProdutos .prod-info,
+#TabListaProdutos .prod-info small,
+#TabListaProdutos .prod-info a{
+	color: #9B9B9B;
+	font-size: 14px;
+	font-family: "ff-dax-web-pro", sans-serif;
+}
+#TabListaProdutos .prod-info a{
+	color: #034A8B;
+	font-family: "ff-dax-web-pro", sans-serif;
+}
+#TabListaProdutos .FCGridMain{
+	display: block;
+}
+#TabListaProdutos .prod-price,
+#TabListaProdutos .prod-price span,
+#TabListaProdutos .prod-price span span,
+#TabListaProdutos .prod-price strike .FCPrice,
+#TabListaProdutos .prod-price strike .FCPrice span,
+#TabListaProdutos .prod-price strike .FCPrice span span,
+#TabListaProdutos .prod-price .EstParc font,
+#TabListaProdutos .prod-price .EstParc b,
+#TabListaProdutos .prod-price .EstParc .EstParcPrice{
+	color: #9B9B9B!important;
+	font-size: 14px;
+	font-weight: 400;
+	font-family: "ff-dax-web-pro", sans-serif;
+}
+#TabListaProdutos .prod-price .EstParc .EstParcPrice{
+	font-weight: 700;
+}
+#TabListaProdutos .prod-price .FCPrice,
+#TabListaProdutos .prod-price .FCPrice span,
+#TabListaProdutos .prod-price .FCPrice span span{
+	color: #FF5F2E!important;
+    font-size: 24px;
+    line-height: 44px;
+    font-family: "ff-dax-web-pro", sans-serif;
+    font-weight: 700;
+}
+#TabListaProdutos .prod-price font,
+#TabListaProdutos .prod-price font b{
+	color: #034a8b!important;
+	font-family: "ff-dax-web-pro", sans-serif;
+}
+#TabListaProdutos #idButtonBuyFC .FCBtnComprarGrid{
+	background: #528B19;
+}
+#TabListaProdutos .FCBtnComprarGrid:before,
+#TabListaProdutos #idButtonBuyFC .FCBtnComprarGrid:before{
+    content: 'Adicionar ao Carrinho';
+    color: #fff;
+    font-size: 18px;
+    background: url(//www.rumo.com.br/lojas/00000503/images/icocarrinho.png) no-repeat left center;
+    padding: 13px 20px 13px 30px;
+    border-radius: 3px;
+    font-family: "ff-dax-web-pro", sans-serif;
+    font-weight: 400;
+    display: block;
+    margin-left: 20px;
+}
+#TabListaProdutos .FCBtnComprarGrid:hover:before{
+	opacity: 0.8;
+}
+
+#DivShowCartOnPage #idTDTitShowCartOnPageFC{
+    background: #528B19!important;
+}
